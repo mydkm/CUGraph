@@ -3570,7 +3570,20 @@
     "title": "Linear Algebra",
     "description": "Finite-dimensional vector spaces. Linear independence. Dimension. Basis. Subspaces. Inner product. Matrices. Rank. Determinant. Systems of linear equations. Matrix algebra. Coordinate transformation. Orthogonal matrices. Linear transformation. Eigenvalues and eigenvectors. Quadratic forms. Canonical form.",
     "prerequisites": "ma 223",
-    "credits": "3"
+    "credits": "3",
+    "requirements": {
+      "required_for_majors": {
+        "ME": true,
+        "ChE": true,
+        "ECE": true,
+        "CE": true,
+        "GE": true,
+        "CS": true
+      },
+      "required_for_all_students": true,
+      "notes": "Common engineering requirement",
+      "source": "Cooper catalog 2025–26"
+    }
   },
   {
     "department": "Mathematics",
@@ -4093,230 +4106,5 @@
     "description": "Compete in the IGVC event and conduct autonomous vehicles research at Cooper Union. No prerequisite courses required, but AI/ML/etc. are helpful for the technical team.",
     "prerequisites": "",
     "credits": "1.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 201",
-    "title": "Design and Drawing for Engineering",
-    "description": "Inspired by classes that every Cooper Union engineering student takes in their freshman year, students develop design practices and problem-solving skills through examining the needs of their community. At the same time, students learn sketching, technical drawing and computer aided design and tools and strategies for communicating ideas through words, images, and speech. Meetings with faculty, students and engineers will introduce current problems and the solutions being developed at Cooper Union or at engineering and technology companies. By the end of the program, students will identify a problem, design a solution, and create a portfolio and presentation to promote how they imagine and engineer a better world. This class is open to 9th, 10th and 11th graders. Instructors: Austin Wong, Cooper Union Alumni and Educator, and Cooper Union Undergraduate Teaching Assistants Prerequisites : none Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions and practice sessions. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and project work at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 203",
-    "title": "Environmental Engineering",
-    "description": "Description : Civil engineering is made up of many diverse fields. Among these are the design and construction of buildings, towers, bridges, airports, tunnels, sustainable structures such as green roofs, streets, walls and rain gardens. New York City includes all these structures along with the challenges of being a coastal city. The students will work on a civil engineering problem critical for preserving the environment and protecting the infrastructure of New York City: storm surge protection. Student will learn tools for modeling, drawing for engineering, experimenting and presenting work. With the guidance of a Cooper Union professor and students, participants will develop environmental engineering proposals to make New York City a safer, healthier and more livable space. Instructors: Jared Rogovin, a Cooper Union Almuni, and Cooper Union student teaching assistants Dates: - Session 1: July 6 to July 23, 2020 - Session 2: July 27 to August 13, 2020 Days: Monday, Tuesday, Wednesday, Thursday Times: - Workshops 10:30 am - 12 pm - Breakout sessions 1:00 – 2:00 pm or 2:00 – 3:00 pm Time per day: 2.5 hours/day plus 30-60 minutes project work Location: Online Teaching method: Synchronous. The instructor and teaching assistants will lead students through scheduled lectures, discussions and demonstrations. Materials: - Paper - Pencil and/or pen - Ruler (cm) - Compass Technology Requirements: Class: Computer or smart phone with camera and microphone to participate in online video class (Zoom). Project work: Computer with WiFii to use web-based software (TBD, Microsoft office) and file management system (Microsoft Teams). Scanner or camera to document drawings and take photographs of research and upload to presentation and portfolio.",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 205",
-    "title": "Biomedical Engineering",
-    "description": "Description: Chemical engineering is a field that covers many types of engineering applications, including food science, pharmaceuticals, and materials engineering. In this class, students will build on research involving materials commonly found in the food and drug industries. Topics covered will include polymers, drug delivery, crystallization, and characterization of materials. Students will use their kitchens and homes to engage in guided experiments and small-scale projects that link theory to practice. Students will combine their results to develop a larger understanding of core concepts of chemical engineering. This class is limited to 20 students per session. Instructors : Amy Pan, a Cooper Union Chemical Engineering alumni, and Cooper Union student teaching assistants Dates: - Session 1: July 20, 2020 to July 30, 2020 - Session 2: August 3 to August 13, 2020 Days: Monday, Tuesday, Wednesday, Thursday Times: - Workshops 10:00 am - 12 pm - Breakout session: 1:00 – 2:00 pm Time per day: 3 hours/day plus 30-60 minutes project work Teaching method: Synchronous. The instructor and teaching assistants will lead students through scheduled lectures, discussions and demonstrations. Materials: - Paper - Pencil and/or pen - Stove and kitchen measuring tools. - White sugar and vegetable oil - The Biomedical Engineering Kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and program at the same time. Project work: Computer with WiFi to use web-based software (Arduino, Microsoft office) and file management system (Github, Microsoft Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 206",
-    "title": "Digital Logic Design",
-    "description": "Description : Hardware development involves both electrical and computer engineering. The Cooper Union students learn these skills in the Digital Logic Design course during their second year. This hybrid class (online with at-home prototyping) borrows from The Cooper Union course and challenges students to assess, design, build, test, and demonstrate an electronics project from scratch. Topics covered include digital logic design, circuit theory, and basic microelectronics. Students will engage in guided exercises and small-scale projects to put theory into practice. Students will be taught a free electronics simulation environment which they will use to develop some projects. They will also receive a small parts kit to construct actual prototypes of some projects. Student work culminates with an original design. It is recommended that students requesting this course have beginner electronics and programming experience. This class is limited to 24 students per session. Instructors: Prof. Lisa Shay, Electrical Engineering, and Cooper Union student instructors Dates: - Session 1: July 6, 2020 to July 23, 2020 - Session 2: July 27 to August 13, 2020 Days: Monday, Tuesday, Wednesday, Thursday Times: - Workshops 10:00 am - 12 pm - Breakout session: 1:00 – 3:00 pm Time per day: 4 hours/day plus 30-60 minutes project work Location: Online Teaching method: Synchronous. The instructor and teaching assistants will lead students through scheduled lectures, discussions and demonstrations. Materials: - Paper - Pencil and/or pen The Digital Logic Design Kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and program at the same time. Project work: Computer with WiFi to use web-based software (TinkerCAD, Logism, Microsoft office) and file management system (Github, Microsoft Teams). TinkerCAD and Logisim (free software) will be used to simulate projects. Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "Experience programming in an object-oriented language like C, C++, Java, or Python",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 212",
-    "title": "Climate Change and Data Visualization",
-    "description": "Student activism in recent years has moved the climate crisis to the forefront of public discussion. In this course, students will gain an overview of climate change topics including historical and contemporary research, the current state of the Earth system, proposed mitigation strategies like carbon dioxide removal, and critical perspectives on the social and technological changes required for decarbonization. The class will begin with an introduction to coding and data visualization in Python and graphic design techniques. Building on these skills, student teams will develop and present infographics for a communication medium of their choice, such as social media, newspapers, or public poster campaigns. This class is open to 9th, 10th and 11th graders. Instructors: Matthew Grattan, STEM Teaching Fellow, and Cooper Union student teaching assistants Prerequisites : none Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and project work at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 213",
-    "title": "Project Gateway",
-    "description": "Project Gateway introduces students to Civil Engineering concepts and skills through investigating how the design of cities and infrastructure impact communities and then redesigning their city to enhance community access. Students will learn to model urban environments using AutoCad, analyze data related to cities and neighborhoods using MS Excel and interpret engineering project proposals and white papers. NYC community initiatives will be studied to understand how inclusive engineering evolves over time and continues to need input from engineers and community members. Student teams will research and redesign their own neighborhood with people, not profit, in mind and present their proposal and models. This class is open to 9th, 10th and 11th graders. Instructors: Mahmoud Khair- Eldin, STEM Teaching Fellow, and Cooper Union student teaching assistants Prerequisites : none Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and project work at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 214",
-    "title": "Water Quality Research and Design",
-    "description": "Water pollution is a worldwide problem. Human and industrial activities alter the chemical composition of water, resulting in the abnormal presence or concentration of species that unbalance the ecosystem. In NYC and other large metropolis, green ponds caused by algae blooms and contaminated waters that impact the beauty and health of parks and the urban environment. Students will participate in a research project to collect information on water quality and New York City parks. Teams of students will design and engineering, water treatment techniques using domestic bio-wastes, to explore their capacity to reduce the concentration of pollutants and other chemical species. Results from both projects will be presented at the end of the session and share with student researchers as the project continues over several years. This class is open to 10th and 11th graders. Instructors: Abel Navarro, Adjunct Faculty, and Cooper Union Undergraduate Teaching Assistants Prerequisites : none Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions and practice sessions. Field work will be conducted in a park near the student. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and project work at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 215",
-    "title": "Robotics Crash Course",
-    "description": "The “Robotics Crash Course” is an introductory course to understanding the fundamentals of how mobile robotic systems function. Learning about how to integrate sensors and actuators (sometimes called motors) using a micro-processor, is a central lesson taught throughout the timeline of the class. Students will assemble and program a WiFi controlled robot. This course is a great introduction to many courses you will see throughout your college engineering education curriculum. This class is open to 10th and 11th graders. Instructors: Michael Giglia, Electrical and Mechanical Engineering Staff and Adjunct Faculty, and Cooper Union student teaching assistants Prerequisites : Experience programming in an object-oriented language such as C, C++, Java, or Python. Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and project work at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio.",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 216",
-    "title": "Machine Learning",
-    "description": "Machine learning is an important branch of applied mathematics that is increasingly used in medicine and biomedical research, artificial intelligence, and data analysis. In this course, students will be introduced to fundamental algorithms used in machine learning systems beginning with the method of least squares, or Linear Regression, move onto an introduction to electronics and Quantum Mechanics, and then practice these skills through case studies from research and industry. Student teams will choose a problem to study and use publicly available datasets to analyze the data using the methods learned in the course and identify opportunities for machine learning in health care, business, and engineering settings. This class is open to 10th and 11th graders. Instructors: Michael Kumaresan, Adjunct Faculty and Cooper Union Alumni, and Cooper Union Undergraduate Teaching Assistants Prerequisites : none Teaching method: Online, Real time, Synchronous. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions and practice sessions. Materials: A CU @ Home kit will be provided to students living in the United States only. Technology Requirements: Class: Computer with camera and microphone to participate in online video class (Zoom) and program at the same time. Project work: Computer with WiFi to use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio. Cost: $1850",
-    "prerequisites": "",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-10",
-    "title": "Biomaterials Design",
-    "description": "Consumers and companies are becoming more concerned with the sustainability of products. Increased use of biomaterials, both natural (collagen-based tissue engineering, silk sutures, cellulose sponges) and synthetic (metal joint replacements, ceramic dental implants, polymer-based contact lenses), is leading to questions about the sustainability and biocompatibility of these products. Are biomaterials damaging our bodies and our planet? To answer questions about biomaterials, students will explore science and engineering fundamentals and learn tools to develop biomaterials. Student teams will develop prototypes of new biomaterials or novel applications of current biomaterials. Students will learn: • Engineering and science concepts related to biomaterials design, • Computer aided design, • Product development journeys, Instructors: Reagan Smith, STEM Teaching Fellow, and Cooper Union student teaching assistants This Three week program is open to 9th and 10th graders. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1875",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-11",
-    "title": "Computer Aided Drug Design",
-    "description": "The world is constantly changing in ways we can see and in ways we can’t see. At the unseen level, atoms combine to make the molecules that we see: everything from water to hair on our heads. The ability of atoms to combine and change places can be used to make new molecules, like drugs to prevent or treat disease. To understand how computers can be used to develop new drugs, this course combines chemistry, computer science, and physics with cloud-based computing. Students will learn to use computer simulations to model and understand interactions between atoms and molecules and to solve problems in chemistry that contribute to drug discovery and manufacturing. Students will learn: • Concepts in Computer Aided Drug Design • Computational programming tools such as SPARTAN and PyMOL • Engineering Design and Decision Making tools Instructors: Sangjoon (Bob) Lee, STEM Teaching Fellow, and Cooper Union student teaching assistants This Three Week Program is open to 9th and 10th graders. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips or site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1875 per session",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-3",
-    "title": "DATA for New York",
-    "description": "Critical infrastructure systems impact our daily lives, from the time we brush our teeth in the morning until we switch off all the lights at night. We often interact with these systems without giving them much thought. At the same time, many components of these systems are aging and outdated, no longer meeting the needs of the communities they serve. One major challenge in maintaining these systems is identifying damages and prioritizing maintenance and repairs. Crowd sourcing is a data collection method that relies on public citizens to provide data and is a powerful tool in collecting real-time information about urban and environmental conditions. In this class, we will discuss the power of crowdsourcing data to better understand and maintain NYC infrastructures. We will also investigate ways to analyze civil systems (from structures to networks) and to visualize data for monitoring these systems. Students will learn basic tools for data collection and visualization; fundamentals of structural and system analysis; and discuss infrastructure resilience in the context of NYC. Students will be exposed to: -Fundamentals of civil engineering (beginning with structural analysis) -Group work and collaboration -Engineering research techniques -Data collection and visualization (including Excel and basic Python) -Design and problem-solving Instructors: Cynthia Lee, Cooper Union Civil Engineering Faculty, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade in the 2022-2023 school year. Session information: This six-week program offer one session starting Monday, July 10, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, field trips, guest speakers and project work. Materials: All materials are included. Students can opt to bring a personal computer. Cost: $3995 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-4",
-    "title": "Machine learning",
-    "description": "Machine learning is an important branch of applied mathematics that is increasingly used in medicine and biomedical research. In this course, students will be introduced to fundamental algorithms used in machine learning systems beginning with the method of least squares, or Linear Regression, move onto a brief introduction to electronics and Quantum Mechanics, and then apply these to predict the systolic blood pressure of patients based on their age and weight. Student teams will choose a problem to study and use publicly available datasets to analyze the data using the methods learned in the course and identify opportunities for machine learning in health care settings. Students will learn to: • Define and explain uses of machine learning • Apply one and two dimensional linear regressions • Implement basic electronics to understand machine learning concepts. Instructors: Michael Kumaresan, Cooper Union Alumni and Adjunct Faculty, and Cooper Union Undergraduate Teaching Assistants This Four Week Online Program class is open to 10th and 11th graders with the prerequisite. Teaching method: Online, Class starts July 11 and ends August 4. Synchronous Zoom meetings will occur 1-4 PM EST. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions and practice. Additional Office Hours and Study Sessions will be offered at times to be determined. Materials: A CU@Home kit will be provided to students living in the United States only. Technology Requirements: Computer with camera and microphone to participate in online video class (Zoom) and use web-based software and file management system (Microsoft Office and Teams). Camera to collect images and video of your project and upload to presentation and portfolio Cost: $1850",
-    "prerequisites": "Precalculus or calculus with a grade of B or higher",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-5",
-    "title": "Robotics Crash Course",
-    "description": "The “Robotics Crash Course” is an introductory course focused on exposing students to the fundamentals of robotic systems as well as various tools that would be used throughout development of these systems. Learning how to integrate sensors and actuators (sometimes called motors) using a micro-processor, is a central lesson taught throughout the timeline of the class. Students will assemble and program a small differential drive robot as well as design and implement various algorithms to complete challenges. This course is a great introduction to many courses you will see throughout your college engineering education curriculum. Students will be exposed to: -Electronics theory -Programming in C++ on an Arduino microcontroller -Uses of various sensors and actuators -0Introductory Physics and Calculus -Unix shell -Simulating dynamic systems with Python -Algorithm Visualization (Block Diagrams - State Machines) -Introductory Feedback Control Systems -Teamwork and problem solving Instructors: Michael Giglia, Electrical and Mechanical Engineering Staff and Adjunct Faculty, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade in the 2022-2023 school year. Session information: This six-week program offers one session starting Monday, July 10, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Materials: A CU Robot kit will be provided to students on the first day of class. Students can opt to bring a personal computer. Cost: $3995 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "Experience programming in an object-oriented language such as C, C++, Java, or Python.",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-6",
-    "title": "Prototyping and Design with Extended Reality",
-    "description": "How do emerging technologies such as Augmented Reality meet digital fabrication tools like 3D printers? And how might these tools be used to create immersive experiences and meaningful artifacts that tell an individual's story? In this class, students will learn novel and traditional technologies in The Cooper Union’s Makerspace to prototype solutions for the needs of communities in rural and urban settings. Students will be introduced to interactive app development and create 3D assets for virtual and physical environments by completing a series of design challenges in teams. Throughout the course they will develop an iterative making practice by rapid prototyping their ideas starting with cardboard & paper and progressing to 3D modelling & worldbuilding. By engaging in research activities that pull from human-centered design and systems thinking, they will gain the critical thinking skills to see the “target users” of their projects as people with real needs and question the effectiveness of technology as a way to answer them. Students will learn: • Computer aided design for 3D printing, lasercutting, and digital assets, • Augmented and Virtual Reality development software, • Human-centered design. Instructors: Isa Vento, Cooper Union Engineering staff, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade in the 2022-2023 school year. Session information: This six-week program offers one session starting Monday, July 10, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, field trips, guest speakers and project work. Materials: All materials are included. Students can opt to bring a personal computer. Cost: $3995 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-7",
-    "title": "Racecar Research",
-    "description": "This hands-on laboratory course allows students to explore electric engines, aerodynamics, microcontroller, heat exchangers, sensors, suspensions, steering, and braking systems, etc. as they relate to the design and manufacturing of a collegiate-level Formula Race Car. Students will have the opportunity to explore design considerations, such as hardware/software/methods selection or system level integration, to help connect theoretical foundations with application. The essence of this program lies in the direct involvement on nascent and ongoing hands-on projects. Students will work in teams to explore fundamentals of racecar development, including mechanical measurement, analysis and presentation of data. The Cooper Union Formula SAE Race Team invites you to join our research projects; Help us design, build, and test systems for the 2023-2024 racecar. Students will learn: -Engineering, math and science concepts related to racecar design -Methods to design tests for individual car components -Engineering design and decision-making tools Instructors: Estuardo Rodas, Mechanical Engineering staff and adjunct faculty, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade in the 2022-2023 school year. Session information: This six-week program offers one session starting Monday, July 10, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $3995 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-8",
-    "title": "Design and Drawing for Engineering",
-    "description": "Inspired by classes that every Cooper Union engineering student takes in their freshman year, students develop design practices and problem-solving skills through examining the needs of their community. At the same time, students learn sketching, technical drawing and computer aided design and tools and strategies for communicating ideas through words, images, and speech. Meetings with faculty, students and engineers will introduce current problems and the solutions being developed at Cooper Union or at engineering and technology companies. By the end of the program, student teams will identify a problem, design and fabricate a solution, and create a portfolio and presentation to promote how they imagine and engineer a better world. Students learn: -Drawing and Drafting -Computer Aided Design (CAD) -Prototyping and fabrication, including 3D printing -Engineering design and decision-making tools Instructors: Austin Wong, Cooper Union Alumni and Member of Maroon & Gold Labs , and Cooper Union Undergraduate Teaching Assistants Participants: Students in 10th or 11th grade in the 2023-2024 school year. Session information: This six-week program offers one session starting Monday, July 8, 2024. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and hands on activities at 41 Cooper Square. Off site field trips will also be scheduled. Materials: All materials are included. Students can opt to bring a personal computer. Cost: $3950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 22-9",
-    "title": "Next Gen Construction Materials",
-    "description": "Engineering can be leveraged to come up with clever solutions that improve performance of existing products while also being more socially conscientious, and cognizant of product lifecycle. Students will explore designing and growing acoustic paneling using mycelium (mushrooms) to help a local non-profit, the Loisaida Center, finish retrofitting their theatre for improved sound performance. Mycelium paneling is preferable to mainstream options because it is biodegradable such that future updates to the theater will not generate landfill waste. The class will cover sustainability and alternative material use in construction, an introduction to mycology, basics of acoustic design, and tools to design acoustic panels and molds to grow them. Students will learn about: • Mycology techniques and applications, • Acoustics, • Computer aided design, • Engineering Design and Decision Making Instructors: Brandon Bunt, STEM Teaching Fellow, and Cooper Union student teaching assistants This Three week program is open to 9th and 10th graders. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Students will visit the Losaida Center, located in the East Village within walking distance of The Cooper Union. Other off campus field trips and site visits may also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1850",
-    "prerequisites": "none",
-    "credits": "0.00"
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 23-10",
-    "title": "Environment Friendly Plastic Design",
-    "description": "Plastic waste is a massive environmental problem that the world faces today. While recycling plastic waste is critical, researchers and engineers are working hard to prevent overaccumulation of waste through the development of new biodegradable plastics or polymers. Students will learn about new advances in the field of biopolymer design or alternative plastics and synthesize a new polymer of their own. In this class, students will learn lab techniques to synthesize and analyze materials like polymers, explore computational chemistry, and delve into the ethics of engineering. Students will learn: -Engineering design thinking -Science and engineering concepts related to polymer design and synthesis -Science research using software and laboratory equipment -Engineering ethics Instructors: Siddhartha Pinto, STEM Teaching Fellow, and Cooper Union student teaching assistants Participants: Students in 9th or 10th grade in the 2022-2023 school year. Session information: This Three-week program offers two sessions. Session 1 starts Monday, July 10, 2023. Session 2 starts Monday, July 31, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none.",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 23-11",
-    "title": "Redesigning Plastics Recycling",
-    "description": "Many types of plastics are used in everyday life and recycling them in a practical and sustainable way is challenging for consumers and the plastics industry. This class will focus on the plastic known as PLA, which is used in the rapidly growing 3-D printing industry. PLA is derived from plant starches and is more eco-friendly than most other plastics; however, it is a type 7 plastic and as such it is rarely recycled and often ends up in landfills. There, the plastic endures for hundreds of years before decomposing, despite often being advertised as ‘biodegradable’. In this class, students will apply engineering methods to improve PLA recycling by designing and performing experiments and interpreting results in order to advance the field of plastics recycling and make 3D printing more sustainable. Students will learn -Engineering design thinking -Material science research principles -Chemistry of plastics -Computer-aided design Instructors: Anastasiya Islamova, STEM Teaching Fellow, and Cooper Union student teaching assistants Participants: Students in 9th or 10th grade during the 2022-2023 school year. Session information: This Three-week program offers two sessions. Session 1 starts Monday, July 10, 2023. Session 2 starts Monday, July 31, 2023. Classes meet Monday- Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none.",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 23-12",
-    "title": "Mycomaterials",
-    "description": "Engineering can be leveraged to come up with clever solutions that improve performance of existing products while also being more socially conscientious, and cognizant of product lifecycle. Students will explore designing and growing building materials using mycelium (mushrooms). Mycelium paneling is preferable to mainstream options because it is biodegradable such that future updates to the theater will not generate landfill waste. The class will cover sustainability and alternative material use in construction, an introduction to mycology, basics of acoustic design, and tools to design acoustic panels and molds to grow them. Students will learn about: -Mycology techniques and applications -Computer aided design -Building codes and policy -Engineering Design and Decision Making Instructors: Brandon Bunt, Cooper Union Alumni and Masters student, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade in the 2022-2023 school year. Session information: This six-week program offers one session starting Monday, July 10, 2023. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Other off campus field trips and site visits may also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $3995 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 23-13",
-    "title": "Digital Electronics for the Inventor",
-    "description": "This course is for students interested in building new computers and technology. This hands-on course challenges students to assess, design, build, test, and demonstrate a digital electronics project from scratch. Topics covered include digital logic design, circuit theory, programmable devices, and basic microelectronics. Students will engage in guided exercises and small-scale projects to put theory into practice. Student work culminates with an original design they create in small teams. Through the team projects, students will develop skills in project man Students learn: -Engineering design process -Digital logic design -Microelectronics, including programmable devices -Engineering ethics Instructors: Jon Lu, Cooper Union Alum, and Cooper Union student teaching assistants Participants: Students in 10th or 11th grade during the 2023-2024 school year. Session information: This is a six- week program beginnning on Monday, July 8, 2024. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $3950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "Experience programming in an object-oriented language such as C, C++, Java, or Python.",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 24-1",
-    "title": "Sustainable Futures",
-    "description": "As the world’s population grows, the grand challenges of maintaining the progression of civilization while simultaneously enhancing the quality of life become more pressing. The planet we live on has such finite resources that its growing population is depleting them at an unsustainable rate. This course addresses the urgent need for sustainable practices in product design and development. The class will cover various renewable energy resources, evaluate real-life case studies in all four engineering principles at The Cooper Union (chemical, mechanical, electrical and civil engineering), from consumer products to infrastructure systems, and identify the environmental footprint throughout the lifecycle stages. Students will explore the principles of lifecycle assessment (LCA) and circular economy to understand their impact on environmental sustainability. Utilizing collaborative group projects, students will engage in creating circular economy solutions, implementing LCA software tools for analyzing product design, and developing strategies to minimize waste and gas emissions. The course aims to equip students with a critical understanding of sustainable development challenges and the skills to innovate for a greener future. Students learn: -Fundamentals of sustainability and renewable energy; LCA methodologies, circular economy principles and their applications. -Learn and use of industry LCA software (openLCA) to quantify environmental impacts. -Teamwork and collaboration, including strategies to collect and analyze data, develop sustainable strategies for product design, and visually and verbally present the results. -Analyze case studies to extract sustainability lessons, and create new solutions. Instructors: Professor Hejintao Huang and Cooper Union Undergraduate Teaching Assistants Participants: Students currently enrolled in 10th or 11th grade in the 2023-2024 school year. Session information: This six-week program offers one session starting Monday, July 8, 2024. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through lectures, discussions, and hands on activities at 41 Cooper Square. Materials: All materials are included. Students can opt to bring a personal computer. Cost: $3950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 24-2",
-    "title": "Intro to Engineering",
-    "description": "Inspired by the first class that every Cooper Union engineering student takes during their first semester of college, students learn about the engineering design process and develop skills in rapid prototyping. Students explore college, learn about engineering research and develop problem solving skills using engineering design practices. Students also learn sketching, technical drawing, computer-aided design and strategies for communicating ideas. By the end of the program, student teams will identify a problem, design and fabricate a solution, and create a presentation to share how they imagine and engineer a better world. Students learn: -Drawing and Computer Aided Design (CAD) -Prototyping and fabrication, including 3D printing -Engineering design and decision-making tools Instructors: Professor Matt Grattan, Professor Anastasiya Islamova, and Cooper Union student teaching assistants Participants: Students in 9th grade in the 2023-2024 school year. Session information: This Three-week program offers two sessions. Session 1 starts Monday, July 8, 2024. Session 2 starts Monday, July 29, 2024. Classes meet Monday - Thursday, 9 am to 3 pm. Teaching method: In person. The instructor and teaching assistants will lead students through daily scheduled lectures, discussions, and practice sessions at 41 Cooper Square. Off campus field trips and site visits will also be scheduled. Materials: All materials are included. Students may opt to bring a personal computer. Cost: $1950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "none.",
-    "credits": ""
-  },
-  {
-    "department": "Summer STEM",
-    "level": null,
-    "course_code": "STEM 24-3",
-    "title": "Linear Algebra for Engineering Research",
-    "description": "Designed for students interested in research, this course will cover topics in introductory linear algebra and their applications to mathematics, science and engineering. Students will learn about vectors, systems of equations, linear transformations, matrix algebra, determinants and vector spaces and apply them to an engineering research problem. Topics covered: -Algebra of vectors and matrices -Solving systems of equations using matrices -Understanding the algebraic and geometric views linear algebra -Collaboration and study skills for college Instructors: Dr. Michael Kumaresan, Cooper Union Alumni and Adjunct Faculty, and Cooper Union student teaching assistants Participants: Students in 10th, 11th or 12th grade during the 2023-2024 school year can apply. 12th grade students beginning college in the fall 2024 for an engineering or STEM major are encouraged to apply. Students from any time zone can participate. Session information: This Three-week program starts July 8, 2024. Class meets Monday - Thursday from 1:00 - 3:30 pm EST. Study groups meet 11:30 am - 12:30 pm or 4:00 – 5:00 pm EST. Teaching method: Online, synchronous. The class will meet via zoom. Study groups are required. Students will be assigned a study group according to their time zone. Materials: Students need to provide a computer and Wifi access. Cost: $1950 Apply now: https://connect.cooper.edu/apply/ Read the Summer STEM FAQs",
-    "prerequisites": "Precalculus with a grade of B or higher.",
-    "credits": ""
   }
 ]
