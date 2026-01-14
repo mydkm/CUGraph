@@ -8,10 +8,10 @@
  *
  * Usage:
  *  node scripts/build_requirements_scaffold.mjs \
- *    --presets js/data/presets/presets.json \
- *    --courses cooper_courses.json \
+ *    --presets main/js/data/presets/presets.json \
+ *    --courses main/js/data/cooper_courses.json \
  *    --out-csv requirements_scaffold.csv \
- *    --out-majors js/data/majors.json
+ *    --out-majors main/js/data/majors.json
  */
 
 import fs from "node:fs";
@@ -29,8 +29,8 @@ function findProjectRoot(startDir) {
   let dir = startDir;
   while (true) {
     const hasIndex = exists(path.join(dir, "index.html"));
-    const hasJsDir = exists(path.join(dir, "js"));
-    if (hasIndex && hasJsDir) return dir;
+    const hasMainJsDir = exists(path.join(dir, "main", "js"));
+    if (hasIndex && hasMainJsDir) return dir;
     const parent = path.dirname(dir);
     if (parent === dir) break;
     dir = parent;
@@ -65,10 +65,10 @@ function getArg(argv, key, fallback = null) {
 const argv = process.argv.slice(2);
 const root = findProjectRoot(process.cwd());
 
-const presetsPath = path.resolve(root, getArg(argv, "--presets", "js/data/presets/presets.json"));
-const coursesPath = path.resolve(root, getArg(argv, "--courses", "cooper_courses.json"));
+const presetsPath = path.resolve(root, getArg(argv, "--presets", "main/js/data/presets/presets.json"));
+const coursesPath = path.resolve(root, getArg(argv, "--courses", "main/js/data/cooper_courses.json"));
 const outCsvPath = path.resolve(root, getArg(argv, "--out-csv", "requirements_scaffold.csv"));
-const outMajorsPath = path.resolve(root, getArg(argv, "--out-majors", "js/data/majors.json"));
+const outMajorsPath = path.resolve(root, getArg(argv, "--out-majors", "main/js/data/majors.json"));
 const outMajorReqPath = path.resolve(
   root,
   getArg(argv, "--out-major-reqs", "major_requirements.csv")

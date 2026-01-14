@@ -715,6 +715,24 @@
   .db-options-panel .db-export-btn {
     justify-self: start;
   }
+  .db-masters-row {
+    grid-column: 1 / -1;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    min-width: 0;
+  }
+  .db-masters-row .db-hide-toggle {
+    white-space: nowrap;
+  }
+  .db-thesis-toggle {
+    margin-left: auto;
+    justify-content: flex-end;
+  }
+  .db-thesis-toggle.hidden {
+    display: none;
+  }
   .db-semester-row {
     grid-column: 1 / -1;
     display: grid;

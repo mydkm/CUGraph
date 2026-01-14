@@ -66,17 +66,16 @@ export function initSearch({
       return;
     }
 
-    let html = "";
+    suggestionsBox.textContent = "";
+    const frag = document.createDocumentFragment();
     for (const m of matches) {
-      html +=
-        '<div class="sug-item" data-node="' +
-        m.id +
-        '">' +
-        m.display +
-        "</div>";
+      const item = document.createElement("div");
+      item.className = "sug-item";
+      item.dataset.node = m.id;
+      item.textContent = m.display;
+      frag.appendChild(item);
     }
-
-    suggestionsBox.innerHTML = html;
+    suggestionsBox.appendChild(frag);
     positionSuggestions();
     suggestionsBox.classList.remove("hidden");
 

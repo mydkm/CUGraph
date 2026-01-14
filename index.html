@@ -22,8 +22,8 @@
     <div class="legend-section">
       <div class="legend-section-title">
         <input type="checkbox" id="physics-toggle" class="physics-checkbox" checked="checked">
-        <span>Layout physics</span>
-        <button id="theme-toggle-btn" class="theme-btn">Light mode</button>
+        <span>Layout Physics</span>
+        <button id="theme-toggle-btn" class="theme-btn">Light Mode</button>
       </div>
       <div class="legend-section-body">
 
@@ -34,7 +34,7 @@
         </div>
 
         <div class="slider-block">
-          <label for="repel-slider">Repulsion strength</label>
+          <label for="repel-slider">Repulsion Strength:</label>
           <div class="slider-row">
             <input id="repel-slider"
                    type="range"
@@ -50,7 +50,7 @@
     <!-- Department filters -->
     <div class="legend-section">
       <div class="legend-section-title">
-        <span>Engineering Departments</span>
+        <span>Engineering Departments:</span>
       </div>
       <div id="eng-body" class="legend-section-body">
         
@@ -192,7 +192,7 @@
     <div class="legend-section">
       <div class="legend-section-body">
         <div class="search-block">
-          <label for="search-input">Find class</label>
+          <label for="search-input">Find class:</label>
           <div class="search-row">
             <input id="search-input"
                    placeholder="">
@@ -274,6 +274,17 @@
         <span>Show Summer Sem.</span>
       </label>
 
+      <div class="db-masters-row" aria-label="Masters options">
+        <label class="db-hide-toggle" title="Enable master's degree requirements">
+          <input type="checkbox" id="db-masters-degree" />
+          <span>Masters Degree</span>
+        </label>
+        <label id="db-masters-thesis-wrap" class="db-hide-toggle db-thesis-toggle hidden" title="Include thesis requirements">
+          <input type="checkbox" id="db-masters-thesis" />
+          <span>Thesis</span>
+        </label>
+      </div>
+
       <div class="db-semester-row" aria-label="Semester controls">
         <button id="db-export-btn" class="db-export-btn" type="button" title="Export your plan to Excel (.xlsx)">
           Export .xlsx
@@ -297,7 +308,7 @@
 <div id="db-suggestions" class="db-suggestions hidden"></div>
 
 <!-- vis-network -->
-<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<script src="./assets/vendor/vis-network.min.js"></script>
 
 <script type="module" src="./main/js/main.js"></script>
 

@@ -28,23 +28,34 @@ export function initDetails({
     });
   }
 
-  function linkifyPrereqs(rawText) {
-    if (!rawText) return "";
+  function buildPrereqFragment(rawText) {
+    const frag = document.createDocumentFragment();
+    if (!rawText) return frag;
     const re = /\b([A-Za-z]{1,4})\s?(\d{1,3}(?:\.\d+)?)\b/g;
+    let lastIndex = 0;
+    let match;
+    while ((match = re.exec(rawText)) !== null) {
+      const before = rawText.slice(lastIndex, match.index);
+      if (before) frag.appendChild(document.createTextNode(before));
 
-    return rawText.replace(re, (match, dept, num) => {
+      const dept = match[1];
+      const num = match[2];
       const canon = dept.toUpperCase() + " " + num;
       if (nodes.get(canon)) {
-        return (
-          '<a href="#" class="prereq-link" data-jump="' +
-          canon +
-          '">' +
-          canon +
-          "</a>"
-        );
+        const link = document.createElement("a");
+        link.href = "#";
+        link.className = "prereq-link";
+        link.dataset.jump = canon;
+        link.textContent = canon;
+        frag.appendChild(link);
+      } else {
+        frag.appendChild(document.createTextNode(match[0]));
       }
-      return match;
-    });
+      lastIndex = re.lastIndex;
+    }
+    const tail = rawText.slice(lastIndex);
+    if (tail) frag.appendChild(document.createTextNode(tail));
+    return frag;
   }
 
   function showDetailsFor(nodeId) {
@@ -61,7 +72,8 @@ export function initDetails({
     if (detailsDesc) detailsDesc.textContent = n.description || "";
 
     if (detailsPrereqs) {
-      detailsPrereqs.innerHTML = linkifyPrereqs(n.prereqText || "");
+      detailsPrereqs.textContent = "";
+      detailsPrereqs.appendChild(buildPrereqFragment(n.prereqText || ""));
       detailsPrereqs.querySelectorAll(".prereq-link").forEach((a) => {
         a.addEventListener("click", (evt) => {
           evt.preventDefault();
@@ -125,7 +137,6 @@ export function initDetails({
   });
 
   return {
-    linkifyPrereqs,
     showDetailsFor,
     ensureNodeVisible,
     focusNode,

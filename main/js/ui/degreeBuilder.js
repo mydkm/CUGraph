@@ -58,6 +58,8 @@ function buildInitialState() {
     isOpen: false,
     hideNonSelected: false,
     presetId: "",
+    mastersEnabled: false,
+    mastersThesis: false,
     currentSemesterIndex: 0,
     showSummer: true,
     semesters: SEMESTERS_DEFAULT.map(() => ({
@@ -80,6 +82,8 @@ function normalizeLoadedState(raw) {
   out.isOpen = !!raw.isOpen;
   out.hideNonSelected = !!raw.hideNonSelected;
   out.presetId = typeof raw.presetId === "string" ? raw.presetId : "";
+  out.mastersEnabled = !!raw.mastersEnabled;
+  out.mastersThesis = !!raw.mastersThesis && out.mastersEnabled;
   out.currentSemesterIndex = clampInt(raw.currentSemesterIndex, 0, SEMESTERS_DEFAULT.length - 1);
   out.showSummer = raw.showSummer !== false;
 
@@ -96,6 +100,22 @@ function normalizeLoadedState(raw) {
         }
       }
     }
+    if (sourceSemesters.length > out.semesters.length) {
+      const extras = sourceSemesters.length - out.semesters.length;
+      for (let i = 0; i < extras; i++) {
+        out.semesters.push({
+          slots: Array.from({ length: 8 }, () => ({
+            courseId: null,
+            isExtra: false,
+            source: null,
+            presetId: null,
+            addedByPreset: false,
+          })),
+        });
+      }
+      out.currentSemesterIndex = clampInt(raw.currentSemesterIndex, 0, out.semesters.length - 1);
+    }
+
     for (let i = 0; i < out.semesters.length; i++) {
       const s = sourceSemesters[i];
       if (!s || typeof s !== "object" || !Array.isArray(s.slots)) continue;
@@ -167,6 +187,10 @@ export function initDegreeBuilder({
   const semesterAddBtn = document.getElementById("db-semester-add");
   const semesterRemoveBtn = document.getElementById("db-semester-remove");
   const showSummerToggle = document.getElementById("db-show-summers");
+  const mastersToggle = document.getElementById("db-masters-degree");
+  const thesisToggle = document.getElementById("db-masters-thesis");
+  const thesisWrap = document.getElementById("db-masters-thesis-wrap");
+  const semesterControls = document.querySelector(".db-semester-controls");
   const requirementsPanel = document.getElementById("requirements-panel");
   const requirementsHeader = document.getElementById("requirements-header");
   const requirementsBody = document.getElementById("requirements-body");
@@ -957,6 +981,11 @@ export function initDegreeBuilder({
     return String(level).toLowerCase().includes("undergraduate");
   }
 
+  function isGraduateLevel(level) {
+    if (!level) return false;
+    return String(level).toLowerCase().includes("graduate");
+  }
+
   function semesterCreditSummary(semIdx) {
     const sem = state.semesters[semIdx];
     if (!sem) return { totalCredits: 0, undergradCredits: 0 };
@@ -1248,6 +1277,12 @@ export function initDegreeBuilder({
       return;
     }
 
+    const mastersEnabled = !!state.mastersEnabled;
+    const mastersThesis = mastersEnabled && !!state.mastersThesis;
+    const gradDegreeCap = mastersEnabled ? (mastersThesis ? 12 : 18) : 0;
+    const gradEngineeringCap = mastersEnabled ? 12 : 0;
+    const gradThesisCap = mastersThesis ? 6 : 0;
+
     const categories = [
       { key: "required_coursework", label: "Required Coursework:" },
       { key: "degree_electives", label: "Degree Electives:", totalKey: "degree_electives" },
@@ -1255,6 +1290,27 @@ export function initDegreeBuilder({
       { key: "free_electives", label: "Free Electives:" },
       { key: "humanities_social_science_electives", label: "Humanities Electives:" },
     ];
+    if (mastersEnabled) {
+      categories.push(
+        {
+          key: "graduate_degree_electives",
+          label: "Graduate Degree Electives:",
+          totalOverride: gradDegreeCap,
+        },
+        {
+          key: "graduate_engineering_electives",
+          label: "Graduate Engineering Electives:",
+          totalOverride: gradEngineeringCap,
+        },
+      );
+      if (mastersThesis) {
+        categories.push({
+          key: "graduate_thesis",
+          label: "Thesis:",
+          totalOverride: gradThesisCap,
+        });
+      }
+    }
 
     const selected = buildSelectedCourseSet();
     const selectedCredits = {
@@ -1263,6 +1319,9 @@ export function initDegreeBuilder({
       engineering_electives: 0,
       free_electives: 0,
       humanities_social_science_electives: 0,
+      graduate_degree_electives: 0,
+      graduate_engineering_electives: 0,
+      graduate_thesis: 0,
     };
 
     const majorDept = getMajorDept(majorId);
@@ -1274,6 +1333,44 @@ export function initDegreeBuilder({
       majorData && majorData.credits && Number.isFinite(majorData.credits.engineering_electives)
         ? majorData.credits.engineering_electives
         : 0;
+    const freeCap =
+      majorData && majorData.credits && Number.isFinite(majorData.credits.free_electives)
+        ? majorData.credits.free_electives
+        : 0;
+
+    const thesisCourses = new Set(["CE499", "ME499", "CHE499", "ECE499", "CS499"]);
+    const caps = {
+      degree_electives: degreeCap,
+      engineering_electives: engineeringCap,
+      free_electives: null,
+      humanities_social_science_electives: null,
+      graduate_degree_electives: gradDegreeCap,
+      graduate_engineering_electives: gradEngineeringCap,
+      graduate_thesis: gradThesisCap,
+    };
+
+    function allocateCredits(credits, order, capsOverride = null) {
+      const capMap = capsOverride || caps;
+      let remaining = credits;
+      for (const key of order) {
+        if (remaining <= 1e-6) break;
+        const cap = capMap[key];
+        if (cap == null) {
+          selectedCredits[key] += remaining;
+          remaining = 0;
+          break;
+        }
+        const available = cap - (selectedCredits[key] || 0);
+        if (available <= 1e-6) continue;
+        const add = Math.min(remaining, available);
+        selectedCredits[key] += add;
+        remaining -= add;
+      }
+      if (remaining > 1e-6) {
+        const last = order[order.length - 1];
+        selectedCredits[last] += remaining;
+      }
+    }
 
     for (const nodeId of getSelectedCourseIdsOrdered()) {
       const canon = normalizeRequirementCode(nodeId);
@@ -1292,6 +1389,45 @@ export function initDegreeBuilder({
           selectedCredits.required_coursework += credits;
         }
         continue;
+      }
+
+      const isGrad = n && isGraduateLevel(n.level);
+      if (mastersEnabled && isGrad) {
+        const courseDept = n && n.dept ? n.dept : "";
+        const isEngineering = isEngineeringDept(courseDept);
+        const isMajorDept = majorDept && courseDept === majorDept;
+        let remainingCredits = credits;
+
+        if (mastersThesis && thesisCourses.has(canon)) {
+          const remainingThesis = Math.max(0, gradThesisCap - selectedCredits.graduate_thesis);
+          const addThesis = Math.min(remainingCredits, remainingThesis);
+          if (addThesis > 0) {
+            selectedCredits.graduate_thesis += addThesis;
+            remainingCredits -= addThesis;
+          }
+          if (remainingCredits <= 1e-6) continue;
+        }
+
+        if (isEngineering && isMajorDept) {
+          const gradCaps = { ...caps, free_electives: freeCap };
+          allocateCredits(remainingCredits, [
+            "degree_electives",
+            "engineering_electives",
+            "free_electives",
+            "graduate_degree_electives",
+            "graduate_engineering_electives",
+          ], gradCaps);
+          continue;
+        }
+        if (isEngineering) {
+          const gradCaps = { ...caps, free_electives: freeCap };
+          allocateCredits(remainingCredits, [
+            "engineering_electives",
+            "free_electives",
+            "graduate_engineering_electives",
+          ], gradCaps);
+          continue;
+        }
       }
 
       if (requirementType === "humanities_social_science_electives") {
@@ -1361,10 +1497,13 @@ export function initDegreeBuilder({
       const value = document.createElement("div");
       value.className = "req-value";
       const totalKey = c.totalKey || c.key;
-      const requiredTotal =
-        majorData && majorData.credits && Number.isFinite(majorData.credits[totalKey])
-          ? majorData.credits[totalKey]
-          : 0;
+      const requiredTotal = Number.isFinite(c.totalOverride)
+        ? c.totalOverride
+        : (
+          majorData && majorData.credits && Number.isFinite(majorData.credits[totalKey])
+            ? majorData.credits[totalKey]
+            : 0
+        );
       value.textContent = `${formatCredits(selectedCredits[c.key] || 0)} / ${formatCredits(requiredTotal)}`;
 
       row.appendChild(label);
@@ -1389,6 +1528,8 @@ export function initDegreeBuilder({
       "engineering_electives",
       "free_electives",
       "humanities_social_science_electives",
+      ...(mastersEnabled ? ["graduate_degree_electives", "graduate_engineering_electives"] : []),
+      ...(mastersThesis ? ["graduate_thesis"] : []),
     ];
     const totalRequiredKeys = [
       "required_coursework",
@@ -1396,9 +1537,14 @@ export function initDegreeBuilder({
       "engineering_electives",
       "free_electives",
       "humanities_social_science_electives",
+      ...(mastersEnabled ? ["graduate_degree_electives", "graduate_engineering_electives"] : []),
+      ...(mastersThesis ? ["graduate_thesis"] : []),
     ];
     const totalSelected = totalSelectedKeys.reduce((sum, key) => sum + (selectedCredits[key] || 0), 0);
     const totalRequired = totalRequiredKeys.reduce((sum, key) => {
+      if (key === "graduate_degree_electives") return sum + gradDegreeCap;
+      if (key === "graduate_engineering_electives") return sum + gradEngineeringCap;
+      if (key === "graduate_thesis") return sum + gradThesisCap;
       const v = majorData && majorData.credits && Number.isFinite(majorData.credits[key])
         ? majorData.credits[key]
         : 0;
@@ -1861,9 +2007,26 @@ export function initDegreeBuilder({
       optionsPanel.classList.remove("hidden");
       optionsToggle.setAttribute("aria-expanded", "true");
       requestAnimationFrame(positionPageControls);
+      requestAnimationFrame(updateMastersRowWidth);
     } else {
       hideOptionsPanel();
     }
+  }
+
+  function syncMastersUI() {
+    if (!mastersToggle) return;
+    mastersToggle.checked = !!state.mastersEnabled;
+    if (thesisToggle) {
+      thesisToggle.checked = !!state.mastersThesis;
+      if (thesisWrap) thesisWrap.classList.toggle("hidden", !state.mastersEnabled);
+    }
+  }
+
+  function updateMastersRowWidth() {
+    if (!thesisWrap || !semesterControls) return;
+    const controlsRect = semesterControls.getBoundingClientRect();
+    if (!controlsRect.width) return;
+    thesisWrap.style.minWidth = `${Math.round(controlsRect.width)}px`;
   }
 
   // ----------------- Wiring -----------------
@@ -1883,14 +2046,16 @@ export function initDegreeBuilder({
     });
   }
   if (pagePrev) {
-    pagePrev.addEventListener("click", () => {
+    pagePrev.addEventListener("click", (e) => {
+      if (e) e.stopPropagation();
       const visible = getVisibleSemesterIndices();
       const currentVisibleIdx = Math.max(0, visible.indexOf(state.currentSemesterIndex));
       setSemesterIndex(currentVisibleIdx - 1);
     });
   }
   if (pageNext) {
-    pageNext.addEventListener("click", () => {
+    pageNext.addEventListener("click", (e) => {
+      if (e) e.stopPropagation();
       const visible = getVisibleSemesterIndices();
       const currentVisibleIdx = Math.max(0, visible.indexOf(state.currentSemesterIndex));
       setSemesterIndex(currentVisibleIdx + 1);
@@ -1909,6 +2074,26 @@ export function initDegreeBuilder({
       render();
     });
   }
+  if (mastersToggle) {
+    mastersToggle.addEventListener("change", () => {
+      state.mastersEnabled = !!mastersToggle.checked;
+      if (!state.mastersEnabled) state.mastersThesis = false;
+      saveState();
+      syncMastersUI();
+      renderRequirementsPanel();
+      requestAnimationFrame(updateRequirementsPanelOffset);
+      requestAnimationFrame(updateMastersRowWidth);
+    });
+  }
+  if (thesisToggle) {
+    thesisToggle.addEventListener("change", () => {
+      if (!state.mastersEnabled) return;
+      state.mastersThesis = !!thesisToggle.checked;
+      saveState();
+      renderRequirementsPanel();
+      requestAnimationFrame(updateRequirementsPanelOffset);
+    });
+  }
 
   // Keep dropdown anchored on scroll/resize.
   const maybeReposition = () => {
@@ -1918,6 +2103,7 @@ export function initDegreeBuilder({
     maybeReposition();
     updateDetailsCardOffset();
     positionPageControls();
+    updateMastersRowWidth();
   });
   window.addEventListener("scroll", maybeReposition, true);
   body.addEventListener("scroll", maybeReposition);
@@ -1942,9 +2128,11 @@ export function initDegreeBuilder({
   hideCb.checked = !!state.hideNonSelected;
   if (presetSel) presetSel.value = typeof state.presetId === "string" ? state.presetId : "";
   if (showSummerToggle) showSummerToggle.checked = !!state.showSummer;
+  syncMastersUI();
   setOpen(state.isOpen);
   applyDegreeBuilderFilter();
   updatePagination();
+  requestAnimationFrame(updateMastersRowWidth);
 
   // Load presets index (async) and sync the dropdown.
   loadPresetIndex().then(() => {

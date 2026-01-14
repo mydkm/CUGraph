@@ -8,8 +8,8 @@
  *  node scripts/build_requirements_data.mjs \
  *    --courses requirements_scaffold.csv \
  *    --majors major_requirements.csv \
- *    --majors-json js/data/majors.json \
- *    --out js/data/requirements.json
+ *    --majors-json main/js/data/majors.json \
+ *    --out main/js/data/requirements.json
  */
 
 import fs from "node:fs";
@@ -27,8 +27,8 @@ function findProjectRoot(startDir) {
   let dir = startDir;
   while (true) {
     const hasIndex = exists(path.join(dir, "index.html"));
-    const hasJsDir = exists(path.join(dir, "js"));
-    if (hasIndex && hasJsDir) return dir;
+    const hasMainJsDir = exists(path.join(dir, "main", "js"));
+    if (hasIndex && hasMainJsDir) return dir;
     const parent = path.dirname(dir);
     if (parent === dir) break;
     dir = parent;
@@ -128,8 +128,8 @@ const root = findProjectRoot(process.cwd());
 
 const coursesCsv = path.resolve(root, getArg(argv, "--courses", "requirements_scaffold.csv"));
 const majorsCsv = path.resolve(root, getArg(argv, "--majors", "major_requirements.csv"));
-const majorsJson = path.resolve(root, getArg(argv, "--majors-json", "js/data/majors.json"));
-const outPath = path.resolve(root, getArg(argv, "--out", "js/data/requirements.json"));
+const majorsJson = path.resolve(root, getArg(argv, "--majors-json", "main/js/data/majors.json"));
+const outPath = path.resolve(root, getArg(argv, "--out", "main/js/data/requirements.json"));
 
 if (!exists(coursesCsv)) {
   console.error(`ERROR: Requirements CSV not found: ${coursesCsv}`);

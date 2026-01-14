@@ -7,8 +7,8 @@
  *
  * Usage:
  *  node scripts/auto_populate_requirements_from_presets.mjs \
- *    --presets js/data/presets/presets.json \
- *    --courses cooper_courses.json \
+ *    --presets main/js/data/presets/presets.json \
+ *    --courses main/js/data/cooper_courses.json \
  *    --requirements requirements_scaffold.csv \
  *    --majors major_requirements.csv
  */
@@ -18,6 +18,19 @@ import path from "node:path";
 
 function exists(p) {
   try { fs.accessSync(p); return true; } catch { return false; }
+}
+
+function findProjectRoot(startDir) {
+  let dir = startDir;
+  while (true) {
+    const hasIndex = exists(path.join(dir, "index.html"));
+    const hasMainJsDir = exists(path.join(dir, "main", "js"));
+    if (hasIndex && hasMainJsDir) return dir;
+    const parent = path.dirname(dir);
+    if (parent === dir) break;
+    dir = parent;
+  }
+  return startDir;
 }
 
 function readJson(filePath) {
@@ -123,10 +136,10 @@ function getArg(argv, key, fallback = null) {
 }
 
 const argv = process.argv.slice(2);
-const root = process.cwd();
+const root = findProjectRoot(process.cwd());
 
-const presetsPath = path.resolve(root, getArg(argv, "--presets", "js/data/presets/presets.json"));
-const coursesPath = path.resolve(root, getArg(argv, "--courses", "cooper_courses.json"));
+const presetsPath = path.resolve(root, getArg(argv, "--presets", "main/js/data/presets/presets.json"));
+const coursesPath = path.resolve(root, getArg(argv, "--courses", "main/js/data/cooper_courses.json"));
 const requirementsPath = path.resolve(root, getArg(argv, "--requirements", "requirements_scaffold.csv"));
 const majorsPath = path.resolve(root, getArg(argv, "--majors", "major_requirements.csv"));
 
