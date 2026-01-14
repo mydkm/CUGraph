@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+<head>
+  <meta charset="utf-8"/>
+  <title>About | Cooper Course Graph</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="../main/css/styles.css">
+  <style>
+    body {
+      background: var(--bg-color);
+      color: var(--text-color);
+    }
+    .about-shell {
+      max-width: 920px;
+      margin: 28px auto 60px;
+      padding: 0 20px;
+    }
+    .about-hero {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 18px 20px;
+      border-radius: 10px;
+      border: 1px solid var(--panel-border);
+      background: var(--panel-bg);
+      box-shadow: var(--card-shadow);
+      margin-bottom: 20px;
+    }
+    .about-hero h1 {
+      margin: 0 0 6px 0;
+      font-size: 22px;
+    }
+    .about-hero p {
+      margin: 0;
+      color: var(--note-color);
+      font-size: 12px;
+    }
+    .about-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 8px;
+      border: 1px solid var(--panel-border);
+      background: var(--panel-bg);
+      color: var(--text-color);
+      text-decoration: none;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .about-actions {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .theme-toggle {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      border: 1px solid var(--panel-border);
+      background: var(--panel-bg);
+      color: var(--text-color);
+      font-size: 16px;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+      padding: 0;
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 16px;
+    }
+    .about-card {
+      padding: 18px 20px;
+      border-radius: 10px;
+      border: 1px solid var(--panel-border);
+      background: var(--panel-bg);
+      box-shadow: var(--card-shadow);
+    }
+    .about-card h2 {
+      margin: 0 0 10px 0;
+      font-size: 16px;
+    }
+    .about-card p,
+    .about-card li {
+      font-size: 12px;
+      line-height: 1.6em;
+      color: var(--text-color);
+    }
+    .about-card ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+    }
+    .about-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 12px;
+      font-size: 11px;
+      color: var(--note-color);
+    }
+    .about-meta span {
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--panel-border);
+      background: rgba(0, 0, 0, 0.12);
+    }
+    @media (min-width: 860px) {
+      .about-grid {
+        grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="about-shell">
+    <section class="about-hero">
+      <div>
+        <h1>About the Cooper Course Graph</h1>
+        <p>Notes, updates, and practical guidance for navigating the course map.</p>
+      </div>
+      <div class="about-actions">
+        <button class="theme-toggle" id="about-theme-toggle" type="button" aria-label="Toggle theme">☾</button>
+        <a class="about-link" href="../">Back to Graph</a>
+      </div>
+    </section>
+
+    <section class="about-grid">
+      <article class="about-card">
+        <h2>What this tool is for</h2>
+        <p>
+          The course graph is a visual index of prerequisites, departments, and degree planning
+          choices. It is designed to help you see relationships between classes at a glance and to
+          keep your degree builder plan aligned with your major requirements.
+        </p>
+        <p>
+          Use it to sanity-check prereqs, compare electives, and quickly spot where a course fits
+          in your schedule.
+        </p>
+        <div class="about-meta">
+          <span>Interactive map</span>
+          <span>Degree builder</span>
+          <span>Major presets</span>
+        </div>
+      </article>
+
+      <aside class="about-card">
+        <h2>Reading tips</h2>
+        <ul>
+          <li>Click a course node to view its details and prerequisites.</li>
+          <li>Use the legend filters to focus on a single department.</li>
+          <li>Search by course code to jump directly to a class.</li>
+        </ul>
+      </aside>
+
+      <article class="about-card">
+        <h2>Degree Builder workflow</h2>
+        <p>
+          Start with a preset to populate the eight semesters, then rearrange as needed. The
+          requirements panel updates as you add or remove courses. The export button saves your
+          plan as an Excel file with semester totals and a degree total.
+        </p>
+      </article>
+
+      <aside class="about-card">
+        <h2>Data sources</h2>
+        <p>
+          Course data and presets are stored in JSON under <code>main/js/data</code>. Requirements
+          are compiled into <code>requirements.json</code> from the CSV scaffolds in the repo root.
+        </p>
+      </aside>
+    </section>
+  </main>
+  <script>
+    (function () {
+      const root = document.documentElement;
+      const btn = document.getElementById("about-theme-toggle");
+      if (!btn) return;
+
+      function currentTheme() {
+        return root.getAttribute("data-theme") === "light" ? "light" : "dark";
+      }
+
+      function updateIcon() {
+        btn.textContent = currentTheme() === "dark" ? "☾" : "☀";
+      }
+
+      btn.addEventListener("click", () => {
+        const next = currentTheme() === "dark" ? "light" : "dark";
+        root.setAttribute("data-theme", next);
+        updateIcon();
+      });
+
+      updateIcon();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,642 @@
+[
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ch 110",
+    "title": "General Chemistry",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 101",
+    "title": "Engineering Design and Problem Solving",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 110",
+    "title": "Introduction to Linear Algebra",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 111",
+    "title": "Calculus I",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "HSS 1",
+    "title": "Literary Forms and Expressions",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ch 111",
+    "title": "General Chemistry Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ECE 150",
+    "title": "Digital Logic Design",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ECE 160",
+    "title": "Programming for Electrical Engineers",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ma 113",
+    "title": "Calculus II",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ph 112",
+    "title": "Physics I: Mechanics",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "HSS 2",
+    "title": "Texts and Contexts: Old Worlds and New",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ECE 240",
+    "title": "Circuit Analysis",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ECE 291",
+    "title": "EE Sophomore Projects",
+    "credits": 1,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 223",
+    "title": "Vector Calculus",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 240",
+    "title": "Ordinary & Partial Differential Equations",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 213",
+    "title": "Physics II: Electromagnetic Phenomena",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 291",
+    "title": "Introductory Physics Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "HSS 3",
+    "title": "The Making of Modern Society",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 210",
+    "title": "MATLAB Seminar: Signals and Systems",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 211",
+    "title": "Signal Processing",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 241",
+    "title": "Electronics I",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 251",
+    "title": "Computer Architecture",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ma 224",
+    "title": "Probability",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ph 214",
+    "title": "Physics III: Modern Physics",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "HSS 4",
+    "title": "The Modern Context: Figures and Topics",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 300",
+    "title": "Communication Theory",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 310",
+    "title": "Digital Signal Processing",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 311",
+    "title": "Hardware Design",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 342",
+    "title": "Electronics II",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 393",
+    "title": "Electrical Engineering Junior Projects I",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "Ma 326",
+    "title": "Linear Algebra",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 302",
+    "title": "Probability Models & Stochastic Processes",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 303",
+    "title": "Communication Networks",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 335",
+    "title": "Engineering Electromagnetics",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 345",
+    "title": "Integrated Circuit Engineering",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 394",
+    "title": "Electrical Engineering Junior Projects II",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "ECE 395",
+    "title": "Electrical Engineering Senior Projects I",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "ECE 396",
+    "title": "Electrical Engineering Senior Projects II",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ch 110",
+    "title": "General Chemistry",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 101",
+    "title": "Engineering Design and Problem Solving",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 110",
+    "title": "Introduction to Linear Algebra",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 111",
+    "title": "Calculus I",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "HSS 1",
+    "title": "Literary Forms and Expressions",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ch 111",
+    "title": "General Chemistry Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ECE 150",
+    "title": "Digital Logic Design",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ECE 160",
+    "title": "Programming for Electrical Engineers",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ma 113",
+    "title": "Calculus II",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ph 112",
+    "title": "Physics I: Mechanics",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "HSS 2",
+    "title": "Texts and Contexts",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ECE 240",
+    "title": "Circuit Analysis",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ECE 291",
+    "title": "EE Sophomore Projects",
+    "credits": 1,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 223",
+    "title": "Vector Calculus",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 240",
+    "title": "Ordinary & Partial Differential Equations",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 213",
+    "title": "Physics II: Electromagnetic Phenomena",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 291",
+    "title": "Introductory Physics Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "HSS 3",
+    "title": "The Making of Modern Society",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 210",
+    "title": "MATLAB Seminar: Signals and Systems",
+    "credits": 0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 211",
+    "title": "Signal Processing & Systems Analysis",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 241",
+    "title": "Electronics I",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ECE 251",
+    "title": "Computer Architecture",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ma 224",
+    "title": "Probability",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ph 214",
+    "title": "Physics III: Modern Physics",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "HSS 4",
+    "title": "The Modern Context: Figures and Topics",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 300",
+    "title": "Communication Theory",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 310",
+    "title": "Digital Signal Processing",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 342",
+    "title": "Electronics II",
+    "credits": 4,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 393",
+    "title": "Electrical Engineering Junior Projects I",
+    "credits": 2,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 302",
+    "title": "Probability Models & Stochastic Processes",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 303",
+    "title": "Communication Networks",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 394",
+    "title": "Electrical Engineering Junior Projects II",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "ECE 395",
+    "title": "Electrical Engineering Senior Projects I",
+    "credits": 3,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "ECE 396",
+    "title": "Electrical Engineering Senior Projects II",
+    "credits": 3,
+    "kind": "course"
+  }
+]

@@ -4,7 +4,7 @@
 <meta charset="utf-8"/>
 <title>Cooper Course Graph</title>
 
-<link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="./main/css/styles.css">
 </head>
 <body>
 
@@ -21,22 +21,16 @@
     <!-- Physics + Theme controls -->
     <div class="legend-section">
       <div class="legend-section-title">
+        <input type="checkbox" id="physics-toggle" class="physics-checkbox" checked="checked">
         <span>Layout physics</span>
+        <button id="theme-toggle-btn" class="theme-btn">Light mode</button>
       </div>
       <div class="legend-section-body">
 
         <div class="layout-row">
-          <label class="switch">
-            <input type="checkbox" id="physics-toggle" checked="checked">
-            <span class="slider-switch"></span>
-          </label>
-
           <div class="physics-textblock">
             <div id="physics-label"><b>Physics: on</b></div>
-            <div class="note tiny-note">(toggle to freeze / unfreeze)</div>
           </div>
-
-          <button id="theme-toggle-btn" class="theme-btn">Light mode</button>
         </div>
 
         <div class="slider-block">
@@ -49,9 +43,6 @@
                    step="500"
                    value="18000">
           </div>
-          <div class="note">
-            Higher = stronger push apart.
-          </div>
         </div>
       </div>
     </div>
@@ -59,7 +50,6 @@
     <!-- Department filters -->
     <div class="legend-section">
       <div class="legend-section-title">
-        <button id="eng-toggle" class="collapse-btn" data-open="1">−</button>
         <span>Engineering Departments</span>
       </div>
       <div id="eng-body" class="legend-section-body">
@@ -70,7 +60,7 @@
                      data-dept="Biology"
                      checked />
               <div class="swatch" style="background:rgb(57,255,20)"></div>
-              <span class="dept-name">Biology</span>
+              <span class="dept-name">Bio</span>
             </div>
             
 
@@ -80,7 +70,7 @@
                      data-dept="Chemical Engineering"
                      checked />
               <div class="swatch" style="background:rgb(34,139,34)"></div>
-              <span class="dept-name">Chemical Engineering</span>
+              <span class="dept-name">ChE</span>
             </div>
             
 
@@ -90,7 +80,7 @@
                      data-dept="Chemistry"
                      checked />
               <div class="swatch" style="background:rgb(0,204,0)"></div>
-              <span class="dept-name">Chemistry</span>
+              <span class="dept-name">Ch</span>
             </div>
             
 
@@ -100,7 +90,7 @@
                      data-dept="Civil Engineering"
                      checked />
               <div class="swatch" style="background:rgb(139,69,19)"></div>
-              <span class="dept-name">Civil Engineering</span>
+              <span class="dept-name">CE</span>
             </div>
             
 
@@ -110,7 +100,7 @@
                      data-dept="Computer Science"
                      checked />
               <div class="swatch" style="background:rgb(0,255,255)"></div>
-              <span class="dept-name">Computer Science</span>
+              <span class="dept-name">CS</span>
             </div>
             
 
@@ -120,7 +110,7 @@
                      data-dept="Electrical and Computer Engineering"
                      checked />
               <div class="swatch" style="background:rgb(255,215,0)"></div>
-              <span class="dept-name">Electrical and Computer Engineering</span>
+              <span class="dept-name">ECE</span>
             </div>
             
 
@@ -130,7 +120,7 @@
                      data-dept="Engineering Sciences"
                      checked />
               <div class="swatch" style="background:rgb(255,165,0)"></div>
-              <span class="dept-name">Engineering Sciences</span>
+              <span class="dept-name">ESC</span>
             </div>
             
 
@@ -140,7 +130,7 @@
                      data-dept="Interdisciplinary Engineering"
                      checked />
               <div class="swatch" style="background:rgb(192,192,192)"></div>
-              <span class="dept-name">Interdisciplinary Engineering</span>
+              <span class="dept-name">EID</span>
             </div>
             
 
@@ -150,7 +140,7 @@
                      data-dept="Mathematics"
                      checked />
               <div class="swatch" style="background:rgb(255,0,0)"></div>
-              <span class="dept-name">Mathematics</span>
+              <span class="dept-name">Ma</span>
             </div>
             
 
@@ -160,7 +150,7 @@
                      data-dept="Mechanical Engineering"
                      checked />
               <div class="swatch" style="background:rgb(21,80,132)"></div>
-              <span class="dept-name">Mechanical Engineering</span>
+              <span class="dept-name">ME</span>
             </div>
             
 
@@ -170,9 +160,26 @@
                      data-dept="Physics"
                      checked />
               <div class="swatch" style="background:rgb(128,0,128)"></div>
-              <span class="dept-name">Physics</span>
+              <span class="dept-name">Ph</span>
             </div>
-            
+
+            <div class="legend-row">
+              <input type="checkbox" class="dept-toggle" data-dept="Humanities" checked />
+                      <div class="swatch" style="background:rgb(90,200,250)"></div>
+                      <span class="dept-name">HUM</span>
+            </div>
+
+            <div class="legend-row">
+              <input type="checkbox" class="dept-toggle" data-dept="Social Sciences" checked />
+                      <div class="swatch" style="background:rgb(255,105,180)"></div>
+                      <span class="dept-name">SS</span>
+            </div>
+
+            <div class="legend-row">
+              <input type="checkbox" class="dept-toggle" data-dept="History and Theory of Art" checked />
+                      <div class="swatch" style="background:rgb(204,85,0)"></div>
+                      <span class="dept-name">HTA</span>
+            </div>
       </div>
 
       <div class="legend-buttons-row">
@@ -183,9 +190,6 @@
 
     <!-- Search -->
     <div class="legend-section">
-      <div class="legend-section-title">
-        <span>Search</span>
-      </div>
       <div class="legend-section-body">
         <div class="search-block">
           <label for="search-input">Find class</label>
@@ -220,17 +224,82 @@
   </div>
 </div>
 
-<!-- SIAM / Cooper Logo (fixed, always clickable, ABOVE canvas) -->
-<div id="logo-panel">
-  <a href="https://siam.cooper.edu/" target="_blank" rel="noopener noreferrer">
-    <img id="corner-logo" src="./assets/logo.png" alt="SIAM / Cooper Logo"/>
-  </a>
+<div id="right-rail">
+  <!-- SIAM / Cooper Logo (always clickable, ABOVE canvas) -->
+  <div id="logo-panel">
+    <a href="https://siam.cooper.edu/" target="_blank" rel="noopener noreferrer">
+      <img id="corner-logo" src="./assets/logo.png" alt="SIAM / Cooper Logo"/>
+    </a>
+  </div>
+
+  <!-- Degree Builder (right panel) -->
+  <div id="degree-builder" class="collapsed" data-open="0">
+    <div id="degree-builder-header">
+      <div class="db-title">
+        <span>Degree Builder</span>
+        <a class="db-info-btn" href="./about/" title="About this site" aria-label="About this site">i</a>
+      </div>
+      <button id="db-toggle" class="collapse-btn" data-open="0" aria-label="Toggle degree builder">▴</button>
+    </div>
+
+    <div id="degree-builder-body">
+      <div class="db-scroll">
+        <div id="db-columns" class="db-columns"></div>
+      </div>
+      <div class="db-pagination">
+        <div id="db-page-label" aria-live="polite">1 / 8</div>
+      </div>
+    </div>
+    <button id="db-options-toggle" class="db-options-toggle" type="button" aria-expanded="false">
+      Options
+    </button>
+    <div class="db-page-controls">
+      <button id="db-page-prev" type="button" aria-label="Previous semester">◀</button>
+      <button id="db-page-next" type="button" aria-label="Next semester">▶</button>
+    </div>
+    <div id="db-options-panel" class="db-options-panel hidden">
+      <label class="db-preset" title="Populate the degree builder from a major preset">
+        <select id="db-preset-select" aria-label="Major preset">
+          <option value="">Preset: (Empty)</option>
+        </select>
+      </label>
+
+      <label class="db-hide-toggle" title="Hide all classes not listed in the degree builder">
+        <input type="checkbox" id="db-hide-nonselected" />
+        <span>Hide Non-Selected</span>
+      </label>
+
+      <label class="db-hide-toggle" title="Show or hide summer semesters">
+        <input type="checkbox" id="db-show-summers" />
+        <span>Show Summer Sem.</span>
+      </label>
+
+      <div class="db-semester-row" aria-label="Semester controls">
+        <button id="db-export-btn" class="db-export-btn" type="button" title="Export your plan to Excel (.xlsx)">
+          Export .xlsx
+        </button>
+        <div class="db-semester-controls">
+          <button id="db-semester-add" class="db-icon-btn" type="button" title="Add semester">+</button>
+          <button id="db-semester-remove" class="db-icon-btn" type="button" title="Remove semester">−</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+<!-- Degree requirements panel -->
+<div id="requirements-panel">
+  <div id="requirements-header">Degree Requirements</div>
+  <div id="requirements-body"></div>
+</div>
+
+<!-- Floating suggestions dropdown used by the degree builder -->
+<div id="db-suggestions" class="db-suggestions hidden"></div>
 
 <!-- vis-network -->
 <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
 
-<script type="module" src="./js/main.js"></script>
+<script type="module" src="./main/js/main.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,275 @@
+[
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 1
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "HSS 1",
+    "title": "Literary Forms and Expressions",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 110",
+    "title": "Introduction to Linear Algebra",
+    "credits": 2
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 111",
+    "title": "Calculus I",
+    "credits": 4
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "CS 101",
+    "title": "Survey of CS",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ECE 150",
+    "title": "Digital Logic Design",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 101",
+    "title": "Engineering Design & Problem Solving",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ESC 000.2",
+    "title": "Professional Development Seminar",
+    "credits": 0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "HSS 2",
+    "title": "Texts and Contexts: Old Worlds and New",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ECE 251",
+    "title": "Computer Architecture",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "CS 160",
+    "title": "Introduction to Procedural Programming",
+    "credits": 3
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ma 113",
+    "title": "Calculus II",
+    "credits": 4
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ph 112",
+    "title": "Physics I: Mechanics",
+    "credits": 4
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 000.3",
+    "title": "Professional Development Seminar",
+    "credits": 0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "HSS 3",
+    "title": "The Making of Modern Society",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 225",
+    "title": "Vector Calculus",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 226",
+    "title": "Probability",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 213",
+    "title": "Physics II: Electromagnetic Phenomena",
+    "credits": 4
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 291",
+    "title": "Introductory Physics Laboratory",
+    "credits": 1.5
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "CS 261",
+    "title": "Data Structures and Algorithms",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "CS 291",
+    "title": "CS Sophomore Projects",
+    "credits": 1.5
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 000.4",
+    "title": "Professional Development Seminar",
+    "credits": 0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "HSS 4",
+    "title": "The Modern Context: Figures and Topics",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ph 214",
+    "title": "Physics III: Optics & Modern Physics",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ma 336",
+    "title": "Mathematical Statistics",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "CS 361",
+    "title": "Advanced Data Structures and Algorithms",
+    "credits": 3
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "CS 331",
+    "title": "Data Visualization",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "CS 357",
+    "title": "Operating Systems",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "CS 371",
+    "title": "Introduction to Artificial Intelligence & Machine Learning",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "CS 366",
+    "title": "Computer Hardware & Electronics",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ECE 352",
+    "title": "Computer Hardware & Electronics",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "Ma 326",
+    "title": "Linear Algebra",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ECE 303",
+    "title": "Communication Networks",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CS 321",
+    "title": "Distributed and Cloud Computing",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CS 394",
+    "title": "CS Junior Projects",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CS 211",
+    "title": "Ethics of CS",
+    "credits": 3
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "Ma 352",
+    "title": "Discrete Mathematics",
+    "credits": 3
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "CS 395",
+    "title": "Senior CS Projects I",
+    "credits": 3
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "CS 396",
+    "title": "Senior CS Projects II",
+    "credits": 3
+  }
+]

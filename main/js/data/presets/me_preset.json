@@ -1,0 +1,354 @@
+[
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 110",
+    "title": "Introduction to Linear Algebra",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 111",
+    "title": "Calculus I",
+    "credits": 4.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ch 110",
+    "title": "General Chemistry",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 101",
+    "title": "Engineering Design and Problem Solving",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 102",
+    "title": "Engineering Graphics",
+    "credits": 1.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "CS 102",
+    "title": "Computer Programming for Engineers",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "HSS 1",
+    "title": "Literary Forms and Expressions",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ESC 000.2",
+    "title": "Professional Development Seminar",
+    "credits": 0.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ma 113",
+    "title": "Calculus II",
+    "credits": 4.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ph 112",
+    "title": "Physics I: Mechanics",
+    "credits": 4.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "EID 103",
+    "title": "Principles of Design",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ch 111",
+    "title": "General Chemistry Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ME 103",
+    "title": "Statics",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ME 104",
+    "title": "Measurements Laboratory",
+    "credits": 1.0,
+    "kind": "course"
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "HSS 2",
+    "title": "Texts and Contexts: Old Worlds and New",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 000.3",
+    "title": "Professional Development Seminar",
+    "credits": 0.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 223",
+    "title": "Vector Calculus",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 240",
+    "title": "Ordinary and Partial Differential Equation",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 213",
+    "title": "Physics II: Electromagnetic Phenomena",
+    "credits": 4.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 291",
+    "title": "Introductory Physics Laboratory",
+    "credits": 1.5,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ME 200",
+    "title": "Dynamics",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 210",
+    "title": "Materials Science",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "HSS 3",
+    "title": "The Making of Modern Society",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 000.4",
+    "title": "Professional Development Seminar",
+    "credits": 0.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ph 214",
+    "title": "Physics III: Optics and Modern Physics",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 221",
+    "title": "Basic Principles of Electrical Engineering",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 201",
+    "title": "Mechanics of Materials",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 330",
+    "title": "Engineering Thermodynamics",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ME 211",
+    "title": "Design and Prototyping",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 251",
+    "title": "Systems Engineering",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "HSS 4",
+    "title": "The Modern Context: Figures and Topics",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "Ma 224",
+    "title": "Probability",
+    "credits": 2.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ESC 340",
+    "title": "Fluid Mechanics & Flow Systems",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ME 300",
+    "title": "Stress and Applied Elasticity",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ME 351",
+    "title": "Feedback Control Systems",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ME 352",
+    "title": "Process Control Laboratory",
+    "credits": 1.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ME 301",
+    "title": "Mechanical Vibrations",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ME 342",
+    "title": "Heat Transfer",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "ME 360",
+    "title": "Engineering Experimentation",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "ME 312",
+    "title": "Manufacturing Engineering",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "ME 331",
+    "title": "Advanced Thermodynamics",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "ME 393",
+    "title": "Mechanical Engineering Projects",
+    "credits": 3.0,
+    "kind": "course"
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "ME 394",
+    "title": "Capstone Senior Mechanical Engineering Design",
+    "credits": 3.0,
+    "kind": "course"
+  }
+]

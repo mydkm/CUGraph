@@ -1,0 +1,32 @@
+[
+  {
+    "id": "me",
+    "label": "Mechanical Engineering",
+    "file": "main/js/data/presets/me_preset.json"
+  },
+  {
+    "id": "cive",
+    "label": "Civil Engineering",
+    "file": "main/js/data/presets/cive_preset.json"
+  },
+  {
+    "id": "ee1",
+    "label": "Electrical Engineering (Hardware)",
+    "file": "main/js/data/presets/eehardware_preset.json"
+  },
+  {
+    "id": "ee2",
+    "label": "Electrical Engineering (Signals)",
+    "file": "main/js/data/presets/eesignals_preset.json"
+  },
+  {
+    "id": "cs",
+    "label": "Computer Science",
+    "file": "main/js/data/presets/cs_preset.json"
+  },
+  {
+    "id": "cheme",
+    "label": "Chemical Engineering",
+    "file": "main/js/data/presets/cheme_preset.json"
+  }
+]

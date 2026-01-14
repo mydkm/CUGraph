@@ -1,0 +1,26 @@
+[
+  {
+    "id": "me",
+    "label": "Mechanical Engineering"
+  },
+  {
+    "id": "cive",
+    "label": "Civil Engineering"
+  },
+  {
+    "id": "ee1",
+    "label": "Electrical Engineering (Hardware)"
+  },
+  {
+    "id": "ee2",
+    "label": "Electrical Engineering (Signals)"
+  },
+  {
+    "id": "cs",
+    "label": "Computer Science"
+  },
+  {
+    "id": "cheme",
+    "label": "Chemical Engineering"
+  }
+]

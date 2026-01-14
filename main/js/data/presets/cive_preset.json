@@ -1,0 +1,310 @@
+[
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "ESC 000.1",
+    "title": "Professional Development Seminar",
+    "credits": 0.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 110",
+    "title": "Introduction to Linear Algebra",
+    "credits": 2.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ma 111",
+    "title": "Calculus I",
+    "credits": 4.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "Ch 110",
+    "title": "General Chemistry",
+    "credits": 3.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 101",
+    "title": "Engineering Design and Problem Solving",
+    "credits": 3.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "EID 102",
+    "title": "Engineering Graphics",
+    "credits": 1.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "CS 102",
+    "title": "Computer Programming for Engineers",
+    "credits": 2.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Fall",
+    "course_code": "HSS 1",
+    "title": "Literary Forms and Expressions",
+    "credits": 3.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "ESC 000.2",
+    "title": "Professional Development Seminar",
+    "credits": 0.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ma 113",
+    "title": "Calculus II",
+    "credits": 4.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ph 112",
+    "title": "Physics I: Mechanics",
+    "credits": 4.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "Ch 111",
+    "title": "General Chemistry Laboratory",
+    "credits": 1.5
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "CE 151",
+    "title": "Urban Transportation Planning",
+    "credits": 3.0
+  },
+  {
+    "year": "Freshman",
+    "semester": "Spring",
+    "course_code": "HSS 2",
+    "title": "Texts and Contexts: Old Worlds and New",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 000.3",
+    "title": "Professional Development Seminar",
+    "credits": 0.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 223",
+    "title": "Vector Calculus",
+    "credits": 2.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ma 224",
+    "title": "Probability",
+    "credits": 2.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 213",
+    "title": "Physics II: Electromagnetic Phenomena",
+    "credits": 4.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "Ph 291",
+    "title": "Introductory Physics Laboratory",
+    "credits": 1.5
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 200",
+    "title": "Engineering Mechanics",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "ESC 210",
+    "title": "Materials Science",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Fall",
+    "course_code": "HSS 3",
+    "title": "The Making of Modern Society",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 000.4",
+    "title": "Professional Development Seminar",
+    "credits": 0.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "BIO 250",
+    "title": "Biotechnology in Environmental Systems",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ma 240",
+    "title": "Ordinary and Partial Differential Equations",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "Ph 214",
+    "title": "Physics III: Optics and Modern Physics",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "ESC 201",
+    "title": "Mechanics of Materials",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "CE 220",
+    "title": "Fundamentals of Civil Engineering",
+    "credits": 3.0
+  },
+  {
+    "year": "Sophomore",
+    "semester": "Spring",
+    "course_code": "HSS 4",
+    "title": "The Modern Context: Figures and Topics",
+    "credits": 3.0
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "CE 321",
+    "title": "Structural Engineering",
+    "credits": 4.5
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "CE 344",
+    "title": "Environmental Systems Engineering",
+    "credits": 4.5
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ESC 330",
+    "title": "Engineering Thermodynamics",
+    "credits": 3.0
+  },
+  {
+    "year": "Junior",
+    "semester": "Fall",
+    "course_code": "ESC 340",
+    "title": "Fluid Mechanics and Flow Systems",
+    "credits": 3.0
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CE 322",
+    "title": "Structural Engineering II",
+    "credits": 3.0
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CE 331",
+    "title": "Introduction to Geotechnical Engineering",
+    "credits": 4.5
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CE 343",
+    "title": "Water Resources Engineering",
+    "credits": 4.5
+  },
+  {
+    "year": "Junior",
+    "semester": "Spring",
+    "course_code": "CE 341",
+    "title": "Design of Steel Structures",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "CE 342",
+    "title": "Design of Reinforced Concrete Structures",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "CE 363",
+    "title": "Civil Engineering Design I",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "CE 332",
+    "title": "Introduction to Foundation Engineering",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Fall",
+    "course_code": "CE 346",
+    "title": "Hydraulic Engineering",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "CE 361",
+    "title": "Civil Engineering Experimental Projects",
+    "credits": 2.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "CE 364",
+    "title": "Civil Engineering Design II",
+    "credits": 3.0
+  },
+  {
+    "year": "Senior",
+    "semester": "Spring",
+    "course_code": "CE 348",
+    "title": "Environmental and Sanitary Engineering",
+    "credits": 3.0
+  }
+]

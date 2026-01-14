@@ -1,0 +1,4036 @@
+{
+  "majors": {
+    "me": {
+      "label": "Mechanical Engineering",
+      "credits": {
+        "required_coursework": 108,
+        "degree_electives": 6,
+        "engineering_electives": 6,
+        "free_electives": 9,
+        "humanities_social_science_electives": 6
+      }
+    },
+    "cive": {
+      "label": "Civil Engineering",
+      "credits": {
+        "required_coursework": 120,
+        "degree_electives": 0,
+        "engineering_electives": 9,
+        "free_electives": 0,
+        "humanities_social_science_electives": 6
+      }
+    },
+    "ee1": {
+      "label": "Electrical Engineering (Hardware)",
+      "credits": {
+        "required_coursework": 108,
+        "degree_electives": 0,
+        "engineering_electives": 15,
+        "free_electives": 6,
+        "humanities_social_science_electives": 6
+      }
+    },
+    "ee2": {
+      "label": "Electrical Engineering (Signals)",
+      "credits": {
+        "required_coursework": 108,
+        "degree_electives": 0,
+        "engineering_electives": 15,
+        "free_electives": 6,
+        "humanities_social_science_electives": 6
+      }
+    },
+    "cs": {
+      "label": "Computer Science",
+      "credits": {
+        "required_coursework": 105,
+        "degree_electives": 6,
+        "engineering_electives": 9,
+        "free_electives": 9,
+        "humanities_social_science_electives": 6
+      }
+    },
+    "cheme": {
+      "label": "Chemical Engineering",
+      "credits": {
+        "required_coursework": 108,
+        "degree_electives": 0,
+        "engineering_electives": 15,
+        "free_electives": 6,
+        "humanities_social_science_electives": 6
+      }
+    }
+  },
+  "courseRequirements": {
+    "CHE210": {
+      "code": "ChE 210",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE211": {
+      "code": "ChE 211",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE221": {
+      "code": "ChE 221",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE222": {
+      "code": "ChE 222",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE232": {
+      "code": "ChE 232",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE233": {
+      "code": "ChE 233",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE311": {
+      "code": "ChE 311",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE312": {
+      "code": "ChE 312",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE331": {
+      "code": "ChE 331",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE332": {
+      "code": "ChE 332",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE341": {
+      "code": "ChE 341",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE342": {
+      "code": "ChE 342",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE351": {
+      "code": "ChE 351",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE352": {
+      "code": "ChE 352",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE361": {
+      "code": "ChE 361",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE371": {
+      "code": "ChE 371",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE372": {
+      "code": "ChE 372",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE381": {
+      "code": "ChE 381",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE382": {
+      "code": "ChE 382",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CHE391": {
+      "code": "ChE 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE392": {
+      "code": "ChE 392",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE393": {
+      "code": "ChE 393",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE394": {
+      "code": "ChE 394",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE411": {
+      "code": "ChE 411",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE418": {
+      "code": "ChE 418",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE421": {
+      "code": "ChE 421",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE423": {
+      "code": "ChE 423",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE430": {
+      "code": "ChE 430",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE431": {
+      "code": "ChE 431",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE432": {
+      "code": "ChE 432",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE433": {
+      "code": "ChE 433",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE434": {
+      "code": "ChE 434",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE440": {
+      "code": "ChE 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE441": {
+      "code": "ChE 441",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE444": {
+      "code": "ChE 444",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE445": {
+      "code": "ChE 445",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE447": {
+      "code": "ChE 447",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE460": {
+      "code": "ChE 460",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE4601": {
+      "code": "ChE 460.1",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE461": {
+      "code": "ChE 461",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE462": {
+      "code": "ChE 462",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE471": {
+      "code": "ChE 471",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE474": {
+      "code": "ChE 474",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE475": {
+      "code": "ChE 475",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE488": {
+      "code": "ChE 488",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE490": {
+      "code": "ChE 490",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE491": {
+      "code": "ChE 491",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE492": {
+      "code": "ChE 492",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE493": {
+      "code": "ChE 493",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE494": {
+      "code": "ChE 494",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CHE499": {
+      "code": "ChE 499",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE151": {
+      "code": "CE 151",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE220": {
+      "code": "CE 220",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE321": {
+      "code": "CE 321",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE322": {
+      "code": "CE 322",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE331": {
+      "code": "CE 331",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE332": {
+      "code": "CE 332",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE341": {
+      "code": "CE 341",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE342": {
+      "code": "CE 342",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE343": {
+      "code": "CE 343",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE344": {
+      "code": "CE 344",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE346": {
+      "code": "CE 346",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE348": {
+      "code": "CE 348",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE352": {
+      "code": "CE 352",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE361": {
+      "code": "CE 361",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE363": {
+      "code": "CE 363",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE364": {
+      "code": "CE 364",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "CE369": {
+      "code": "CE 369",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE390": {
+      "code": "CE 390",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE391": {
+      "code": "CE 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE414": {
+      "code": "CE 414",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE422": {
+      "code": "CE 422",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE424": {
+      "code": "CE 424",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE425": {
+      "code": "CE 425",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE426": {
+      "code": "CE 426",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE427": {
+      "code": "CE 427",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE428": {
+      "code": "CE 428",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE429": {
+      "code": "CE 429",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE431": {
+      "code": "CE 431",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE432": {
+      "code": "CE 432",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE433": {
+      "code": "CE 433",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE434": {
+      "code": "CE 434",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE435": {
+      "code": "CE 435",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE436": {
+      "code": "CE 436",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE437": {
+      "code": "CE 437",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE438": {
+      "code": "CE 438",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE440": {
+      "code": "CE 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE441": {
+      "code": "CE 441",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE442": {
+      "code": "CE 442",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE443": {
+      "code": "CE 443",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE444": {
+      "code": "CE 444",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE446": {
+      "code": "CE 446",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE447": {
+      "code": "CE 447",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE448": {
+      "code": "CE 448",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE449": {
+      "code": "CE 449",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE450": {
+      "code": "CE 450",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE460": {
+      "code": "CE 460",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE469": {
+      "code": "CE 469",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE470": {
+      "code": "CE 470",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE471": {
+      "code": "CE 471",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE472": {
+      "code": "CE 472",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE473": {
+      "code": "CE 473",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE481": {
+      "code": "CE 481",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE482": {
+      "code": "CE 482",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE483": {
+      "code": "CE 483",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE484": {
+      "code": "CE 484",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE485": {
+      "code": "CE 485",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE486": {
+      "code": "CE 486",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE487": {
+      "code": "CE 487",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CE499": {
+      "code": "CE 499",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE150": {
+      "code": "ECE 150",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs",
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE160": {
+      "code": "ECE 160",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE210": {
+      "code": "ECE 210",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE211": {
+      "code": "ECE 211",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE240": {
+      "code": "ECE 240",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE241": {
+      "code": "ECE 241",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE251": {
+      "code": "ECE 251",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs",
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE264": {
+      "code": "ECE 264",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE291": {
+      "code": "ECE 291",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE300": {
+      "code": "ECE 300",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE302": {
+      "code": "ECE 302",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE303": {
+      "code": "ECE 303",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs",
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE310": {
+      "code": "ECE 310",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE311": {
+      "code": "ECE 311",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE314": {
+      "code": "ECE 314",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE320": {
+      "code": "ECE 320",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE323": {
+      "code": "ECE 323",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE331": {
+      "code": "ECE 331",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE332": {
+      "code": "ECE 332",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE335": {
+      "code": "ECE 335",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE342": {
+      "code": "ECE 342",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE345": {
+      "code": "ECE 345",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE357": {
+      "code": "ECE 357",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE365": {
+      "code": "ECE 365",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE366": {
+      "code": "ECE 366",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE391": {
+      "code": "ECE 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE392": {
+      "code": "ECE 392",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE393": {
+      "code": "ECE 393",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE394": {
+      "code": "ECE 394",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE395": {
+      "code": "ECE 395",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE396": {
+      "code": "ECE 396",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "ee1",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE399": {
+      "code": "ECE 399",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE401": {
+      "code": "ECE 401",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE402": {
+      "code": "ECE 402",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE403": {
+      "code": "ECE 403",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE404": {
+      "code": "ECE 404",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE405": {
+      "code": "ECE 405",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE407": {
+      "code": "ECE 407",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE408": {
+      "code": "ECE 408",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE410": {
+      "code": "ECE 410",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE411": {
+      "code": "ECE 411",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE412": {
+      "code": "ECE 412",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE413": {
+      "code": "ECE 413",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE415": {
+      "code": "ECE 415",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE416": {
+      "code": "ECE 416",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE417": {
+      "code": "ECE 417",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE418": {
+      "code": "ECE 418",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE419": {
+      "code": "ECE 419",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE421": {
+      "code": "ECE 421",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE425": {
+      "code": "ECE 425",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE431": {
+      "code": "ECE 431",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE433": {
+      "code": "ECE 433",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE435": {
+      "code": "ECE 435",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE437": {
+      "code": "ECE 437",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE440": {
+      "code": "ECE 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE441": {
+      "code": "ECE 441",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE442": {
+      "code": "ECE 442",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE443": {
+      "code": "ECE 443",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE444": {
+      "code": "ECE 444",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE445": {
+      "code": "ECE 445",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE446": {
+      "code": "ECE 446",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE447": {
+      "code": "ECE 447",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE448": {
+      "code": "ECE 448",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE449": {
+      "code": "ECE 449",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE453": {
+      "code": "ECE 453",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE455": {
+      "code": "ECE 455",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE458": {
+      "code": "ECE 458",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE460": {
+      "code": "ECE 460",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE461": {
+      "code": "ECE 461",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE462": {
+      "code": "ECE 462",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE464": {
+      "code": "ECE 464",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE465": {
+      "code": "ECE 465",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE466": {
+      "code": "ECE 466",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE467": {
+      "code": "ECE 467",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE468": {
+      "code": "ECE 468",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE469": {
+      "code": "ECE 469",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE471": {
+      "code": "ECE 471",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE472": {
+      "code": "ECE 472",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE474": {
+      "code": "ECE 474",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE475": {
+      "code": "ECE 475",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE476": {
+      "code": "ECE 476",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE478": {
+      "code": "ECE 478",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE479": {
+      "code": "ECE 479",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE491": {
+      "code": "ECE 491",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ECE499": {
+      "code": "ECE 499",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME103": {
+      "code": "ME 103",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME104": {
+      "code": "ME 104",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME105": {
+      "code": "ME 105",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME200": {
+      "code": "ME 200",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME211": {
+      "code": "ME 211",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME231": {
+      "code": "ME 231",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME251": {
+      "code": "ME 251",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME300": {
+      "code": "ME 300",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME301": {
+      "code": "ME 301",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME310": {
+      "code": "ME 310",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME311": {
+      "code": "ME 311",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME312": {
+      "code": "ME 312",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME313": {
+      "code": "ME 313",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME314": {
+      "code": "ME 314",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME331": {
+      "code": "ME 331",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME342": {
+      "code": "ME 342",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME351": {
+      "code": "ME 351",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME352": {
+      "code": "ME 352",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME353": {
+      "code": "ME 353",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME360": {
+      "code": "ME 360",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME363364": {
+      "code": "ME 363-364",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME365": {
+      "code": "ME 365",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME371": {
+      "code": "ME 371",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME393": {
+      "code": "ME 393",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME394": {
+      "code": "ME 394",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ME401": {
+      "code": "ME 401",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME405": {
+      "code": "ME 405",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME407": {
+      "code": "ME 407",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME408": {
+      "code": "ME 408",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME412": {
+      "code": "ME 412",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME413": {
+      "code": "ME 413",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME415": {
+      "code": "ME 415",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME416": {
+      "code": "ME 416",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME422": {
+      "code": "ME 422",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME423": {
+      "code": "ME 423",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME424": {
+      "code": "ME 424",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME431": {
+      "code": "ME 431",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME432": {
+      "code": "ME 432",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME433": {
+      "code": "ME 433",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME434": {
+      "code": "ME 434",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME435": {
+      "code": "ME 435",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME436": {
+      "code": "ME 436",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME440": {
+      "code": "ME 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME451": {
+      "code": "ME 451",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME452": {
+      "code": "ME 452",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME453": {
+      "code": "ME 453",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME457": {
+      "code": "ME 457",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME458": {
+      "code": "ME 458",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME459": {
+      "code": "ME 459",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME465": {
+      "code": "ME 465",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME493494": {
+      "code": "ME 493-494",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ME499": {
+      "code": "ME 499",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ESC00010004": {
+      "code": "ESC 000.1-000.4",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ESC200": {
+      "code": "ESC 200",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC201": {
+      "code": "ESC 201",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC210": {
+      "code": "ESC 210",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC220": {
+      "code": "ESC 220",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "ESC221": {
+      "code": "ESC 221",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC251": {
+      "code": "ESC 251",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC330": {
+      "code": "ESC 330",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "ESC340": {
+      "code": "ESC 340",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "EID101": {
+      "code": "EID 101",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "EID102": {
+      "code": "EID 102",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "EID103": {
+      "code": "EID 103",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "EID105": {
+      "code": "EID 105",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID116": {
+      "code": "EID 116",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID210": {
+      "code": "EID 210",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID220": {
+      "code": "EID 220",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID221": {
+      "code": "EID 221",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID222": {
+      "code": "EID 222",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID231": {
+      "code": "EID 231",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID233": {
+      "code": "EID 233",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID234": {
+      "code": "EID 234",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID247": {
+      "code": "EID 247",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID255": {
+      "code": "EID 255",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID260": {
+      "code": "EID 260",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID270": {
+      "code": "EID 270",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID278": {
+      "code": "EID 278",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID300": {
+      "code": "EID 300",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID312": {
+      "code": "EID 312",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID314": {
+      "code": "EID 314",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID320323": {
+      "code": "EID 320 - 323",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID325": {
+      "code": "EID 325",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID326": {
+      "code": "EID 326",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID327": {
+      "code": "EID 327",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID328": {
+      "code": "EID 328",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID334IS": {
+      "code": "EID 334-IS",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID343": {
+      "code": "EID 343",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID344": {
+      "code": "EID 344",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID348": {
+      "code": "EID 348",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID353": {
+      "code": "EID 353",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID357": {
+      "code": "EID 357",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID362": {
+      "code": "EID 362",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID363": {
+      "code": "EID 363",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID364": {
+      "code": "EID 364",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID365": {
+      "code": "EID 365",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID366": {
+      "code": "EID 366",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID367": {
+      "code": "EID 367",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID370": {
+      "code": "EID 370",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID371": {
+      "code": "EID 371",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID372": {
+      "code": "EID 372",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID374": {
+      "code": "EID 374",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID375": {
+      "code": "EID 375",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID376": {
+      "code": "EID 376",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID377": {
+      "code": "EID 377",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID378": {
+      "code": "EID 378",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID390": {
+      "code": "EID 390",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID414": {
+      "code": "EID 414",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID416": {
+      "code": "EID 416",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID422": {
+      "code": "EID 422",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID423": {
+      "code": "EID 423",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID424": {
+      "code": "EID 424",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID425": {
+      "code": "EID 425",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID430": {
+      "code": "EID 430",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID432": {
+      "code": "EID 432",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID437": {
+      "code": "EID 437",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID438": {
+      "code": "EID 438",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID439": {
+      "code": "EID 439",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID440": {
+      "code": "EID 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID441": {
+      "code": "EID 441",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID444": {
+      "code": "EID 444",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID446": {
+      "code": "EID 446",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID447": {
+      "code": "EID 447",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID448": {
+      "code": "EID 448",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID449": {
+      "code": "EID 449",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID451": {
+      "code": "EID 451",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID458": {
+      "code": "EID 458",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID4601": {
+      "code": "EID 460.1",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID465": {
+      "code": "EID 465",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID469": {
+      "code": "EID 469",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID470": {
+      "code": "EID 470",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID471": {
+      "code": "EID 471",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID486": {
+      "code": "EID 486",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "EID488": {
+      "code": "EID 488",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "BIO201": {
+      "code": "Bio 201",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "BIO202": {
+      "code": "Bio 202",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "BIO250": {
+      "code": "Bio 250",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive"
+      ],
+      "elective_for_majors": []
+    },
+    "BIO364": {
+      "code": "Bio 364",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "BIO422": {
+      "code": "Bio 422",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH110": {
+      "code": "Ch 110",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "CH111": {
+      "code": "Ch 111",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "CH160": {
+      "code": "Ch 160",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH161": {
+      "code": "Ch 161",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH231": {
+      "code": "Ch 231",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH232": {
+      "code": "Ch 232",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH2321": {
+      "code": "Ch 232.1",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH233": {
+      "code": "Ch 233",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH250": {
+      "code": "Ch 250",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH255": {
+      "code": "Ch 255",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH340": {
+      "code": "Ch 340",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH351": {
+      "code": "Ch 351",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH361": {
+      "code": "Ch 361",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH362": {
+      "code": "Ch 362",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH363": {
+      "code": "Ch 363",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme"
+      ],
+      "elective_for_majors": []
+    },
+    "CH364": {
+      "code": "Ch 364",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH365": {
+      "code": "Ch 365",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH370": {
+      "code": "Ch 370",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH380": {
+      "code": "Ch 380",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH391": {
+      "code": "Ch 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH392TO398": {
+      "code": "Ch 392 to 398",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH433": {
+      "code": "Ch 433",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH435": {
+      "code": "Ch 435",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH440": {
+      "code": "Ch 440",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH451": {
+      "code": "Ch 451",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH452": {
+      "code": "Ch 452",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH460": {
+      "code": "Ch 460",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH480": {
+      "code": "Ch 480",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH491": {
+      "code": "Ch 491",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH492": {
+      "code": "Ch 492",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH493": {
+      "code": "Ch 493",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CH494": {
+      "code": "Ch 494",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CS101": {
+      "code": "CS 101",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS102": {
+      "code": "CS 102",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "CS160": {
+      "code": "CS 160",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS211": {
+      "code": "CS 211",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS261": {
+      "code": "CS 261",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS278": {
+      "code": "CS 278",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CS291": {
+      "code": "CS 291",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS321": {
+      "code": "CS 321",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS331": {
+      "code": "CS 331",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS361": {
+      "code": "CS 361",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS371": {
+      "code": "CS 371",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS394": {
+      "code": "CS 394",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS395": {
+      "code": "CS 395",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS396": {
+      "code": "CS 396",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS499": {
+      "code": "CS 499",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA110": {
+      "code": "Ma 110",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA111": {
+      "code": "Ma 111",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA113": {
+      "code": "Ma 113",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA1511": {
+      "code": "Ma 151.1",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA223": {
+      "code": "Ma 223",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA224": {
+      "code": "Ma 224",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA2241": {
+      "code": "Ma 224.1",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA225": {
+      "code": "Ma 225",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "MA226": {
+      "code": "Ma 226",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "MA240": {
+      "code": "Ma 240",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "MA326": {
+      "code": "Ma 326",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs",
+        "ee2"
+      ],
+      "elective_for_majors": []
+    },
+    "MA336": {
+      "code": "Ma 336",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "MA337": {
+      "code": "Ma 337",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA341": {
+      "code": "Ma 341",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA344": {
+      "code": "Ma 344",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA345": {
+      "code": "Ma 345",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA347": {
+      "code": "Ma 347",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA350": {
+      "code": "Ma 350",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA351": {
+      "code": "Ma 351",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA352": {
+      "code": "Ma 352",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs",
+        "ee1"
+      ],
+      "elective_for_majors": []
+    },
+    "MA353": {
+      "code": "MA 353",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA370": {
+      "code": "Ma 370",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA371": {
+      "code": "Ma 371",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA381": {
+      "code": "Ma 381",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA382": {
+      "code": "Ma 382",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA391": {
+      "code": "Ma 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA392": {
+      "code": "Ma 392",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA401": {
+      "code": "Ma 401",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA402": {
+      "code": "Ma 402",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA403": {
+      "code": "Ma 403",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA415": {
+      "code": "Ma 415",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA417": {
+      "code": "Ma 417",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA470": {
+      "code": "Ma 470",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA471": {
+      "code": "Ma 471",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA491": {
+      "code": "Ma 491",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "MA492": {
+      "code": "Ma 492",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH112": {
+      "code": "Ph 112",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "PH165": {
+      "code": "Ph 165",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH166": {
+      "code": "Ph 166",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH213": {
+      "code": "Ph 213",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "PH214": {
+      "code": "Ph 214",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "PH235": {
+      "code": "Ph 235",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH291": {
+      "code": "Ph 291",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "PH327": {
+      "code": "Ph 327",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH328": {
+      "code": "Ph 328",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH342": {
+      "code": "Ph 342",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH348": {
+      "code": "Ph 348",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH360": {
+      "code": "Ph 360",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH391": {
+      "code": "Ph 391",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH392": {
+      "code": "Ph 392",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH393": {
+      "code": "Ph 393",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH394": {
+      "code": "Ph 394",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH429": {
+      "code": "Ph 429",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH432": {
+      "code": "Ph 432",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH460": {
+      "code": "Ph 460",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH491": {
+      "code": "Ph 491",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH492": {
+      "code": "Ph 492",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH493": {
+      "code": "Ph 493",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "PH494": {
+      "code": "Ph 494",
+      "requirement_type": "engineering_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP381A": {
+      "code": "VIP 381A",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP381B": {
+      "code": "VIP 381B",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP381C": {
+      "code": "VIP 381C",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP381D": {
+      "code": "VIP 381D",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP381E": {
+      "code": "VIP 381E",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP481A": {
+      "code": "VIP 481A",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP481B": {
+      "code": "VIP 481B",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP481C": {
+      "code": "VIP 481C",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP481D": {
+      "code": "VIP 481D",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "VIP481E": {
+      "code": "VIP 481E",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HSS1": {
+      "code": "HSS 1",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "HSS2": {
+      "code": "HSS 2",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "HSS3": {
+      "code": "HSS 3",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "HSS4": {
+      "code": "HSS 4",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cheme",
+        "cive",
+        "cs",
+        "ee1",
+        "ee2",
+        "me"
+      ],
+      "elective_for_majors": []
+    },
+    "HUM105": {
+      "code": "HUM 105",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM231": {
+      "code": "HUM 231",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM242": {
+      "code": "HUM 242",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM243": {
+      "code": "HUM 243",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM250": {
+      "code": "HUM 250",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM304": {
+      "code": "HUM 304",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM305": {
+      "code": "HUM 305",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM307": {
+      "code": "HUM 307",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM308": {
+      "code": "HUM 308",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM309": {
+      "code": "HUM 309",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM311": {
+      "code": "HUM 311",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM312": {
+      "code": "HUM 312",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM315": {
+      "code": "HUM 315",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM318": {
+      "code": "HUM 318",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM323": {
+      "code": "HUM 323",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM324": {
+      "code": "HUM 324",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM325": {
+      "code": "HUM 325",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM327": {
+      "code": "HUM 327",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM330": {
+      "code": "HUM 330",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM331": {
+      "code": "HUM 331",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM332": {
+      "code": "HUM 332",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM333": {
+      "code": "HUM 333",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM334": {
+      "code": "HUM 334",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM335": {
+      "code": "HUM 335",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM337": {
+      "code": "HUM 337",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM338": {
+      "code": "HUM 338",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM348": {
+      "code": "HUM 348",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM352": {
+      "code": "HUM 352",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM354": {
+      "code": "HUM 354",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM355": {
+      "code": "HUM 355",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM356": {
+      "code": "HUM 356",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM358": {
+      "code": "HUM 358",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM361": {
+      "code": "HUM 361",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM363": {
+      "code": "HUM 363",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM373": {
+      "code": "HUM 373",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM373A1": {
+      "code": "HUM 373A 1",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM373B1": {
+      "code": "HUM 373B 1",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM374": {
+      "code": "HUM 374",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM375": {
+      "code": "HUM 375",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM377": {
+      "code": "HUM 377",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM381": {
+      "code": "HUM 381",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM383": {
+      "code": "HUM 383",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM387": {
+      "code": "HUM 387",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM389": {
+      "code": "HUM 389",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM391": {
+      "code": "HUM 391",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM392": {
+      "code": "HUM 392",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM393": {
+      "code": "HUM 393",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM394": {
+      "code": "HUM 394",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HUM99": {
+      "code": "HUM 99",
+      "requirement_type": "",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS220": {
+      "code": "SS 220",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS304": {
+      "code": "SS 304",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS305": {
+      "code": "SS 305",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS306": {
+      "code": "SS 306",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS308": {
+      "code": "SS 308",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS315": {
+      "code": "SS 315",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS318": {
+      "code": "SS 318",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS318N1": {
+      "code": "SS 318N 1",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS320": {
+      "code": "SS 320",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS321": {
+      "code": "SS 321",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS322": {
+      "code": "SS 322",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS323": {
+      "code": "SS 323",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS333": {
+      "code": "SS 333",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS334": {
+      "code": "SS 334",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS335": {
+      "code": "SS 335",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS337": {
+      "code": "SS 337",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS338": {
+      "code": "SS 338",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS339": {
+      "code": "SS 339",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS340": {
+      "code": "SS 340",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS342": {
+      "code": "SS 342",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS345": {
+      "code": "SS 345",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS346": {
+      "code": "SS 346",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS347": {
+      "code": "SS 347",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS348": {
+      "code": "SS 348",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS350": {
+      "code": "SS 350",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS351": {
+      "code": "SS 351",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS352": {
+      "code": "SS 352",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS354": {
+      "code": "SS 354",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS357": {
+      "code": "SS 357",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS358": {
+      "code": "SS 358",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS360": {
+      "code": "SS 360",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS361": {
+      "code": "SS 361",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS362": {
+      "code": "SS 362",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS366": {
+      "code": "SS 366",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS369": {
+      "code": "SS 369",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS371": {
+      "code": "SS 371",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS372": {
+      "code": "SS 372",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS374": {
+      "code": "SS 374",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS378": {
+      "code": "SS 378",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS382": {
+      "code": "SS 382",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS384": {
+      "code": "SS 384",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS388": {
+      "code": "SS 388",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS390": {
+      "code": "SS 390",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS391": {
+      "code": "SS 391",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS394": {
+      "code": "SS 394",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "SS99": {
+      "code": "SS 99",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA101102": {
+      "code": "HTA 101, 102",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA209": {
+      "code": "HTA 209",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA211": {
+      "code": "HTA 211",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA212": {
+      "code": "HTA 212",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA213": {
+      "code": "HTA 213",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA217": {
+      "code": "HTA 217",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA220": {
+      "code": "HTA 220",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA221": {
+      "code": "HTA 221",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA231": {
+      "code": "HTA 231",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA240": {
+      "code": "HTA 240",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA261": {
+      "code": "HTA 261",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA263": {
+      "code": "HTA 263",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA264": {
+      "code": "HTA 264",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA265": {
+      "code": "HTA 265",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA270": {
+      "code": "HTA 270",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA271": {
+      "code": "HTA 271",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA273": {
+      "code": "HTA 273",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA275": {
+      "code": "HTA 275",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA278": {
+      "code": "HTA 278",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA280": {
+      "code": "HTA 280",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA281": {
+      "code": "HTA 281",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA285": {
+      "code": "HTA 285",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA296": {
+      "code": "HTA 296",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA297": {
+      "code": "HTA 297",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA298": {
+      "code": "HTA 298",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA299": {
+      "code": "HTA 299",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA300": {
+      "code": "HTA 300",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA303": {
+      "code": "HTA 303",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA305": {
+      "code": "HTA 305",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA306": {
+      "code": "HTA 306",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA308": {
+      "code": "HTA 308",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA310": {
+      "code": "HTA 310",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA312": {
+      "code": "HTA 312",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA313": {
+      "code": "HTA 313",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA313U1": {
+      "code": "HTA 313U 1",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA313W1": {
+      "code": "HTA 313W 1",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA314": {
+      "code": "HTA 314",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA315": {
+      "code": "HTA 315",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA316": {
+      "code": "HTA 316",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA320": {
+      "code": "HTA 320",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA322": {
+      "code": "HTA 322",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA324": {
+      "code": "HTA 324",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA325": {
+      "code": "HTA 325",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA328": {
+      "code": "HTA 328",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA333": {
+      "code": "HTA 333",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA335": {
+      "code": "HTA 335",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA338": {
+      "code": "HTA 338",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA342": {
+      "code": "HTA 342",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA343": {
+      "code": "HTA 343",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA351": {
+      "code": "HTA 351",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "HTA99": {
+      "code": "HTA 99",
+      "requirement_type": "humanities_social_science_electives",
+      "required_for_majors": [],
+      "elective_for_majors": []
+    },
+    "CS357": {
+      "code": "CS 357",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "ECE352": {
+      "code": "ECE 352",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    },
+    "CS366": {
+      "code": "CS 366",
+      "requirement_type": "required_coursework",
+      "required_for_majors": [
+        "cs"
+      ],
+      "elective_for_majors": []
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-01-13T18:44:46.481Z"
+  }
+}
