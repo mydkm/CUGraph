@@ -736,7 +736,8 @@
   #degree-builder.collapsed #degree-builder-body {
     display: none;
   }
-  #degree-builder.collapsed .db-page-controls {
+  #degree-builder.collapsed .db-page-controls,
+  #degree-builder[data-open="0"] .db-page-controls {
     display: none;
   }
 
