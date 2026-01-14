@@ -729,6 +729,12 @@
   .db-thesis-toggle {
     margin-left: auto;
     justify-content: flex-end;
+    position: relative;
+    left: 1px;
+  }
+  .db-thesis-toggle span {
+    position: relative;
+    left: -2px;
   }
   .db-thesis-toggle.hidden {
     display: none;
