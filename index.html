@@ -199,6 +199,7 @@
             <button id="search-go">Go</button>
             <div id="search-suggestions" class="hidden"></div>
           </div>
+          <button id="add-class-btn" class="add-class-btn" type="button">Add class</button>
         </div>
       </div>
     </div>
@@ -221,6 +222,67 @@
       <span class="desc-block-title">Description:</span>
       <div class="desc-text" id="details-desc"></div>
     </div>
+  </div>
+  <div id="details-actions" class="details-actions hidden"></div>
+</div>
+
+<!-- custom class editor (bottom-right) -->
+<div id="custom-class-card" class="hidden">
+  <div id="custom-class-header">
+    <div id="custom-class-title">Create Class</div>
+  </div>
+  <div id="custom-class-body">
+    <label class="custom-field">
+      <span>Course Code</span>
+      <input id="custom-class-code-input" type="text" placeholder="e.g., CS 499" />
+    </label>
+    <label class="custom-field">
+      <span>Class Title</span>
+      <input id="custom-class-title-input" type="text" placeholder="e.g., Special Topics in Robotics" />
+    </label>
+    <label class="custom-field">
+      <span>Department</span>
+      <select id="custom-class-dept">
+        <option value="">(Unassigned)</option>
+        <option value="Biology">Biology</option>
+        <option value="Chemical Engineering">Chemical Engineering</option>
+        <option value="Chemistry">Chemistry</option>
+        <option value="Civil Engineering">Civil Engineering</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Electrical and Computer Engineering">Electrical and Computer Engineering</option>
+        <option value="Engineering Sciences">Engineering Sciences</option>
+        <option value="Interdisciplinary Engineering">Interdisciplinary Engineering</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Mechanical Engineering">Mechanical Engineering</option>
+        <option value="Physics">Physics</option>
+        <option value="Humanities">Humanities</option>
+        <option value="Social Sciences">Social Sciences</option>
+        <option value="History and Theory of Art">History and Theory of Art</option>
+      </select>
+    </label>
+    <label class="custom-field">
+      <span>Level</span>
+      <select id="custom-class-level">
+        <option value="">(Unassigned)</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Graduate">Graduate</option>
+      </select>
+    </label>
+    <label class="custom-field">
+      <span>Credits</span>
+      <input id="custom-class-credits" type="number" min="0" step="0.5" placeholder="e.g., 3" />
+    </label>
+    <label class="custom-field">
+      <span>Prereqs/Coreqs</span>
+      <input id="custom-class-prereqs" type="text" placeholder="e.g., MA 113, ECE 160" />
+    </label>
+    <label class="custom-field">
+      <span>Description (optional)</span>
+      <textarea id="custom-class-desc" rows="3" placeholder="Leave blank for n/a"></textarea>
+    </label>
+  </div>
+  <div class="custom-class-actions">
+    <button id="custom-class-save-btn" type="button">Done</button>
   </div>
 </div>
 

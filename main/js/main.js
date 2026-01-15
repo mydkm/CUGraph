@@ -11,6 +11,7 @@ import { initDetails } from "./ui/details.js";
 import { initSearch } from "./ui/search.js";
 import { applyCombinedVisibility } from "./ui/visibility.js";
 import { initDegreeBuilder } from "./ui/degreeBuilder.js";
+import { initCustomClass } from "./ui/customClass.js";
 
 window.addEventListener("DOMContentLoaded", () => {
   // Build graph first
@@ -34,10 +35,22 @@ window.addEventListener("DOMContentLoaded", () => {
   const detailsCredits   = document.getElementById("details-credits");
   const detailsPrereqs   = document.getElementById("details-prereqs");
   const detailsDesc      = document.getElementById("details-desc");
+  const detailsActions   = document.getElementById("details-actions");
 
   const searchInput     = document.getElementById("search-input");
   const searchGoBtn     = document.getElementById("search-go");
   const suggestionsBox  = document.getElementById("search-suggestions");
+  const addClassBtn     = document.getElementById("add-class-btn");
+
+  const customCard       = document.getElementById("custom-class-card");
+  const customCodeInput  = document.getElementById("custom-class-code-input");
+  const customTitleInput = document.getElementById("custom-class-title-input");
+  const customDeptSelect = document.getElementById("custom-class-dept");
+  const customLevelSelect = document.getElementById("custom-class-level");
+  const customCreditsInput = document.getElementById("custom-class-credits");
+  const customPrereqInput = document.getElementById("custom-class-prereqs");
+  const customDescInput = document.getElementById("custom-class-desc");
+  const customSaveBtn = document.getElementById("custom-class-save-btn");
 
   // --- NEW: Legend/Controls collapse elements ---
   const legendToggle = document.getElementById("legend-toggle");
@@ -134,6 +147,27 @@ window.addEventListener("DOMContentLoaded", () => {
   // Details (pass applyDeptFilter so prereq jumps can unhide departments)
   let degreeBuilderApi = null;
 
+  const customClassApi = initCustomClass({
+    network,
+    nodes,
+    edges,
+    NODE_DEPT,
+    SEARCH_ENTRIES,
+    addClassBtn,
+    customCard,
+    customCodeInput,
+    customTitleInput,
+    customDeptSelect,
+    customLevelSelect,
+    customCreditsInput,
+    customPrereqInput,
+    customDescInput,
+    customSaveBtn,
+    requirementsPanel: document.getElementById("requirements-panel"),
+    detailsCard,
+    applyDeptFilter: deptFilterApi.applyDeptFilter,
+  });
+
   const detailsApi = initDetails({
     network, nodes, edges, NODE_DEPT,
     applyDeptFilter: deptFilterApi.applyDeptFilter,
@@ -151,6 +185,8 @@ window.addEventListener("DOMContentLoaded", () => {
     detailsCredits,
     detailsPrereqs,
     detailsDesc,
+    detailsActions,
+    onRenderDetails: customClassApi.renderDetailsActions,
   });
 
   // Search (needs focusNode from details)

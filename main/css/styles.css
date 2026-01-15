@@ -363,6 +363,22 @@
     background: var(--panel-bg);
   }
 
+  .add-class-btn {
+    margin-top: 8px;
+    width: 100%;
+    padding: 6px 8px;
+    background: var(--panel-bg);
+    color: var(--text-color);
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 12px;
+    box-shadow: var(--card-shadow);
+  }
+  .add-class-btn:hover {
+    background: rgba(255, 255, 255, 0.06);
+  }
+
   /* Details card in bottom-right */
   #details-card {
     position: fixed;
@@ -429,6 +445,89 @@
     color: var(--text-color);
     white-space: pre-wrap;
   }
+  .details-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .details-actions.hidden {
+    display: none;
+  }
+  .details-actions button {
+    flex: 1;
+    background: #333;
+    color: #ccc;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .details-actions button:hover {
+    background: #444;
+    color: #fff;
+  }
+
+  #custom-class-card {
+    position: fixed;
+    left: 12px;
+    bottom: 12px;
+    width: var(--right-rail-width);
+    background-color: var(--panel-bg);
+    color: var(--text-color);
+    padding: 12px 14px;
+    font-size: 12px;
+    border: 1px solid var(--panel-border);
+    border-radius: 6px;
+    line-height: 1.4em;
+    box-shadow: var(--card-shadow);
+    z-index: 9999;
+  }
+  #custom-class-card.hidden {
+    display: none;
+  }
+  #custom-class-header {
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  #custom-class-body {
+    display: grid;
+    gap: 8px;
+  }
+  .custom-field {
+    display: grid;
+    gap: 4px;
+  }
+  .custom-field input,
+  .custom-field select,
+  .custom-field textarea {
+    background: var(--input-bg);
+    color: var(--input-text);
+    border: 1px solid var(--input-border);
+    border-radius: 6px;
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+  .custom-class-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .custom-class-actions button {
+    background: #333;
+    color: #ccc;
+    border: 1px solid #555;
+    border-radius: 6px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .custom-class-actions button:hover {
+    background: #444;
+    color: #fff;
+  }
+
 
   /* Right rail container */
   #right-rail {

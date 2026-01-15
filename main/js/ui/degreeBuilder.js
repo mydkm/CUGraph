@@ -971,7 +971,9 @@ export function initDegreeBuilder({
   function courseLabel(nodeId) {
     const n = nodes.get(nodeId);
     if (!n) return { titleLine: nodeId, creditsLine: "" };
-    const title = n.courseTitle ? `${n.id}: ${n.courseTitle}` : (n.title || n.id || nodeId);
+    const courseCode = n.courseCode || n.id || nodeId;
+    const courseTitle = n.courseTitle || "";
+    const title = courseTitle ? `${courseCode}: ${courseTitle}` : (n.title || courseCode || nodeId);
     const credits = n.credits ? `${n.credits} credits` : "";
     return { titleLine: title, creditsLine: credits };
   }
@@ -1242,7 +1244,11 @@ export function initDegreeBuilder({
     const required = Array.isArray(req.required_for_majors) ? req.required_for_majors : [];
     const elective = Array.isArray(req.elective_for_majors) ? req.elective_for_majors : [];
     if (required.length === 0 && elective.length === 0) return true;
-    return required.includes(majorId) || elective.includes(majorId);
+    const norm = String(majorId || "").trim().toLowerCase();
+    return (
+      required.some((m) => String(m || "").trim().toLowerCase() === norm) ||
+      elective.some((m) => String(m || "").trim().toLowerCase() === norm)
+    );
   }
 
   function renderRequirementsPanel() {
@@ -1385,8 +1391,11 @@ export function initDegreeBuilder({
       const credits = parseCredits(n && n.credits);
 
       if (requirementType === "required_coursework") {
-        if (req && Array.isArray(req.required_for_majors) && req.required_for_majors.includes(majorId)) {
-          selectedCredits.required_coursework += credits;
+        if (req && Array.isArray(req.required_for_majors)) {
+          const norm = String(majorId || "").trim().toLowerCase();
+          if (req.required_for_majors.some((m) => String(m || "").trim().toLowerCase() === norm)) {
+            selectedCredits.required_coursework += credits;
+          }
         }
         continue;
       }

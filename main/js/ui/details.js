@@ -8,6 +8,7 @@ export function initDetails({
   NODE_DEPT,
   applyDeptFilter, // pass deptFilterApi.applyDeptFilter so prereq jumps can unhide needed departments
   onBeforeFocusNode = null, // optional hook to adjust other filters before focusing (e.g., degree builder hide toggle)
+  onRenderDetails = null, // optional hook to render custom actions in the details card
   detailsCard,
   detailsCloseBtn,
   detailsCodeTitle,
@@ -16,6 +17,7 @@ export function initDetails({
   detailsCredits,
   detailsPrereqs,
   detailsDesc,
+  detailsActions,
 } = {}) {
   if (!network || !nodes || !edges || !NODE_DEPT) {
     throw new Error("initDetails: network, nodes, edges, and NODE_DEPT are required.");
@@ -62,8 +64,10 @@ export function initDetails({
     const n = nodes.get(nodeId);
     if (!n) return;
 
-    let headerText = n.id;
-    if (n.courseTitle) headerText = n.id + ": " + n.courseTitle;
+    const courseCode = n.courseCode || n.id;
+    const courseTitle = n.courseTitle || n.title || "";
+    let headerText = courseCode;
+    if (courseTitle) headerText = courseCode + ": " + courseTitle;
 
     if (detailsCodeTitle) detailsCodeTitle.textContent = headerText || n.id || "";
     if (detailsDept) detailsDept.textContent = n.dept || "";
@@ -81,6 +85,14 @@ export function initDetails({
           focusNode(targetId);
         });
       });
+    }
+
+    if (detailsActions) {
+      detailsActions.textContent = "";
+      if (typeof onRenderDetails === "function") {
+        onRenderDetails({ node: n, actionsEl: detailsActions });
+      }
+      detailsActions.classList.toggle("hidden", detailsActions.childElementCount === 0);
     }
 
     if (detailsCard) detailsCard.classList.remove("hidden");
