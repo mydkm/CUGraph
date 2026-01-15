@@ -87,7 +87,7 @@ export const NODES_INIT = [
     "courseTitle": "Protein Expression, Purification and Analysis",
     "prereqText": "BIO 201, Ch 110, and Ch 111",
     "description": "Lectures cover chemical properties of proteins, protein folding, solubility, charge, structure, posttranslational modifications; protein synthesis, recombinant protein expression including cloning strategies, expression plasmids, expression systems; chromatography techniques for protein purification. Laboratory work involve making gels and SDS-PAGE electrophoresis, purification of native proteins with ion exchange and salting out technique; purification of GST tagged proteins on glutathione agarose column and His-tagged proteins on Ni-NTA column; measuring of protein concentration and assays for protein activity; Western blot.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -933,7 +933,7 @@ export const NODES_INIT = [
     "courseTitle": "Independent Research Project",
     "prereqText": "",
     "description": "The purpose of this course is to allow graduate students to pursue an independent study or research project other than their thesis, with the supervision of their thesis adviser or another professor. A student is only allowed to register for this course once towards the master’s degree. An interim and a final written report are required.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -969,7 +969,7 @@ export const NODES_INIT = [
     "courseTitle": "Engineering Risk Analysis",
     "prereqText": "Ma 224 (Probability) or graduate standing.",
     "description": "The main objective of this course is to introduce students to the basic terminology and tools related to probability theory, statistics, and decision theory in the context of solving civil engineering problems. A secondary objective is to expose students to the many uncertainties inherent in civil engineering and to the tools that are available for modeling and analyzing such uncertainties. Topics to be covered include probabilistic modeling, statistical inference, Bayesian statistics, and decision under uncertainty.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -1149,7 +1149,7 @@ export const NODES_INIT = [
     "courseTitle": "Thesis/Project",
     "prereqText": "",
     "description": "Master's candidates are required to conduct, under the guidance of a faculty adviser, an original investigation of a problem in civil engineering, individually or in a group, and to submit a written thesis describing the results of the work.",
-    "credits": "6",
+    "credits": "6.00",
     "level": "Graduate"
   },
   {
@@ -1491,7 +1491,7 @@ export const NODES_INIT = [
     "courseTitle": "Selected Topics in Chemistry",
     "prereqText": "",
     "description": "Study of topics related to specialized areas as well as advanced fundamentals. 2-6 credits. Prerequisite: Chemistry faculty approval required",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -1509,7 +1509,7 @@ export const NODES_INIT = [
     "courseTitle": "Research Problem I",
     "prereqText": "permission of instructor",
     "description": "An elective course available to any qualified and interested student irrespective of year or major. Students may approach a faculty member and apply to carry out independent research on problems of mutual interest, in pure or applied chemistry. Topics may range from the completely practical to the highly theoretical, and each student is encouraged to do creative work on his or her own with faculty guidance. 1-3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -1671,7 +1671,7 @@ export const NODES_INIT = [
     "courseTitle": "Special Topics in Chemistry",
     "prereqText": "None",
     "description": "Advanced study of topics related to specialized areas of pure and applied chemistry. 2-6 credits. Prerequisite: Chemistry faculty approval required",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -2445,7 +2445,7 @@ export const NODES_INIT = [
     "courseTitle": "Heat Transfer Equipment Design (Heat Exchangers)",
     "prereqText": "",
     "description": "The chemical engineer must develop, design and engineer both the complete process and the equipment used; choose the proper raw materials; operate the plant efficiently, safely and economically; and see to it that products meet the requirements set by the customer. Chemical engineering is both an art and a science. Whenever science helps the engineer to solve a problem, science should be used. When, as is usually the case, science does not give a complete answer, it is necessary to use experience and judgment. The professional stature of an engineer depends on skill in utilizing all sources of information to reach practical solutions to processing problems. This course will concentrate specifically on the theoretical and practical principles of detailed equipment design for process heat transfer operations. Attempts will be made to emphasize modern technologies used in these operations. Same as EID 460.1",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -2589,7 +2589,7 @@ export const NODES_INIT = [
     "courseTitle": "Graduate Research Problem I",
     "prereqText": "",
     "description": "",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -3093,7 +3093,7 @@ export const NODES_INIT = [
     "courseTitle": "Electrical Engineering Sophomore Projects",
     "prereqText": "",
     "description": "This course focuses on one particular complex system (e.g., music synthesizer, wireless transceiver, radar) to introduce a wide range of electrical engineering principles such as frequency response, noise, feedback, loading and interfacing. In a laboratory setting, students investigate the design of subsystems that may include amplifiers, oscillators, RF or opto-electronic circuits, A/D and D/A converters, and power circuits. By measuring the impact of the operating conditions on circuit performance, students learn the principles of systems engineering, development of a testbench, and proper documentation. By the end of the semester, the class will have developed a complete functioning system through reverse engineering.",
-    "credits": "1",
+    "credits": "1.00",
     "level": "Undergraduate"
   },
   {
@@ -3507,7 +3507,7 @@ export const NODES_INIT = [
     "courseTitle": "Selected Topics in Electrical & Computer Engineering",
     "prereqText": "",
     "description": "Subjects may include seminars on topics related to advances in technology, current research areas. Also individual research, design and development or study of subjects in electrical and computer engineering. 1-3 credits. Prerequisite: permission of instructor",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -3543,7 +3543,7 @@ export const NODES_INIT = [
     "courseTitle": "Selected Topics in Probability & Stochastic Processes",
     "prereqText": "",
     "description": "Advanced topics in applied probability or stochastic processes. Possible areasof study include: Markov processes, queuing theory, information theory, stochastic systems, financial engineering. 1-3 credits. Prerequisite: ECE 302 or permission of instructor",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -4389,7 +4389,7 @@ export const NODES_INIT = [
     "courseTitle": "Data Science for Social Good",
     "prereqText": "Prior course in ML or AI, and permission of instructor.",
     "description": "Applications of machine learning, data science and software engineering to projects in the areas of education, equality, justice, health, public safety, economic development or other areas. Projects will be done in collaboration with external partners, and will be focused on solving problems with an emphasis on the greater New York City Area. Students will work with external partners to specify problems and investigate possible solutions. Students will work between disciplines to develop new machine learning based solutions. Additionally, students will work collaboratively to visually convey the insights and results generated.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -4443,7 +4443,7 @@ export const NODES_INIT = [
     "courseTitle": "Selected Topics in Electrical & Computer Engineering",
     "prereqText": "",
     "description": "Subjects may include study in electrical and computer engineering, or seminars on topics related to advances in technology. This course may not be used to expand the number of credits of thesis, or cover material related to the thesis. Open to all students. 1-3 credits. Prerequisite: permission of instructor",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -4461,7 +4461,7 @@ export const NODES_INIT = [
     "courseTitle": "Thesis/Project",
     "prereqText": "",
     "description": "Master's candidates are required to conduct, under the guidance of a faculty adviser, an original individual investigation of a problem in electrical and computer engineering and to submit a written thesis describing the results of the work.",
-    "credits": "6",
+    "credits": "6.00",
     "level": "Graduate"
   },
   {
@@ -4497,7 +4497,7 @@ export const NODES_INIT = [
     "courseTitle": "Engineering Graphics",
     "prereqText": "none",
     "description": "An introduction to graphical representation of 3-dimensional objects. After learning the principles of technical drawing using precision hand tools, students utilize CAD software to create professional caliber engineering drawings. An introduction to solid modeling is given. Topics include orthographic projections, linetypes, geometric dimensioning and tolerancing, layers, layouts, solid modeling, part assemblies and finite element analysis.",
-    "credits": "1",
+    "credits": "1.00",
     "level": "Undergraduate"
   },
   {
@@ -4767,7 +4767,7 @@ export const NODES_INIT = [
     "courseTitle": "Ethics of Computer Science",
     "prereqText": "None",
     "description": "A study of the political, ethical, and social dimensions of living in a world increasingly governed and defined by networked, computational systems, from their personal everyday impacts to their planetary ones. Drawing from a mix of historical and contemporary case studies, philosophy, and science fiction, students will explore frameworks for understanding technology not merely as artifact or product but as practice and ideology. As a final project, students will propose and prototype a framework for their own approach to ethical engineering and design.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -4785,7 +4785,7 @@ export const NODES_INIT = [
     "courseTitle": "Special Research Project",
     "prereqText": "",
     "description": "Students will work on individual projects in engineering under supervision of faculty. Problems will vary according to individual interest. Permission to register is required from the Office of the Dean of Engineering. Students on academic probation are ineligible for registration. 3–6 credits. Prerequisite: permission of Faculty and Dean's office",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -5073,7 +5073,7 @@ export const NODES_INIT = [
     "courseTitle": "Interdisciplinary Senior Project I",
     "prereqText": "",
     "description": "Individual or group design projects in interdisciplinary areas of engineering.These projects are based on the interest of the students and must have the approval of their adviser(s) and course instructor. Periodic and final engineering reports and formal presentations are required for all projects. In addition to technical aspects projects must also address some of the following: economic feasibility environmental impact social impact, ethics, reliability and safety. 3 or 4 credits. Prerequisite: students are required to have completed necessary preparatory engineering courses related to the project topic",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -5091,7 +5091,7 @@ export const NODES_INIT = [
     "courseTitle": "Interdisciplinary Senior Project II Continuation of EID 362",
     "prereqText": "",
     "description": "3 or 4 credits. Prerequisite: EID 362",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -5433,7 +5433,7 @@ export const NODES_INIT = [
     "courseTitle": "Structural Dynamics",
     "prereqText": "",
     "description": "Dynamic behavior and design of structures subjected to time-dependent loads. Included in the load systems are earthquakes, blasts, wind and vehicles. Shock spectra and pressure impulse curves. Special applications in blast mitigation design. Same as CE 425",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -5703,7 +5703,7 @@ export const NODES_INIT = [
     "courseTitle": "Heat Transfer Equipment Design (Heat Exchangers)",
     "prereqText": "",
     "description": "Same as ChE 460.1",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -5739,7 +5739,7 @@ export const NODES_INIT = [
     "courseTitle": "Independent Study Project",
     "prereqText": "",
     "description": "Same as CE 469",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -5793,7 +5793,7 @@ export const NODES_INIT = [
     "courseTitle": "Urban Megaprojects and Environmental Impact Assessment",
     "prereqText": "",
     "description": "Same as CE 486",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -6063,7 +6063,7 @@ export const NODES_INIT = [
     "courseTitle": "Mathematics in Art",
     "prereqText": "",
     "description": "This course deals with the period beginning with Pythagoras in ancient Greece and goes up to the present day. Topics include Godel's incompleteness theorem, Euclidean and non-Euclidean geometries, infinity, paradoxes, and soap film experiments. Also discussed are black holes, the Big Bang theory, and relativity and quantum theory. The course is open to all Cooper Union students but is primarily oriented toward making the above-mentioned concepts comprehensive to those with very little mathematics in their background. Engineering students should see the Mathematics faculty and their advisor(s) for permission to take this course. The relatedness of seemingly distant fields (science, art, mathematics, music) is a central theme of the course. 3 general studies credits. Spring only.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -6423,7 +6423,7 @@ export const NODES_INIT = [
     "courseTitle": "Seminar",
     "prereqText": "",
     "description": "Individual investigation of selected topics in pure or applied mathematics, centered on a subject to be agreed on between students and the faculty leader. Emphasis will be on training in independent reading of mathematical literature, oral presentations and group discussions of the theory and problems. Credits and class hours to be determined by faculty on individual basis. Prerequisite: Ma 223",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -6441,7 +6441,7 @@ export const NODES_INIT = [
     "courseTitle": "Seminar (continuation of Ma 381)",
     "prereqText": "",
     "description": "Individual investigation of selected topics in pure or applied mathematics, centered on a subject to be agreed on between students and the faculty leader. Emphasis will be on training in independent reading of mathematical literature, oral presentations and group discussions of the theory and problems. Credits to be determined by faculty on individual basis. Prerequisite: Ma 381",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -6585,7 +6585,7 @@ export const NODES_INIT = [
     "courseTitle": "Selected Advanced Topics in Mathematics",
     "prereqText": "",
     "description": "Selected topics in Mathematics treated at an advanced level. Credits to be determined by Mathematics faculty. Prerequisites: Ma 326 and permission of faculty member",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -7611,7 +7611,7 @@ export const NODES_INIT = [
     "courseTitle": "Thesis/Project",
     "prereqText": "",
     "description": "Master's candidates are required to conduct, under the guidance of a faculty adviser, an original investigation of a problem in mechanical engineering, individually or in a group and to submit a written thesis describing the results of the work.",
-    "credits": "6",
+    "credits": "6.00",
     "level": "Graduate"
   },
   {
@@ -8007,7 +8007,7 @@ export const NODES_INIT = [
     "courseTitle": "Advanced Research in Physics – III",
     "prereqText": "Ph 492",
     "description": "Continuation of Ph 492. This is intended to allow students to continue ongoing graduate-level research.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Graduate"
   },
   {
@@ -8475,7 +8475,7 @@ export const NODES_INIT = [
     "courseTitle": "New Media",
     "prereqText": "",
     "description": "This course considers what makes media \"new\" and why those characteristics are relevant in contemporary society. We will consider how older media have been adapted to incorporate new media technologies and strategies, how video games and the Internet have changed our expectations of media experiences, the impact of new media on artistic practice, the importance of new media in contemporary cultural economy, and related topics. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -8799,7 +8799,7 @@ export const NODES_INIT = [
     "courseTitle": "Philosophy of Infrastructure",
     "prereqText": "",
     "description": "Buried underground, concealed behind walls, there and not there: infrastructure is overlooked, made invisible, and yet everywhere defines the material basis and social promises of modern life. Infrastructures mediate our needs and desires, facilitate work and play, divide private from public space, determine what we can or cannot access, and connect our everyday actions to planetary systems and other lives across the globe. Looking at these underlying structures and technological arrangements points to the very root of philosophical inquiry, challenging us to question the things we take for granted. This course explores infrastructure as a way of seeing and framing philosophical questions about the built environment, capitalist growth, inequality, and climate change. We will critically investigate theorical approaches to and ordinary assumptions behind various physical and digital infrastructures as well as a broader range of things we might conceive as infrastructural, such as social programs, zoning, and urban ecologies. Course readings will explore public works and city planning; water systems and climate resilience; electrical grids, fossil fuels, and renewable energy; supply chain logistics and waste; and automation, surveillance, and cloud computing, among other topics. We will ask: What is infrastructure and what is its place in our cultural imagination? How have conceptions of it changed over time? What values and norms are embodied in infrastructural design and technologies? Can infrastructure be socially just or unjust? How does infrastructure constrain or open possibilities for different climate futures and alternative ways of living together? What happens when it breaks down? 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -8907,7 +8907,7 @@ export const NODES_INIT = [
     "courseTitle": "Seminar in Humanities",
     "prereqText": "",
     "description": "Seminar giving close attention to special topics in the Humanities. The seminar may be repeated for credit with the permission of the dean of the Faculty of Humanities and Social Sciences. 3 credits. Machine Philosophy [HUM 373-M] ( Spring 2024 ) In this course we will investigate the functional utility of the concept of the machine. How has it been invoked historically in relationship to the concept of the human? What anxieties about—and desires for—humanness has it served to name? In particular, we will consider how the alienness of the machine has been embraced by Asian and Afrofuturisms in order to critique and reimagine both radicalized imaginaries of otherness and the concept of the human itself. We will also ask whether or not there are distinct qualities of machinic cognition that have transfigured the materiality of our planet and, if so, how? In other words, we will consider the machine as both reflecting the irresolution over what is distinctly human and as itself a mode of cognition that is alien to human consciousness. Some of the authors we will be consulting in our study are Gilbert Simondon, Gilles Deleuze & Felix Guattari, CCRU, Anne Anlin Cheng, Luciana Parisi, N. Katherine Hayles, Denise Ferreira da Silva, Mel Y. Chen, Kodwo Eshun, and Jasbir Puar. Virgil's Rome [HUM 373-N] ( Spring 2024) In the opening line of her recent biography of the Roman poet, Virgil, Sarah Ruden speaks of “the tenderness and majesty” of Virgil’s poetry ( Vergil. The Poet’s Life , Yale University Press, 2023). (Ruden is in a position to know, since she has translated the Aeneid herself, and is the first to render the epic in metrical English.) Ruden’s formulation perfectly encapsulates the distinctive character and universal appeal of a poetic voice that has, as the cliché goes, been imitated and emulated but never equaled over the many centuries since the poet’s death in 19 BCE. For nearly two millennia, Virgil reigned virtually unchallenged as the supreme poet not just of classical antiquity, but of all time, at least in the west. During the Christian era, this “pagan” poet was not just admitted into the fold, he was fervently embraced, on the basis of having predicted the birth of Christ in one of his early works, or so it was believed. He is Dante’s guide through Hell and Purgatory in The Divine Comedy . For centuries (yes, centuries!) his works were consulted for advice or predictions of the future in a process called the sortes Vergilianae (“Virgilian lots”) [google it]. This seminar explores the poetic output of Publius Vergilius Maro (to use his full Roman name), in the context of the Augustan era in which he lived and wrote. Augustan Rome presents the only serious (ancient) contender for comparison with the “Golden age” of Periclean Athens. In all categories of art, architecture, and literature, the age of the first Roman emperor, Augustus (27 BCE-14 CE), rivals that of high classical Greece. The singular era Augustus shaped still resonates in our modern global world. Virgil’s poetry continually reflects and refracts the pressing issues of the day, political, social, and cultural. In a close reading of all three of Virgil’s extant works, the Eclogues , the Georgics , and the Aeneid , we shall focus on the historical content in particular, thereby allowing a picture of Augustan Rome to emerge, as seen through the eyes of its greatest poet.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9087,7 +9087,7 @@ export const NODES_INIT = [
     "courseTitle": "Philosophy of Ecology",
     "prereqText": "",
     "description": "This course explores the development of ecology and its entanglement with philosophical questions about nature and society. How does this “subversive science,” as it’s sometimes called, challenge human-centered traditions of knowledge and dominant views of nature? In our time of planetary crisis, ecology asks us to think about the world in complex and relational ways, pointing to the radical possibilities of kinship with other species and care for the web of life that sustains us. Our course will begin by tracing ecological thinking from Linnaeus and Darwin to the foundational 20th century research that helped define ecology as a science, with the rise of plant succession studies, systems ecology, and energetics. Along the way, we will explore a multidisciplinary range of texts that help us to consider the implications of key ecological concepts and debates for critical perspectives on built and cultivated environments; class, race, and gender; and capitalist production, land use, and colonialism. Looking at ecological relationships that span from our surroundings in New York City to other complex systems around the world, we will discuss questions drawn from eco-philosophical movements and fields such as environmental justice, deep ecology, ecofeminism, anthropology of science, and political ecology. We will ask: How does foregrounding the interconnections between things modify our understanding of social and natural categories? What role does imagination play in scientific methods and cultural representations of science? How might ecology help us rethink economy, design, and infrastructure? How does it shape our commitments to human and non-human others in the face of climate change, habitat loss, and mass extinction? What would it mean to live within the regenerative capacity of our ecosphere? 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9159,7 +9159,7 @@ export const NODES_INIT = [
     "courseTitle": "Independent Study (Humanities)",
     "prereqText": "",
     "description": "Independent Studies are voluntary agreements between individual full-time or part-time faculty members and individual students, in which students complete a course of study and assignment. Only juniors and seniors in good academic standing (defined as having earned a minimum of 3.0 GPA overall) are eligible for Independent Study. Faculty conduct Independent Studies with students who have already completed a class or other educational/research activity under their supervision. The course of study and assignment for 1 or 2 credit Independent Study typically consist of a reading list and workload comparable to that required for a 1 or 2 credit course. Independent Studies are intensive activities. Faculty members regard them as a significant commitment. Students can only participate in one Independent Study per semester. If an HSS full-time or part-time faculty member is willing to supervise an Independent Study, the student should work with the faculty member to complete this form and submit the signed application to the HSS’s Dean’s Office no later than the end of the first week of semester for approval. LATE APPLICATIONS WILL NOT BE ACCEPTED . The work cannot begin unless the Independent Study is approved by the Dean’s Office. The major consideration in approving proposals for independent study is the educational value of the study project within the structure of degree requirements. To learn more, please visit HSS Independent Study Policy .",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -9285,7 +9285,7 @@ export const NODES_INIT = [
     "courseTitle": "Seminar in Social Science",
     "prereqText": "",
     "description": "Seminar giving close attention to special topics in the Social Sciences. Recent topics have included sustainability and the economy. The seminar may be repeated for credit with the permission of the dean of the Faculty of Humanities and Social Sciences. 3 credits. Histories of Race in Latin(x) America [SS 318-N] ( Spring 2024 ) This course studies the histories and cultural genealogies of race and racialization in Latin America and in the Hispanic/Latinx community in the United States. Racial hierarchies helped shape asymmetrical power relations in colonial societies and postcolonial states in the Americas. However, racial and ethnic identities also informed forms of indigenous, Black, and anti-colonial resistance. Against a backdrop of discrimination and emancipatory hopes, depictions of race and racial mixing have been prominent in representations of the Latin American identity and in national ideologies of the region’s modern states. This course traces continuities and changes in colonial and modern discourses about race from Mesoamerica, the Caribbean, and South America. We will also relate these discourses to contemporary discussions about race and ethnicity in the U.S. Hispanic/Latinx community. Throughout the semester, we will study primary texts (legal documents, chronicles, essays, census records, speeches, paintings, and photographs) and selected historiographical essays. Anthropology of Belief [ SS 318-O] ( Spring 2024) Why do we believe what we believe? How do we know what we \"know\" is true? What is \"human nature\"? Anthropology of Belief explores fundamental concepts in anthropology that historically attempt to understand the behavior, traits, and patterns of human groups globally and how belief both structures and guides cultures. This course, which covers a wide variety of cultural groups across the world, grapples with these deeper questions. We examine, analyze, and discuss ethnographic texts across the subfield of sociocultural anthropology, beginning with the early work of anthropologists working under Franz Boas in New York City at the beginning of the 20th Century and continuing to contemporary work. We also look at the qualitative and immersive methodological aspects of anthropology. We think together with anthropologists, using the frameworks of social constructionism, cultural relativism, racial/ethnic analysis, conflict/warfare, kinship/descent, ritual/religion, the formation of political/economic societies, class/hierarchy, and gender/sexuality, while familiarizing ourselves with the discipline's fraught historical context.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9501,7 +9501,7 @@ export const NODES_INIT = [
     "courseTitle": "Cause and Effect",
     "prereqText": "",
     "description": "Every day, we hear news reporters, podcast hosts, TV show hosts, and even professors talking about various issues, and along the way, they make causal claims that do not necessarily make sense. They are simply confusing correlation with causation, a common logical fallacy. Think about the following question: Does getting your master’s degree cause you to earn higher income? By how much would those two additional years in school increase your earnings? Most people would say, “Yes, of course.” Having a master's degree leads to a higher paying job. You can get data on various individuals, their educational attainments, and their earnings. You can examine the relationship between these two variables. But are you actually measuring the impact of having a master's degree on earnings? There are many other questions that you can try to think about in the same manner – questions related to individual decisions, business decisions, and government policies. In this course, we will learn how to think about these questions in a systematic way. The course will make you think critically about many claims that are being thrown at you by news reporters and even your professors. The course will also teach you how to work with various types of datasets to answer various questions in economics, psychology, business, politics, and sciences. You will learn common ways to summarize and present data and find relationships between different variables. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9519,7 +9519,7 @@ export const NODES_INIT = [
     "courseTitle": "Anthropology of Ritual",
     "prereqText": "",
     "description": "The study of ritual takes us to the heart of anthropological approaches to experience, performance, symbolism and association. Once thought to be \"vestigial\" organs of archaic societies, rituals are now seen as arenas through which social change may emerge and are recognized to be present in all societies. Throughout the course we will explore varying definitions of ritual and its universal and particular aspects, while surveying ethnographic case studies from around the world. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9573,7 +9573,7 @@ export const NODES_INIT = [
     "courseTitle": "Macroeconomics",
     "prereqText": "",
     "description": "In Macroeconomics, we explore answers to questions related to the performance of the US economy. What is unemployment? How is it related to the living standard? Why is there very high inflation? We examine why the economy experiences good days and bad days and what the government can do to minimize the negative effects of the bad days. We also address other interesting questions like why we have inflation and unemployment, and whether they are actually \"bad\" things. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9681,7 +9681,7 @@ export const NODES_INIT = [
     "courseTitle": "The Archive & The City",
     "prereqText": "",
     "description": "The Archive & The City offers students the opportunity to engage with the resources of The Cooper Union Archives as they explore the history of the institution and the city in which it lies. From its beginnings, The Cooper Union has been a civic institution as well as a college and has attracted archival material that documents the history of many social groups and institutions: from the records of The People’s Institute to those of the New York Electrical Society, the speech of Chief Red Cloud to that of Ai Wei-Wei. Students will handle documents dating back to the 1860s—materials richly intertwined with individuals and events in the wider world—and conduct in-depth investigations into their choice of topics and archival material. Though the primary material may be related directly to The Cooper Union, the questions students ask of it will lead towards broader social issues and movements. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9825,7 +9825,7 @@ export const NODES_INIT = [
     "courseTitle": "Global Issues",
     "prereqText": "",
     "description": "This course will examine current issues of global significance and their implications for policy and decision-making. Among the trends we will consider are the tensions between resource competition and authority; the emergence of a global economy; the environment and sustainable development; demographic change; and the emergence of new security issues, including societal and environmental stress. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9951,7 +9951,7 @@ export const NODES_INIT = [
     "courseTitle": "Introduction to Mind and Brain",
     "prereqText": "",
     "description": "The goal of this is to introduce the student to the basic principles of psychology, to guide the student through the brain and to provide a basic understanding of the relationship between the brain and mind addressing issues of consciousness. The first third of the course will examine the brain and underlying theories in psychology. The majority of the course will be focused on the relationship between the brain and consciousness including self-awareness, theory of mind, deception, abstract reasoning, art, music, spatial abilities and language. Steeped in recent findings in both psychology and neuroscience, the goal of this class will be to provide a modern foundation in the mind and the brain. 3 credits.",
-    "credits": "",
+    "credits": "3.00",
     "level": "Undergraduate"
   },
   {
@@ -9987,7 +9987,7 @@ export const NODES_INIT = [
     "courseTitle": "Independent Study (Social Sciences)",
     "prereqText": "",
     "description": "Independent Studies are voluntary agreements between individual full-time or part-time faculty members and individual students, in which students complete a course of study and assignment. Only juniors and seniors in good academic standing (defined as having earned a minimum of 3.0 GPA overall) are eligible for Independent Study. Faculty conduct Independent Studies with students who have already completed a class or other educational/research activity under their supervision. The course of study and assignment for 1 or 2 credit Independent Study typically consist of a reading list and workload comparable to that required for a 1 or 2 credit course. Independent Studies are intensive activities. Faculty members regard them as a significant commitment. Students can only participate in one Independent Study per semester. If an HSS full-time or part-time faculty member is willing to supervise an Independent Study, the student should work with the faculty member to complete this form and submit the signed application to the HSS’s Dean’s Office no later than the end of the first week of semester for approval. LATE APPLICATIONS WILL NOT BE ACCEPTED . The work cannot begin unless the Independent Study is approved by the Dean’s Office. The major consideration in approving proposals for independent study is the educational value of the study project within the structure of degree requirements. To learn more, please visit HSS Independent Study Policy .",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10023,7 +10023,7 @@ export const NODES_INIT = [
     "courseTitle": "Medieval Art and Architecture",
     "prereqText": "",
     "description": "Investigates the art, architecture and archaeology of medieval Europe from Constantine (fourth century) to approximately 1450, a period when different cultures clashed and mixed together to shape the eclectic Western medieval world that rose from Roman imperial ruins and ideals. This course will follow a chronological sequence, but use recent data from medieval excavations to challenge traditional art historical statements. Early Christian, Byzantine, Barbarian, Islamic, Romanesque and Gothic periods are examined.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10041,7 +10041,7 @@ export const NODES_INIT = [
     "courseTitle": "The Renaissance in Italy",
     "prereqText": "",
     "description": "An investigation of the art produced during the 15th and 16th centuries in Italy, where a revival of classical learning led to an unprecedented artistic flowering. In painting, the course deals with the period from Fra Angelico to Titian; in architecture, from Brunelleschi to Palladio; and in sculpture, from Ghiberti to Michelangelo and Benvenuto Cellini. The course will touch on such themes as the classical ideal, town planning, country villas, fresco painting, patronage, the development of perspective, and the rise of the portrait.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10059,7 +10059,7 @@ export const NODES_INIT = [
     "courseTitle": "Introduction to African American Art",
     "prereqText": "",
     "description": "This lecture course is an introduction to the work of African American artists from the colonial era to contemporary times. While examining the African underpinnings in the production of visual art from artists of African descent since the colonial era, the work of African American artists will also be examined within the over-all context of American art production. Students will explore major art movements, such as the New Negro Movement/Harlem Renaissance and the Black Arts Movement, as well as study the impact of political movements on artists and their work, including the Feminist Movement, and #BlackLivesMatter on works of art. The intersection of class, gender, sexuality in addition to the assertion as well as disruption of African diasporic identities will be explored. This course will examine artworks of various forms including but not limited to photography, installation, and new media.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10077,7 +10077,7 @@ export const NODES_INIT = [
     "courseTitle": "Oral Art History",
     "prereqText": "",
     "description": "The spoken word has always been a crucial component of artistic practice, transmission of memory, and production of knowledge about artists and art objects. Because of its nature, however, orality tends to be overlooked in art historical accounts. During the second half of the twentieth century and the beginning of the new millennium, artists have explored speech more and more systematically by turning to artist talks, pedagogy, participatory art as a major component of their work. Concurrently, art critics and historians have focused their attention to the non-written communication not only methodologically by utilizing interviews and other forms of conversations, but also historically by reconsidering the importance of orality and its erasure for our understanding of the past.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10095,7 +10095,7 @@ export const NODES_INIT = [
     "courseTitle": "American Stories: Reconsidering Documentary Photography",
     "prereqText": "",
     "description": "This course will consider selected moments in the history of American documentary photography, beginning with social documentary at the turn of the twentieth century through expanded documentary in the twenty-first century. Probing the American tradition of truth-telling, we will track the shifting artistic debates surrounding the relationship of photographic representation to social justice. How did specific projects shape the collective imagination about the American mythos of liberty, equality, and justice for all? How did alternative approaches generate different images of American democracy, its citizens and its outsiders? Finally, how have recent documentary-based practices reproduced the historical as contemporary? We will look at Lewis Hine and the Photo League (the Feature Group’s Harlem Document ); the Farm Security Administration, Toyo Miyatake’s and Dorothea Lange’s censored photographs; Robert Frank’s The Americans and Roy DeCarava’s The Sweet Flypaper of Life ; Diane Arbus, Garry Winogrand, and Gordon Parks; and finally Sally Mann, Carrie Mae Weems, An-My Lê, LaToya Ruby Frazier, and Dawoud Bey.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10113,7 +10113,7 @@ export const NODES_INIT = [
     "courseTitle": "Japanese Art",
     "prereqText": "",
     "description": "An introduction to the art of Edo period Japan (1603-1867), covering painting, printmaking, and the allied arts.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10131,7 +10131,7 @@ export const NODES_INIT = [
     "courseTitle": "Buddhist Art: Origins to Modernity",
     "prereqText": "",
     "description": "As a part of the ongoing discourse on the tripartite interrelation among art, religion and modernity, this class investigates \"Buddhist art,” the visual culture of one the world religions, rooted in the premodern societies of India, Central, South East and East Asia and Tibet, from which its distinctive material forms, visual principles and ritual practices developed. More recently, the presence of Asian Buddhist material/visual cultures has asserted itself anew through transnational exchanges and confrontations, particularly between Asia and the modern and contemporary West. This course attempts to historicize this phenomenon by taking a macro approach to Buddhist art (without sacrificing specifics related to individual cases) by investigating two possible constituents of modern/contemporary Buddhist art: its core historical principles carried over from its origins, which have been considered “timeless,” and its uniquely “timely” complication of or deviation from its original systems. We will spend half of the course studying some original principles of historical Buddhist art in areas such as visuality, representation, copy, agency, function and performativity, while quickly tracing the geo-historical spread of the religion throughout Asia over a period of more than 2,400 years. In this section, we will visit selected works and sites that represent some typologies of premodern Buddhist art, such as relics, icons, mandala, pagoda, gardens and “Zen art,” and examine them in “context,” i.e., concerning their relations to the ritualistic/symbolic practices and fundamental philosophy of the religion. The latter half of the class will explore the issue of collisions in modernity between two claims: an insistence on the immutability and authenticity of persistent premodern systems of Buddhist art and experimentations reflecting the ever changing globalizing identities of the religion and regions in Asia, corresponding to recent social, political and cultural landscapes, including museum displays, temple politics, Orientalizing commodification and appropriation by avant-garde artists.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10149,7 +10149,7 @@ export const NODES_INIT = [
     "courseTitle": "History of Industrial Design",
     "prereqText": "",
     "description": "In tracing the history of industrial design from its emergence at the beginning of the Industrial Revolution to the present, this course will examine not only aesthetics (of furniture and the decorative arts, typography, advertising, machinery, toys, etc.) but also the social and political forces that have shaped the many styles. Throughout, we will also demonstrate how movements in industrial design relate to parallel developments in the history of painting, sculpture, and architecture.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10167,7 +10167,7 @@ export const NODES_INIT = [
     "courseTitle": "Asian Contemporary Art",
     "prereqText": "",
     "description": "In this course, students will build a foundation in critical theory revolving around issues of race, nationality, sexuality and gender as they relate to the formation of an artist’s identity, and how that identity in turn is reflected in the artist’s output. Attention will be paid to Asian contemporary artists working outside of their own cultures and to Asian-American artists, in an attempt to analyze the role of the Asian diaspora and its connection to contemporary art production in Asia proper. Special focus will be paid to the contemporary art of India, China, Korea and Japan, although other nations and regions will also be discussed.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10185,7 +10185,7 @@ export const NODES_INIT = [
     "courseTitle": "Art and Social Practice",
     "prereqText": "",
     "description": "This course focuses on socially-engaged and relational artworks and initiatives in Asia, Latin America, the Caribbean, and Africa from the 1960s to the present. By studying the development of participatory practices outside of the institutional networks and market structures of the Euro-Atlantic art world, we will examine the shifting boundaries between art and activism, investigate the politics of the art world, and address how activated spectators, collectives and collaborative projects shaped cultural production and social life locally and in a global context.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10203,7 +10203,7 @@ export const NODES_INIT = [
     "courseTitle": "African Art",
     "prereqText": "",
     "description": "An introduction to the stylistic, conceptual, functional and historical aspects of sub-Saharan African sculpture and architecture, the place of these arts in the traditional context of black African life and their relationship to the worldview of the African.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10221,7 +10221,7 @@ export const NODES_INIT = [
     "courseTitle": "Contemporary Artists of the Black Atlantic (1960’s-Present)",
     "prereqText": "",
     "description": "This course explores the contemporary work of artists of African descent based in Africa, Europe and the Americas from the Black Power Movement in the United States and the Independence era of Africa to the present day. This course will probe the assertion of “black Atlantic identities” and will include photography, installation art, as well as internet based work.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10239,7 +10239,7 @@ export const NODES_INIT = [
     "courseTitle": "Money in Antiquity",
     "prereqText": "",
     "description": "In this course we shall investigate the ancient world through one of its most fundamental institutions: money. We will learn about different types of ancient money, including coinage, bullion, grain and credit, the various coins used by the Greeks and Romans (as well as other groups, such as ancient Mesopotamians, Persians, Indians and Jews), and about the different methods used to study them. The seminar takes an interdisciplinary approach to major topics in the history of money, including the origins of coinage, monetization, imitations and forgeries, debasement, trade, and the politics of issuing coins. We shall think about economics and social history, as well as the role played by coins in archaeology, and the complex ethical (and legal) issues surrounding the modern practice of coin collecting. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10257,7 +10257,7 @@ export const NODES_INIT = [
     "courseTitle": "The Art of Greece and Rome",
     "prereqText": "",
     "description": "This course is an introduction to the ancient Greeks and Romans by way of their art. In the ancient world, art (and architecture) always served a purpose. Although we cannot always divine that purpose, its mere existence permits us to use ancient art as a means of exploring the lives, experiences and ideas of the Greeks and Romans. In this course we shall examine the purposes of Greek and Roman art, starting with the Bronze Age and continuing until the reign of Constantine. We will focus on the interplay between purpose and form, and on how we can use objects to ask questions about the past. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10275,7 +10275,7 @@ export const NODES_INIT = [
     "courseTitle": "The Hellenistic Age: Art & Society in an Ancient Multicultural World",
     "prereqText": "",
     "description": "Following the campaigns of Alexander, the Greeks spread across the Middle East as far as Egypt, Central Asia and India, where they encountered many cultures vastly different from their own. The result was the creation of a diverse, multicultural world, connected by shared elements such as the use of the Greek language, but in which every individual region and society was unique. This diversity is especially evident in the art produced in this period, where we see the Greek obsession with human form, preferably nude, mixing with older artistic traditions in Egypt and Mesopotamia that relied on hierarchy and repetition to perform their functions. In Italy the Romans adopted aspects of Greek art as a means of disrupting their rather stodgy political ideology, with mixed results, whereas in India Greek motifs, popular for reasons as yet unknown, were pressed into the service of Buddhism. We will focus especially on themes of interaction – how do old and new artistic traditions combine? – and identity – what did these combinations mean to the people who made and used them? – as well as on the roles of power and resistance.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10293,7 +10293,7 @@ export const NODES_INIT = [
     "courseTitle": "History of Photography",
     "prereqText": "",
     "description": "Our study of the history of photography will reckon with technological innovations embedded in the medium. The always changing materiality of image cultures shape our experiences and understanding of photography. We will study photography from the mid-19th century to the present through the social and economic conditions that define the processes of making images with such devices as the camera obscura, to Kodak’s Brownie; analogue large format to Polaroid land cameras; 35mm point and shoots to camera phones; body cameras on police to the servers that store their data. Together we will investigate how photography, through these shifting modes of recording and distributing images, collaborates with other mediums and practices such as performance art, political organizing, and poetry. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10311,7 +10311,7 @@ export const NODES_INIT = [
     "courseTitle": "Twentieth-Century Art History",
     "prereqText": "",
     "description": "20th Century American Art: Institutional Critique This course presents the topic of institutional critique within the context of American Art in the 20th century. With leading figures like Hans Haacke in the 1960s targeting the funding to museums and galleries to Mining the Museum by Fred Wilson, to Coco Fusco and Guillermo Gomez-Peña's Couple in the Cage (1993), students will look at the political, social, and cultural aspects of Institutional Critique through key artists and writings. Emerging also during the civil rights movement, gay rights movement, and feminist movements, these movement will help students understand how recent calls for decolonization of art institutions also continue this lineage. Looking at museums, biennials, exhibitions, and other art institutions, we will think about the political and economic power of these and how they shape value and history within the context of art.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10329,7 +10329,7 @@ export const NODES_INIT = [
     "courseTitle": "Modernism in Latin America",
     "prereqText": "",
     "description": "This course examines the emergence and development of Latin American modernisms in their so-called first and second waves. The first one, which unfolded from the 1920s to the 1940s in Brazil, Mexico and Cuba, witnessed the artists’ combination of imported European avant-garde tendencies—such as post-impressionism and Cubism—with local motifs to produce an art that could reflect a national identity. The second wave pertains to the post World War II rise of abstract tendencies in South America, specifically, concrete abstraction in Argentina and Brazil, and op and kinetic art in Venezuela. Artistic modernisms in the region will be studied in connection with the political and cultural context in Latin American countries, specifically, the process of nation-state building, the rise of populist ideologies, and the incidence of developmentalism in the Southern Cone during the 1950s and 1960s. We will analyze a range of artists, such as Tarsila do Amaral, Candido Portinari, Diego Rivera, David Alfaro Siqueiros, Frida Kahlo, Wifredo Lam, Mario Carreño, Pedro Figari, group MADÍ, Lygia Clark, Helio Oiticica, Carlos Cruz-Diez and Jesús Rafael Soto. Topics might include: the strategies of modernity in Latin America, the new concept of “inverted utopia,” the role of the avant-garde group manifestos, the post-colonial, and the meaning of abstraction within a turbulent political milieu. We discuss crucial concepts that define cultural modernism in Latin America — among them, identity, indigenismo, costumbrismo, transculturation, syncretism, hybridization, and race politics. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10347,7 +10347,7 @@ export const NODES_INIT = [
     "courseTitle": "International Futurism",
     "prereqText": "",
     "description": "Futurism (1909-1944) was the first avant-garde movement to emerge from the peripheries of modernity. Founded by Italian and Egyptian artists, Futurism embraced a problematic ideology. Yet the movement has functioned ever since as a strategic model for several groups of artists fighting against dynamics of exclusion. The first part of the course focuses on Futurism and its international network. The second part discusses more recent artistic movements from Russia, Argentina, Japan, Italy, and the US, which have adopted Futurism’s guerrilla-like methods to strike an attack on the hegemonic center. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10365,7 +10365,7 @@ export const NODES_INIT = [
     "courseTitle": "Ancient Mediterranean World",
     "prereqText": "",
     "description": "This course is intended to address selected topics concerning the reciprocal relationships among the fascinating and diverse civilizations of the ancient Mediterranean littoral and their neighbors to the East. The primary focus this semester will be on the Bronze Age-- the “Age of Heroes,” to the beginning of the Classical era, and the setting of the Homeric epics, the Iliad and the Odyssey--with special emphasis on the interrelationships between Egypt, the Near East and the Greek Aegean during the time period ca. 3000 – 1100 B. C. We will look at the art, architecture, archaeology and a sampling of the literature of the periods and places under consideration. 2 credits.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10383,7 +10383,7 @@ export const NODES_INIT = [
     "courseTitle": "Single-Work Seminar",
     "prereqText": "",
     "description": "A seminar devoted entirely to a single monument or work of art that had a particularly profound and wide resonance in the socio-political, economic, and cultural milieu in which it was created and whose range of influence extended well beyond its historical time frame. The focused nature of the course material allows for both a breadth and a depth of analysis to a greater degree than is possible in other elective art history courses. Past topics have included Duccio's \"Maesta.\"",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10401,7 +10401,7 @@ export const NODES_INIT = [
     "courseTitle": "The Portrait: Re-examining Portraiture and the New Subject",
     "prereqText": "",
     "description": "How do we picture ourselves and others? Do portraits construct, convey, conceal or mortify their subjects? This course explores histories of portraiture in Western and non-Western art across diverse artistic media probing questions about the relationship of art, memory and the politics of representation. By examining a diverse range of artworks from antique sculptures through Renaissance paintings, African memorial portrait masks, documentary photographs and films to early 21st century videos, we will address the development of portraiture as a genre, examine conventions of mimetic representation and discourses of identity formation. Artists to be discussed include, among many others, Chantal Akerman, Shirley Clarke, Jacques-Louis David, Felix Gonzalez-Torres, Francisco de Goya, Frans Hals, Frida Kahlo, Joshua Reynolds, Malick Sidibé, Catherine Opie, Wolfgang Tillmans, James Van der Zee, and Andy Warhol.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10419,7 +10419,7 @@ export const NODES_INIT = [
     "courseTitle": "History of Printmaking",
     "prereqText": "",
     "description": "Explores the history of printmaking and its various processes from the 15th century to the present with an eye to the unique contribution of this graphic art to the history of visual language in both popular and fine art. While major printmakers (e.g., Durer, Rembrandt, Daumier, the Nabis, the German Expressionists, Jasper Johns) will be addressed, attention will also be given to the practical and popular use of prints through the centuries. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10437,7 +10437,7 @@ export const NODES_INIT = [
     "courseTitle": "History of Graphic Design",
     "prereqText": "",
     "description": "A study of important avant-garde and graphic design movements starting with the Industrial Revolution through the 20th century including: Futurism, Dada, Constructivism, De Stijl, the influence of the Bauhaus and the New Typography, the rise of the modern movement in America, pre and post-war design in Switzerland and Italy, the International Typographic Style, the New York School, corporate identity, postmodernism and more. We’ll examine the evolving design styles and the role of the pioneer designer in society, with an emphasis on notable works, subjects and themes; and their cultural, political and social connections. Course includes slide lectures, readings, discussions, looking at original materials (posters, advertisements, booklets, etc.), individual research assignments and written essays. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10455,7 +10455,7 @@ export const NODES_INIT = [
     "courseTitle": "Ceramics Within and Beyond Categories",
     "prereqText": "",
     "description": "Ceramics, or fired clay, in its intrinsically multifaceted and global nature, resists a straightforward categorization, such as “crafts.” It signifies a medium-defined genre of visual art, that of material culture as well as socio-political practices which have been prized around the world throughout human history. Due to the absence of a core mega-narrative and central theories, investigating ceramics across the globe can be flexible and exploratory, dealing with various identities and cross culturally-connected and disconnected diverse lineages within its world history. This course will experiment with one scenario of the world history of the medium by unpacking ceramics as thing (material, technologies and objects), value (symbols, identities, aesthetics and concepts) and ritual (display, performance, community and daily life) through time and space. The class will proceed in two parts: reviewing selected historical episodes telling stories of contacts and exchanges; and introducing some major critical discourses and issues over the multivalent status of ceramics in relation to modern/contemporary art and society. As a point of entry to history, our global, chronological mapping will start with East Asia, one of the hubs of world ceramic cultures, examining its prehistoric and later enshrinement of the medium, and moving through the Ages of Exploration, Empires and colonial/postcolonial periods in Europe, Africa, Middle East. We will then return to an Asia in contact and conflict with 20 th and 21 st century Euro-America, where some artists/designers exploring ceramics’ new potential as a distinctive material/medium have emerged as cultural celebrities.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10473,7 +10473,7 @@ export const NODES_INIT = [
     "courseTitle": "Single-Artist Seminar",
     "prereqText": "",
     "description": "A course devoted entirely to the life and work of one important artist, selected anew from across the spectrum of world art each time it is offered. The seminar is designed to allow for an in-depth experience in the discipline of Art History that extends well beyond what is possible in period survey courses.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10491,7 +10491,7 @@ export const NODES_INIT = [
     "courseTitle": "Global Renaissance",
     "prereqText": "",
     "description": "This course seeks to reframe the Renaissance in a global context by analyzing the migration of visual culture via conditions of reception and cross-cultural contact. In doing so, it revisits the euro-centric humanist model of the Renaissance and seeks instead to offer a new paradigm based on an analysis of global exchange. Themes covered include art, empire and propaganda, colonial identities, hybridity, rituals of devotion and the translation of sacred space. In addition to an understanding of post-colonial theory, and the cultural mediation of images, the course considers hybrid objects in the words of Homi Bhabha as not having a single fixed meaning, but as incorporating “slippages,” that are part of the conditions of colonialism. It also offers up a critique of any analysis based on a simplistic framework of cultural parallelism, and seeks to present hybrids as having multiple and at times contradictory meanings evolving from cross-cultural exchange. In addition to lectures and readings, students will participate in one museum field trip. Attendance on this field trip is mandatory. Although the format of this class is a lecture, student participation in weekly discussions is encouraged and expected.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10509,7 +10509,7 @@ export const NODES_INIT = [
     "courseTitle": "Performativity",
     "prereqText": "",
     "description": "Performativity is the capacity of speech, utterance, gesture, and language to impact or create the world. In this course, students will explore the relevance of speech acts to social norms and identity, as well as creative forms of self- and collective fashioning and redress. This course moves from debates around the performative—the study of words which do things—to accounts of gender, race, and sexuality which emphasize their constructedness and thus, their alterability. This course also prioritizes performance art as one among many answers to the problem of embodiment and experiment. Together, we will explore key texts and performances within the field of performance studies to address the generative exchange between art and critical theory. Key words or sites include the relationship of speech to deed; discourse to materiality; inscription to violence; and embodiment to history. Students will have the possibility of exploring their own performance practice in a final project.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10527,7 +10527,7 @@ export const NODES_INIT = [
     "courseTitle": "Ephemeral Art",
     "prereqText": "",
     "description": "This course will examine the notion of the ephemeral, in other words, objects and materials of short duration, and how they raise questions of time, materiality, and matter that relate to changing political, social, and cultural contexts. Art historians have long focused their attention on the singular masterpiece and their attendant notions of enduring value, aesthetic perfection, and the ideal. Yet recent scholarship in fields such as media studies have demonstrated that the ephemeral and obsolescence or the outdated have played an equal role in our understanding of the work of art and its materials. What if a work of art was meant to last for just 15 minutes? What would it mean to make a work of art that lasted the span of a snapchat? We will explore the notion of the ephemeral through a series of readings organized around conceptual terms such as dust, the archive, the monumental, celebrity, and happenings. Theoretical readings and class discussions will be anchored in the study of works of art ranging from paintings, sculpture, decorative arts, film, and performance art, from antiquity to the present. These discussions will be supplemented by visits to museum collections and conservation labs at the Metropolitan Museum of Art, the Morgan Library and Museum, and other institutions in the New York area. The aim of the course is to demonstrate that artworks are not only the object of an artist’s intentionality, but subject to changing cultural perceptions of time.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10545,7 +10545,7 @@ export const NODES_INIT = [
     "courseTitle": "Women's Art and Feminisms",
     "prereqText": "",
     "description": "This course focuses on women and art; and intends to propose a reconstruction of some little known but major women’s contributions to art, to history, and/or to the women’s liberation movements. Organized by medium, as well as chronologically, this course proposes to identify major modes of expressions used by women historically (and until today), and discusses them in their cultural, technological, theoretical, and socio-historical contexts of origin (including feminisms). The course starts with deconstructing historical representations or misrepresentations of women in visual arts, and discusses them alongside the visibility of art by women artists or lack thereof in history. The recent efforts by the art market and institutions, lately including more women’s art in exhibitions and collections, will be discussed, and questioned. Because the artworks of individuals who self-identify as women are often found in non-traditional media for the fine arts, our case studies bring us to consider works in the form of: public speaking, publishing, poster-making, and other agit-prop such as: tee-shirts, buttons, stickers, etc., as well as performance art, public action, and video art. Then, because women artists often worked collectively and collaboratively, a special attention is given to works by collectives such as: New York Radical Women, Redstockings, Les Insoumuses, Salsa Soul Sisters, Guerrilla Girls, Grand Fury, WAC, and more recently: Black Lives Matter, #MeToo movements internationally. While learning about women in visual arts, we also discuss how their practice engages or not with trends identified as part of the development of feminism. Concepts such as “First Wave,” “Second Wave,” “Radical Feminism,” “Anti-Feminism,” “White Feminism,” “Black Feminism,” “Womanism,” “Post-Feminism,” and “Neo-Feminism” are also clarified and allow to approach the intersectionality of feminisms with race and BIPOC, as well as LGBTQ communities historically. Then the more recent discussions regarding non-binary gender identities are evaluated as a challenge as well as an opportunity for feminism.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10563,7 +10563,7 @@ export const NODES_INIT = [
     "courseTitle": "Queer Art and Theory",
     "prereqText": "",
     "description": "This course focuses on conversations between queer art practices, queer studies of contemporary art, and queer theory. The term “queer” is mobilized to both rework the slur of shame and injury into a term of self-identification and non-normative political positioning, and also as a critical questioning of the norms and categories of sexual identity and practice (“queering”). Queer theory has direct import for the study of contemporary art, as many of its key concepts have been developed in and through the visual, and scholars have taken up issues of gender, sexuality, and sexed embodiment as central to the formation of art historical narratives and their exclusions. In turn, queer artists contribute to queer theory by appropriating and contesting conventional art practices, mediums, and histories in order to visualize and produce alternatives. Rather than presenting a genealogical history of queer art, this course explores key theoretical texts that have shaped contemporary queer art practices, and at the same time, how queer art practices operate as their own theoretical propositions and interventions. This course also focuses on how the political aims of queer art and theory are crucially shaped by intersections of critical race, postcolonial, transgender, class, and crip politics. Investigating visual practices of queering as they intersect with queer theories and studies of contemporary art, we explore critical concepts and visual tactics that include abstraction, archival interventions, camp, disidentification, ecologies, performativity, necropolitics, public feeling, and worldmaking.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10581,7 +10581,7 @@ export const NODES_INIT = [
     "courseTitle": "Art Beyond Sight",
     "prereqText": "",
     "description": "This course develops from recent developments in museum education regarding the inclusion of a larger diversity of audience, namely visitors with disabilities. While this course will focus on the visual arts and its access to the visual impaired, it will also address various current initiatives beyond vision. Students will become familiar with the canonical and often rare literature on the subjects, including references in: access to art, museum education, blindness, sensorial perception, etc. Students become aware and evaluate the relevance and challenges presented by verbal description, conversation, sensory experiences, and creative practice as educational tools for in those programs. Along with the course, students will have the opportunity to meet professionals in the field of museum education as well as participants in museum programs for visually impaired visitor. They will also be given opportunities to work on tangible projects that could improve access to art. Then, one of the goals for this course is to give students firsthand opportunities to contribute to bridging the existing gaps between visual arts and the visually impaired audience.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10599,7 +10599,7 @@ export const NODES_INIT = [
     "courseTitle": "Seminar in Art History",
     "prereqText": "",
     "description": "A seminar based on a special topic in the study of Art History. The seminar may be repeated for credit with the permission of the dean of the Faculty of Humanities and Social Sciences. 2 credits. Art of Colonial South Asia [HTA 313-L1] ( Spring 2024 ) This seminar aims to teach students how to look at, think about, and engage critically with the visual culture of British India. Together, we will examine the repercussions of the Anglo-Indian colonial encounter on the disciplines of painting, decorative arts, photography, and architecture. We shall not only study the objects themselves, but interrogate the cultural, political, and intellectual circumstances under which they were produced, circulated, collected, and displayed. Finally, we will explore the legacy of the British empire today—its influence on contemporary art, the politics and practices of museum displays, repatriation debates, and beyond. The course will involve visits to museums around the city. For the final project, students will conceptualize their own exhibitions, selecting eight artifacts that present a broad view of the art of colonial South Asia. Artists' Writing [HTA 313-M1] (Spring 2024) This course is an introduction to artists’ writing from the postwar period to today, either as an integral or a complementary part of their practice. In this course, artists’ writings will be discussed in relationship to the visual works. The content is roughly organized chronologically and according to various literary genres: biography, autobiography, homage, interview, poetry, fiction, auto-fiction, as well as opinion or position pieces and theoretical essays. An alphabetic indicative selection of authors discussed in this course includes Vito Acconci, Louise Bourgeois, Theresa Hak Kyung Cha, Liam Gillick, Philip Guston, Lynn Hershman Leeson, Allan Kaprow, Robert Morris, Yoko Ono, Nan June Paik, Lorraine O’Grady, Faith Ringgold, Martha Rosler, Carolee Schneemann, Hito Steyerl, KimSu Theiler, Lucia Vernarelli, as well as a number of artists’ Manifesti authored collectively. This selection particularly focuses on representing the significant but often underrepresented field of writings by women artists. As the assigned texts are in English, issues of translation as well as writing in English as a second language will be addressed; students are also encouraged to discuss writings in other languages than English for their assignments. In addition to studying artists’ texts, students will produce a significant amount of writing for this course (some of which will happen during class time) as well as be required to work closely with the Center for Writing and Learning. Performance and Property [HTA 313-N1] (Spring 2024) Examining key texts from critical race theory to contract law, feminist approaches to reproduction to decolonial critiques of the museum, this course develops multiple overlapping challenges to property and situates them within histories of performed and embodied art. We will study the racial, sexual, and colonial politics of performance, considering in particular questions of subjection and objecthood; repetition and deviation; ritual and documentation; and preservation and decay. Together, we will ask: Can we use performance art to explore, contest, and renegotiate property? What is property’s relationship to labor, occupation, law, and natural right, and how might performance rework those fundamental logics? What alternative methodologies and practices for the transmission and maintenance of cultural material does performance introduce in order to resist rendering expression and/or artwork into property? Students will develop a series of writing projects over the course of the semester and acquire a critical vocabulary to approach and write with performance art across culture and time.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10617,7 +10617,7 @@ export const NODES_INIT = [
     "courseTitle": "Contemporary Art and Performance",
     "prereqText": "",
     "description": "This course examines the interplay of contemporary art and performance—an interplay that we will study under the rubric of theater as a medium that demands active complicity in a specific physical relation. That approach will lead us to engage with embodiment and subjectification as expressions traversed by race, gender, and strong desire (sexuality). In that sense, performance will be investigated as a methodology anchored in the material conditions and objects from which it emerges, while also challenging reductive notions of “liveness” and “ephemerality” that have come to define it. Foregrounding Black, trans, and queer perspectives, contemporary performances will be read alongside performance studies, critical theory, visual art, art history, theater, and dance. Likewise, we will explore our own interval as interpreters through close reading, description, and analysis of live and recorded works, navigating the space between observation and participation.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10635,7 +10635,7 @@ export const NODES_INIT = [
     "courseTitle": "Arts of China",
     "prereqText": "",
     "description": "This seminar surveys major works of Chinese art from prehistory to the contemporary period. Students will examine a wide range of objects—from ritual bronzes and Buddhist cave temples to court painting, ceramics, gardens, and modern ink painting—in relation to their material, social, and historical contexts. Emphasis is placed on the interpretation of visual material through close looking, primary sources, and current scholarship.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10653,7 +10653,7 @@ export const NODES_INIT = [
     "courseTitle": "Art Exchange Across National Boundaries",
     "prereqText": "",
     "description": "The course focuses on the cultural and political geography of artistic production from the mid-20 th century to the present. We will engage with artworks, exhibitions, and publications as vehicles of cultural dialogue and tools of political propaganda and cultural imperialism. By studying the geopolitical trajectories of artistic practices and institutional networks, we will ask questions about why and how images and objects travel, and ponder the exchange of art and ideas in the field of global art and culture.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10671,7 +10671,7 @@ export const NODES_INIT = [
     "courseTitle": "Renaissance Art in Northern Europe: 1350-1550",
     "prereqText": "",
     "description": "This course will provide a detailed introduction to sculpture, painting, and architecture in Bohemia, France, Germany, and the Low Countries (Belgium and the Netherlands) between 1350 and 1550. Art and architecture will be analyzed in relation to devotional practices, political policies, and social life. Students will be able to relate the individual works to patronage conditions and to pertinent social, religious, political, and philosophical movements through major artists, such as the Limbourg Brothers, Claus Sluter, Jan van Eyck, Roger van der Weyden, Hans Memling, Albrecht Dürer, and Hans Baldung the Grien. The cross-cultural exchange that occurred between Italy and lands north of the Alps during the Renaissance will be examined. Artworks reflecting globalization introduced via the commencement of the Portuguese slave trade in the 1480s, as well as trade between northern Europe and the Far East will also be analyzed in this course.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10689,7 +10689,7 @@ export const NODES_INIT = [
     "courseTitle": "Monuments, Artist Interventions and the Struggle for Memory",
     "prereqText": "",
     "description": "On August 12, 2017 white supremacist and Neo-Nazi groups converged on Charlottesville, Virginia to protest the city’s planned removal of a Robert E. Lee statue. In the aftermath of the violence in Charlottesville, citizens in Durham, North Carolina took matters into their own hands, felling a Confederate soldier monument. This course considers the contentious debates involved in erecting and removing such artworks. We will ask: What visual strategies have artists used to commemorate controversial histories in the 20th-century Americas? How have subsequent generations questioned, reimagined, and subverted these strategies? The course centers on debates over racial justice and monuments to the US Civil War and slavery, but will also consider memorials to other violent histories across the Americas. Students will gain an understanding of public sculpture since the late 19th century, while also exploring embodied and ephemeral practices such as parades, reenactments, performance, and graffiti.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10707,7 +10707,7 @@ export const NODES_INIT = [
     "courseTitle": "Porcelain and the Politics of Chinoiserie",
     "prereqText": "",
     "description": "This course explores Europe's obsession with porcelain and the \"\"Chinese taste\"\" in the eighteenth century and its complex afterlives today. The class will delve into the problematics of Chinoiserie, a vague stylistic term used to describe a “neutral, harmless” style of decoration shaped by European fantasies of \"\"the East.\"\" Fueled by the early arrival of Chinese porcelain in the sixteenth century, Chinoiserie was by the eighteenth century rampant in the art, architecture, and decorative arts of Europe. Far from being neutral, this style was polemical from the outset. The class will focus primarily in the eighteenth century, as we look at historical examples of porcelain, luxury, and commerce, reading these against the grain with the aid of theoretical writings. Analyzing the stylistic, historical and ideological dimensions of Chinoiserie, we will consider how this term can be reframed in order to construct a critical framework that takes into account issues of race, gender, sexuality, and class.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10725,7 +10725,7 @@ export const NODES_INIT = [
     "courseTitle": "Global Mediterranean Culture (391 – 1492)",
     "prereqText": "",
     "description": "The focus of this course will be the Mediterranean Sea, between the late antique and modern period (ca. 391 and 1492), in a number of its distinctive manifestations, political, religious, social, cultural, and economic. Once upon a time, the Mediterranean Sea was possessively defined as the mare nostrum (our sea), and claimed by the Roman Empire or some other superpower. As a result, the Mediterranean, since then, has been viewed almost exclusively with a Euro centricity, founded on colonialism and exploitation. Current historiography, the social sciences, has broken away from that single local, and ultimately incomplete narrative for the Mediterranean. The primary goal for this course is to provide a “wider and more humane history” that is more inclusive of “invisible people and cultures” and provides alternate narratives to the ones currently in the history books. The conception of the ‘Great Sea’ as a boundary-less space allows us to address the many lacunae in its history that are now being acknowledged.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10743,7 +10743,7 @@ export const NODES_INIT = [
     "courseTitle": "Museum as Frame: Art in New York",
     "prereqText": "",
     "description": "Through class meetings and museum visits we will investigate the idea of the museum, its history, cultural significance, meaning and societal influence. In particular, we will consider how the museum experience affects the attitudes and assumptions of museum visitors. We will explore the intellectual under-pinnings of the modern museum since the Enlightenment, with special attention to issues of nationalism and eurocentrism; the complexities of museum sponsorship (public, private, and corporate), and how they shape cultural presentation; and the emergence, since the 1960s, of community-oriented museums alongside the growing importance in society of multi-culturalism and ethnic identity. We will also consider standard art-historical issues of style and society as they relate to the various artworks we see.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10761,7 +10761,7 @@ export const NODES_INIT = [
     "courseTitle": "Native American Art",
     "prereqText": "",
     "description": "This course presents a broad overview of the visual arts of Native America in their historical and contemporary contexts. For the majority of the lectures, we will proceed geographically, examining artworks produced by peoples of the Southwest (Anasazi, Mimbres, Hohokam, Pueblo, Navajo, Apache), East (Archaic, Woodland, Mississippian, Chitimacha, Seminole, Miccosukee, Cherokee), West (Mandan, Cheyenne, Crow, Kiowa, Metis), Far West (Chumash, Pomo, Wiyot, Washoe), North (Beothuk, Innu, Cree, Dene, Inuit), and Northwest Coast (Proto-Salish, Makeh, Tlingit, Haida, Tsimshian, Kwakwaka’wakw). During our last lecture, we will look to art produced after 1900, when a pan-Indian identity began to develop, resulting in works that are not always easily categorized by specific tribal communities or geographic areas. The works that we will consider over the course of the semester span a wide spectrum of media: pottery, basketry, textiles, architecture, sculpture, painting, performance, installation, photography, etc. We will grapple with complex questions regarding whether or not all of the objects under review should be deemed “art” in the Euro-American sense of the term, which in many cases has been retroactively accorded these objects. We will also be attendant to the effects that new economies, markets, materials, technologies, and patronage have had upon the circulation of these works, as well as the production/reception of newer works.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10779,7 +10779,7 @@ export const NODES_INIT = [
     "courseTitle": "Dada and Surrealism",
     "prereqText": "",
     "description": "Since their appearance early in the 20th century, Dada and Surrealism have had a profound and lasting influence on the arts. This course explores the art and ideas of these two movements within the social, political, intellectual and art historical context of the years 1914–1947.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10797,7 +10797,7 @@ export const NODES_INIT = [
     "courseTitle": "Islamic Art and Architecture",
     "prereqText": "",
     "description": "A chronological study of Islamic art and architecture, including an introduction to Islamic aesthetics, history and philosophy. The course will examine samples from religious and literary texts, architectural monuments, painting, ceramics, metal works and calligraphy from Spain, North Africa, the Levant, Iraq, Central Asia and India.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10815,7 +10815,7 @@ export const NODES_INIT = [
     "courseTitle": "Art and Architecture of the Ancient Near East: Persia from Prehistory to the Sasanian Empire",
     "prereqText": "",
     "description": "This class is an introduction to the art and archaeology of ancient Persia. The Iranian plateau produced a series of powerful kingdoms and empires that dominated the Near East and surrounding areas and created a cultural legacy that persists to the present day. Yet it is best known from accounts and texts written by its enemies, including the Assyrians, Greeks, Romans and Arabs. In this class we shall explore ancient Persia on its own terms through direct engagement with the material culture produced by the people living there over a period of several millennia, from prehistory to the fall of the Sasanian Empire. In doing so we shall address such topics as identity, migration and imperialism through the study of reliefs, seals, coins, architecture, pottery and statuary. We shall also consider how ancient Greek and modern European views of Persia have affected our understanding of its art and history. This course is designed for students without prior experience in ancient art or archaeology.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10833,7 +10833,7 @@ export const NODES_INIT = [
     "courseTitle": "View Source: Internet Art",
     "prereqText": "",
     "description": "In 1989, the fall of the Berlin Wall and the invention of the World Wide Web signaled a new era of global capitalism, information exchange, and connectivity. For artists, the Internet became an ideal platform for networked computational experimentation, building on practices underway since the 1960s such as mail art, video art, cable television, and telematic and cybernetic art. Free from earlier closed government and academic networks, and exchanging the white cube for users’ desktops, artists quickly gained access to new tools, audiences, and communities. In this course, we will look closely at key works of Internet art from the 1990s to the dotcom crash in the early 2000s, including Donald Rodney’s Autoicon (1997–2000), Aboriginal Territories in Cyberspace’s CyberPowWow (1997–2004), Mendi + Keith Obadike’s Black.Net.Art Actions (2001–2003), programming duo JODI’s glitched out websites (1995–1999), and cyberfeminist collective VNS Matrix’s online and irl agitprop (1991-1997). We’ll approach each work and practice as a node in the larger history of Internet art, connecting it with other works and online communities to better consider the ways that artists seized on this digital cultural shift to explore issues of personhood, identity, community, consumerism, surveillance, globalism, narrative, access, and code. We will learn about Internet art distribution, display, and preservation by examining landmark online and independent exhibitions, its uptake by conventional art institutions, and ongoing archival efforts. We’ll visit digital arts-focused local institutions and host guest artists and researchers to further our discussions. You can expect readings in media theory, postcolonial studies, posthumanism, cyberfeminism, queer theory, cultural studies, and art history, along with primary texts from early online forums and magazines. And, of course, we’ll also watch the cult 1995 film, Hackers. ٩(ˊᗜˋ*)و .",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10851,7 +10851,7 @@ export const NODES_INIT = [
     "courseTitle": "Exhibition as Medium",
     "prereqText": "",
     "description": "This course explores key moments in the history and theory of art exhibitions, from the experimental shows organized by Futurist and Dada artists in the early twentieth century to the present. Rather than focusing on the objects on display, as in an art history survey, we will discuss how the mode of display, the venue, the language, and other curatorial choices help shape the experience of an art exhibition. We will also explore the economy, politics, geography, and institutional framework of art shows as an integral part in the construction of meaning. Special emphasis will be placed on artists who, starting in the 1960s, have used exhibitions as their medium.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10869,7 +10869,7 @@ export const NODES_INIT = [
     "courseTitle": "Expanded Curatorial Practice",
     "prereqText": "",
     "description": "The recent “decolonial” and “global” turn in museums and curatorial practice often ignores the fact that art history provides the disciplinary foundation for the museum as a colonial institution. What would it mean to curate against Euro-American narratives of art history? How do you curate artists and exhibition histories that aren’t found in institutional archives? How does curatorial practice offer alternate art historical evidence? This course thinks through such questions by engaging with theories and activist practices of decolonization, postcolonial theory, Black studies and Asian studies to move towards other epistemologies and methods of curatorial practice. It will foreground minoritized artists and transnational exhibition histories across Western Europe and North America, and the global South, while considering alternate epistemologies, aesthetics and collections beyond the hold of both art history and the museum. We will study texts, artists, artifacts, art objects, embodied practices, museum collections, exhibition histories, and modes of display and their relationship to questions of history, temporality, translation, untranslatability, spectatorship, provenance, stewardship and the life of objects. 2 credits.",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10887,7 +10887,7 @@ export const NODES_INIT = [
     "courseTitle": "Modernism and Intermediality",
     "prereqText": "",
     "description": "This course reevaluates the high modernist ideals of medium specificity and autonomy by animating artists’ work across media and collaborations with creatives in other disciplines, including dance, performance, theater, music, craft, design, poetry, publishing—even forays into archaeology and ecology. Throughout, we will devise alternate vocabularies and frameworks to account for the period against the restrictive conventions of formalist criticism, which dictated that visual artists focus on the formal concerns of their given medium without recourse or reference to other disciplines, especially literature and popular culture. Problematizing the modernist project’s exclusionary rhetoric of medium “purity” as vested in paradigms of gender, sexuality, race, labor, class, and nationality we will examine how intermedial projects rerouted and upended normative values. The course introduces attendant strategies such as embodiment, genre conflation, improvisation, ethical participation, and empathetic corporeality, alongside notions of alterity, disaffiliation, transmediality, subcultural codes and communication, collaborative kinship, and solidarity. Centering on artists and movements in Central, South, and North America between 1920-1960, we will chart how cross-disciplinary projects structured transnational networks through performance, publications, and exhibition-making.",
-    "credits": "2",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {
@@ -10905,7 +10905,7 @@ export const NODES_INIT = [
     "courseTitle": "Independent Study (History and Theory of Art)",
     "prereqText": "",
     "description": "Independent Studies are voluntary agreements between individual full-time or part-time faculty members and individual students, in which students complete a course of study and assignment. Only juniors and seniors in good academic standing (defined as having earned a minimum of 3.0 GPA overall) are eligible for Independent Study. Faculty conduct Independent Studies with students who have already completed a class or other educational/research activity under their supervision. The course of study and assignment for 1 or 2 credit Independent Study typically consist of a reading list and workload comparable to that required for a 1 or 2 credit course. Independent Studies are intensive activities. Faculty members regard them as a significant commitment. Students can only participate in one Independent Study per semester. If an HSS full-time or part-time faculty member is willing to supervise an Independent Study, the student should work with the faculty member to complete this form and submit the signed application to the HSS’s Dean’s Office no later than the end of the first week of semester for approval. LATE APPLICATIONS WILL NOT BE ACCEPTED . The work cannot begin unless the Independent Study is approved by the Dean’s Office. The major consideration in approving proposals for independent study is the educational value of the study project within the structure of degree requirements. To learn more, please visit HSS Independent Study Policy .",
-    "credits": "",
+    "credits": "2.00",
     "level": "Undergraduate"
   },
   {

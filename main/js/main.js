@@ -51,6 +51,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const customPrereqInput = document.getElementById("custom-class-prereqs");
   const customDescInput = document.getElementById("custom-class-desc");
   const customSaveBtn = document.getElementById("custom-class-save-btn");
+  const customCancelBtn = document.getElementById("custom-class-cancel-btn");
 
   // --- NEW: Legend/Controls collapse elements ---
   const legendToggle = document.getElementById("legend-toggle");
@@ -163,6 +164,7 @@ window.addEventListener("DOMContentLoaded", () => {
     customPrereqInput,
     customDescInput,
     customSaveBtn,
+    customCancelBtn,
     requirementsPanel: document.getElementById("requirements-panel"),
     detailsCard,
     applyDeptFilter: deptFilterApi.applyDeptFilter,

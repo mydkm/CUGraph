@@ -547,6 +547,7 @@ export function initDegreeBuilder({
           totalCredits += credits;
           courses.push({
             id: slot.courseId,
+            code: n && n.courseCode ? n.courseCode : slot.courseId,
             title: n && (n.courseTitle || n.title) ? (n.courseTitle || n.title) : "",
             dept: n && n.dept ? n.dept : "",
             credits,
@@ -585,7 +586,7 @@ export function initDegreeBuilder({
         for (const c of sem.courses) {
           rows.push([
             "",
-            c.id,
+            c.code || c.id,
             c.title || "",
             c.dept || "",
             { v: c.credits, t: "n" },
@@ -985,7 +986,8 @@ export function initDegreeBuilder({
 
   function isGraduateLevel(level) {
     if (!level) return false;
-    return String(level).toLowerCase().includes("graduate");
+    const lower = String(level).toLowerCase();
+    return lower.includes("graduate") && !lower.includes("undergraduate");
   }
 
   function semesterCreditSummary(semIdx) {
@@ -1251,6 +1253,8 @@ export function initDegreeBuilder({
     );
   }
 
+  let lastCategoryAssignments = {};
+
   function renderRequirementsPanel() {
     if (!requirementsPanel || !requirementsBody || !requirementsHeader) return;
 
@@ -1329,8 +1333,28 @@ export function initDegreeBuilder({
       graduate_engineering_electives: 0,
       graduate_thesis: 0,
     };
+    const categoryAssignments = {
+      required_coursework: new Set(),
+      degree_electives: new Set(),
+      engineering_electives: new Set(),
+      free_electives: new Set(),
+      humanities_social_science_electives: new Set(),
+      graduate_degree_electives: new Set(),
+      graduate_engineering_electives: new Set(),
+      graduate_thesis: new Set(),
+    };
 
     const majorDept = getMajorDept(majorId);
+    let hasUndergradMajorCourse = false;
+    for (const nodeId of getSelectedCourseIdsOrdered()) {
+      const node = nodes.get(nodeId);
+      if (!node) continue;
+      if (!isUndergradLevel(node.level)) continue;
+      if (majorDept && node.dept === majorDept) {
+        hasUndergradMajorCourse = true;
+        break;
+      }
+    }
     const degreeCap =
       majorData && majorData.credits && Number.isFinite(majorData.credits.degree_electives)
         ? majorData.credits.degree_electives
@@ -1355,7 +1379,7 @@ export function initDegreeBuilder({
       graduate_thesis: gradThesisCap,
     };
 
-    function allocateCredits(credits, order, capsOverride = null) {
+    function allocateCredits(credits, order, capsOverride = null, noteFn = null) {
       const capMap = capsOverride || caps;
       let remaining = credits;
       for (const key of order) {
@@ -1363,6 +1387,7 @@ export function initDegreeBuilder({
         const cap = capMap[key];
         if (cap == null) {
           selectedCredits[key] += remaining;
+          if (noteFn) noteFn(key);
           remaining = 0;
           break;
         }
@@ -1370,11 +1395,13 @@ export function initDegreeBuilder({
         if (available <= 1e-6) continue;
         const add = Math.min(remaining, available);
         selectedCredits[key] += add;
+        if (noteFn) noteFn(key);
         remaining -= add;
       }
       if (remaining > 1e-6) {
         const last = order[order.length - 1];
         selectedCredits[last] += remaining;
+        if (noteFn) noteFn(last);
       }
     }
 
@@ -1395,6 +1422,7 @@ export function initDegreeBuilder({
           const norm = String(majorId || "").trim().toLowerCase();
           if (req.required_for_majors.some((m) => String(m || "").trim().toLowerCase() === norm)) {
             selectedCredits.required_coursework += credits;
+            categoryAssignments.required_coursework.add(nodeId);
           }
         }
         continue;
@@ -1412,40 +1440,75 @@ export function initDegreeBuilder({
           const addThesis = Math.min(remainingCredits, remainingThesis);
           if (addThesis > 0) {
             selectedCredits.graduate_thesis += addThesis;
+            categoryAssignments.graduate_thesis.add(nodeId);
             remainingCredits -= addThesis;
           }
           if (remainingCredits <= 1e-6) continue;
         }
 
+        const gradCaps = { ...caps, free_electives: freeCap };
+        const assignWholeCourse = (order) => {
+          let chosen = order[order.length - 1];
+          for (const key of order) {
+            const cap = gradCaps[key];
+            if (cap == null) {
+              chosen = key;
+              break;
+            }
+            const remaining = cap - (selectedCredits[key] || 0);
+            if (remaining + 1e-6 >= remainingCredits) {
+              chosen = key;
+              break;
+            }
+          }
+          selectedCredits[chosen] += remainingCredits;
+          if (categoryAssignments[chosen]) categoryAssignments[chosen].add(nodeId);
+        };
+
         if (isEngineering && isMajorDept) {
-          const gradCaps = { ...caps, free_electives: freeCap };
-          allocateCredits(remainingCredits, [
-            "degree_electives",
-            "engineering_electives",
-            "free_electives",
-            "graduate_degree_electives",
-            "graduate_engineering_electives",
-          ], gradCaps);
+          const order = hasUndergradMajorCourse
+            ? [
+              "graduate_degree_electives",
+              "graduate_engineering_electives",
+              "degree_electives",
+              "engineering_electives",
+              "free_electives",
+            ]
+            : [
+              "degree_electives",
+              "engineering_electives",
+              "free_electives",
+              "graduate_degree_electives",
+              "graduate_engineering_electives",
+            ];
+          assignWholeCourse(order);
           continue;
         }
         if (isEngineering) {
-          const gradCaps = { ...caps, free_electives: freeCap };
-          allocateCredits(remainingCredits, [
+          assignWholeCourse([
             "engineering_electives",
             "free_electives",
             "graduate_engineering_electives",
-          ], gradCaps);
+          ]);
           continue;
         }
+        assignWholeCourse([
+          "free_electives",
+          "graduate_degree_electives",
+          "graduate_engineering_electives",
+        ]);
+        continue;
       }
 
       if (requirementType === "humanities_social_science_electives") {
         selectedCredits.humanities_social_science_electives += credits;
+        categoryAssignments.humanities_social_science_electives.add(nodeId);
         continue;
       }
 
       if (requirementType === "free_electives") {
         selectedCredits.free_electives += credits;
+        categoryAssignments.free_electives.add(nodeId);
         continue;
       }
 
@@ -1454,6 +1517,7 @@ export function initDegreeBuilder({
         const isEngineering = isEngineeringDept(courseDept);
         if (!isEngineering) {
           selectedCredits.free_electives += credits;
+          categoryAssignments.free_electives.add(nodeId);
           continue;
         }
 
@@ -1461,20 +1525,26 @@ export function initDegreeBuilder({
         if (isMajorDept) {
           if (selectedCredits.degree_electives + credits <= degreeCap + 1e-6) {
             selectedCredits.degree_electives += credits;
+            categoryAssignments.degree_electives.add(nodeId);
           } else if (selectedCredits.engineering_electives + credits <= engineeringCap + 1e-6) {
             selectedCredits.engineering_electives += credits;
+            categoryAssignments.engineering_electives.add(nodeId);
           } else {
             selectedCredits.free_electives += credits;
+            categoryAssignments.free_electives.add(nodeId);
           }
         } else {
           if (selectedCredits.engineering_electives + credits <= engineeringCap + 1e-6) {
             selectedCredits.engineering_electives += credits;
+            categoryAssignments.engineering_electives.add(nodeId);
           } else {
             selectedCredits.free_electives += credits;
+            categoryAssignments.free_electives.add(nodeId);
           }
         }
       } else if (selectedCredits[requirementType] != null) {
         selectedCredits[requirementType] += credits;
+        if (categoryAssignments[requirementType]) categoryAssignments[requirementType].add(nodeId);
       }
     }
 
@@ -1574,6 +1644,10 @@ export function initDegreeBuilder({
     totalRow.appendChild(totalLabel);
     totalRow.appendChild(totalValue);
     requirementsBody.appendChild(totalRow);
+
+    lastCategoryAssignments = Object.fromEntries(
+      Object.entries(categoryAssignments).map(([key, set]) => [key, Array.from(set)])
+    );
   }
 
   function getSlotData(semIdx, slotIdx) {
@@ -2158,6 +2232,19 @@ export function initDegreeBuilder({
 
   // Ensure correct placement on first paint.
   requestAnimationFrame(updateDetailsCardOffset);
+
+  if (typeof window !== "undefined") {
+    window.cuGraphDebug = window.cuGraphDebug || {};
+    window.cuGraphDebug.getGraduateEngineeringElectives = () =>
+      (lastCategoryAssignments.graduate_engineering_electives || []).slice();
+    window.cuGraphDebug.getRequirementCategoryAssignments = () => {
+      const out = {};
+      for (const [key, value] of Object.entries(lastCategoryAssignments || {})) {
+        out[key] = Array.isArray(value) ? value.slice() : [];
+      }
+      return out;
+    };
+  }
 
   return {
     getSelectedCourseIds: () => getAllSelectedCourseIds(),

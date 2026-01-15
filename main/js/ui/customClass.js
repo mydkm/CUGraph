@@ -52,6 +52,7 @@ export function initCustomClass({
   customPrereqInput,
   customDescInput,
   customSaveBtn,
+  customCancelBtn,
   requirementsPanel,
   detailsCard,
   applyDeptFilter,
@@ -64,6 +65,8 @@ export function initCustomClass({
   const customEdges = new Map();
   const customData = new Map();
   let activeId = null;
+  let activeIsNew = false;
+  let activeSnapshot = null;
 
   nodes.forEach((n) => {
     if (!n || typeof n.id !== "string") return;
@@ -76,6 +79,42 @@ export function initCustomClass({
     const rect = requirementsPanel.getBoundingClientRect();
     if (!rect.height) return;
     document.documentElement.style.setProperty("--requirements-panel-height", `${Math.round(rect.height)}px`);
+  }
+
+  function currentThemeFontColor() {
+    const theme = document.documentElement.getAttribute("data-theme") || "";
+    return theme.toLowerCase() === "dark" ? "#ffffff" : "#000000";
+  }
+
+  function updateDraftNode() {
+    if (!activeId) return;
+    const courseCodeInput = customCodeInput ? customCodeInput.value.trim() : "";
+    const courseCode = courseCodeInput || activeId;
+    const title = customTitleInput.value.trim() || "Untitled";
+    const dept = customDeptSelect.value || "";
+    const level = customLevelSelect.value || "";
+    const credits = customCreditsInput.value.trim();
+    const prereqs = splitCodes(customPrereqInput.value);
+    const description = customDescInput.value.trim() || "n/a";
+    const color = dept ? (DEPT_COLORS[dept] || "#ffffff") : "#ffffff";
+    const fontColor = currentThemeFontColor();
+
+    nodes.update({
+      id: activeId,
+      label: courseCode,
+      title: `${courseCode}: ${title}`,
+      courseCode,
+      courseTitle: title,
+      dept,
+      level,
+      credits,
+      prereqText: prereqs.join(", "),
+      description,
+      color,
+      font: { color: fontColor },
+      isCustom: true,
+    });
+    NODE_DEPT[activeId] = dept || "";
   }
 
   function buildCodeMap() {
@@ -202,6 +241,8 @@ export function initCustomClass({
     if (detailsCard) detailsCard.classList.add("hidden");
     activeId = nodeId;
     const data = customData.get(nodeId) || {};
+    activeIsNew = !customData.has(nodeId);
+    activeSnapshot = customData.has(nodeId) ? { ...data } : null;
     if (customCodeInput) customCodeInput.value = data.courseCode || "";
     customTitleInput.value = data.title || "";
     customDeptSelect.value = data.dept || "";
@@ -211,12 +252,15 @@ export function initCustomClass({
     customDescInput.value = data.description || "";
     customCard.classList.remove("hidden");
     updateRequirementsPanelHeight();
+    updateDraftNode();
   }
 
   function closePanel() {
     if (!customCard) return;
     customCard.classList.add("hidden");
     activeId = null;
+    activeIsNew = false;
+    activeSnapshot = null;
   }
 
   function focusNode(nodeId) {
@@ -267,7 +311,7 @@ export function initCustomClass({
     const prereqs = splitCodes(customPrereqInput.value);
     const description = customDescInput.value.trim() || "n/a";
     const color = dept ? (DEPT_COLORS[dept] || "#ffffff") : "#ffffff";
-    const font = dept ? undefined : { color: "#111" };
+    const font = { color: currentThemeFontColor() };
 
     const titleText = `${courseCode}: ${title}`;
 
@@ -302,6 +346,8 @@ export function initCustomClass({
     syncEdges(activeId, prereqs);
     if (typeof applyDeptFilter === "function") applyDeptFilter();
     persistState();
+    activeIsNew = false;
+    activeSnapshot = null;
     closePanel();
   }
 
@@ -316,7 +362,7 @@ export function initCustomClass({
       courseCode: nodeId,
       size: 10,
       color: "#ffffff",
-      font: { color: "#111" },
+      font: { color: currentThemeFontColor() },
       dept: "",
       level: "",
       credits: "",
@@ -331,6 +377,57 @@ export function initCustomClass({
     openPanel(nodeId);
     focusNode(nodeId);
     persistState();
+  }
+
+  function cancelEdit() {
+    if (!activeId) return;
+    if (activeIsNew) {
+      deleteCustomNode(activeId);
+      closePanel();
+      return;
+    }
+    if (activeSnapshot) {
+      const {
+        courseCode = activeId,
+        title = "Untitled",
+        dept = "",
+        level = "",
+        credits = "",
+        prereqs = [],
+        description = "n/a",
+      } = activeSnapshot;
+      const color = dept ? (DEPT_COLORS[dept] || "#ffffff") : "#ffffff";
+      const font = { color: currentThemeFontColor() };
+      nodes.update({
+        id: activeId,
+        label: courseCode,
+        title: `${courseCode}: ${title}`,
+        courseCode,
+        courseTitle: title,
+        dept,
+        level,
+        credits,
+        prereqText: prereqs.join(", "),
+        description,
+        color,
+        font,
+        isCustom: true,
+      });
+      NODE_DEPT[activeId] = dept || "";
+      ensureSearchEntry(activeId, `${courseCode}: ${title}`);
+      customData.set(activeId, {
+        courseCode,
+        title,
+        dept,
+        level,
+        credits,
+        prereqs,
+        description,
+      });
+      syncEdges(activeId, prereqs);
+      if (typeof applyDeptFilter === "function") applyDeptFilter();
+    }
+    closePanel();
   }
 
   function deleteCustomNode(nodeId) {
@@ -373,6 +470,30 @@ export function initCustomClass({
   }
   if (customSaveBtn) {
     customSaveBtn.addEventListener("click", () => saveCustomNode());
+  }
+  if (customCancelBtn) {
+    customCancelBtn.addEventListener("click", () => cancelEdit());
+  }
+  if (customCodeInput) {
+    customCodeInput.addEventListener("input", () => updateDraftNode());
+  }
+  if (customTitleInput) {
+    customTitleInput.addEventListener("input", () => updateDraftNode());
+  }
+  if (customDeptSelect) {
+    customDeptSelect.addEventListener("change", () => updateDraftNode());
+  }
+  if (customLevelSelect) {
+    customLevelSelect.addEventListener("change", () => updateDraftNode());
+  }
+  if (customCreditsInput) {
+    customCreditsInput.addEventListener("input", () => updateDraftNode());
+  }
+  if (customPrereqInput) {
+    customPrereqInput.addEventListener("input", () => updateDraftNode());
+  }
+  if (customDescInput) {
+    customDescInput.addEventListener("input", () => updateDraftNode());
   }
 
   if (requirementsPanel) {
